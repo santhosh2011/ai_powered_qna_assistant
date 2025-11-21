@@ -1,5 +1,3 @@
-# BevCo Intelligence
-
 A natural language query interface for business data. Ask questions in plain English and get SQL-powered insights automatically.
 
 ## Quick Setup
