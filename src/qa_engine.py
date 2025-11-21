@@ -60,7 +60,7 @@ class QAEngine:
             if question_words & (table_name_words | description_words):
                 relevant_tables[table_name] = table_meta
 
-        logger.info(f"Relevant tables: {relevant_tables}")
+        logger.debug(f"Relevant tables: {relevant_tables}")
         return relevant_tables if relevant_tables else self.catalog
     
     def _clean_sql(self, sql: str) -> str:
