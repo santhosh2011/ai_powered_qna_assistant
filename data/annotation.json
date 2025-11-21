@@ -1,0 +1,1721 @@
+{
+    "context": {
+        "1": {
+            "context": "The data are from BevCo Industries Inc., a multinational drink and beverage company. Make sure you take into account the file paths when understanding the data, for example:\n- MKT is about marketing\n- B2B is about business to business sales\n- DTC is about direct to consumer action\nExtract the information only in English.",
+            "type": "indexing"
+        }
+    },
+    "dataframes": {
+        "1": {
+            "path": "dataframes/MKT_occasions.csv",
+            "name": "Occasions - SOFT DRINK",
+            "description": "How often a specific soft drink brand is selected or consumed within a week over a four-week period, over different quarters from 2023 to 2024. It's a metric used to track brand popularity or consumption habits. P7D/P4W means 'Per 7 Days / Per 4 Weeks,' indicating the timeframe over which these occasions are measured.",
+            "columns": [
+                {
+                    "name": "Label",
+                    "description": "Soft drink brand or label being analyzed.",
+                    "type": "string"
+                },
+                {
+                    "name": "Occasions P7D/P4W 2023 Q2",
+                    "description": "Number of occasions in the past 7 days over 4 weeks for 2023 Q2.",
+                    "type": "float"
+                },
+                {
+                    "name": "Occasions P7D/P4W 2023 Q3",
+                    "description": "Number of occasions in the past 7 days over 4 weeks for 2023 Q3.",
+                    "type": "float"
+                },
+                {
+                    "name": "Occasions P7D/P4W 2023 Q4",
+                    "description": "Number of occasions in the past 7 days over 4 weeks for 2023 Q4.",
+                    "type": "float"
+                },
+                {
+                    "name": "Occasions P7D/P4W 2024 Q1",
+                    "description": "Number of occasions in the past 7 days over 4 weeks for 2024 Q1.",
+                    "type": "float"
+                },
+                {
+                    "name": "Occasions P7D/P4W 2024 Q2",
+                    "description": "Number of occasions in the past 7 days over 4 weeks for 2024 Q2.",
+                    "type": "float"
+                },
+                {
+                    "name": "Occasions P7D/P4W 2024 Q3",
+                    "description": "Number of occasions in the past 7 days over 4 weeks for 2024 Q3.",
+                    "type": "float"
+                },
+                {
+                    "name": "Occasions P7D/P4W 2024 Q4",
+                    "description": "Number of occasions in the past 7 days over 4 weeks for 2024 Q4.",
+                    "type": "float"
+                }
+            ]
+        },
+        "2": {
+            "path": "dataframes/B2B_weather.csv",
+            "name": "weather",
+            "description": "Tracks weather data for various cities. It is a record of daily weather observations including temperature, precipitation, and humidity. The data is used for analyzing weather patterns and their impact on business operations, particularly in the context of B2B sales for BevCo Industries.",
+            "columns": [
+                {
+                    "name": "order_date",
+                    "description": "The date of the weather observation or order.",
+                    "type": "datetime"
+                },
+                {
+                    "name": "uf",
+                    "description": "The state abbreviation where the city is located.",
+                    "type": "string"
+                },
+                {
+                    "name": "city",
+                    "description": "The name of the city where the weather data was recorded.",
+                    "type": "string"
+                },
+                {
+                    "name": "latitude",
+                    "description": "The latitude coordinate of the city.",
+                    "type": "float"
+                },
+                {
+                    "name": "longitude",
+                    "description": "The longitude coordinate of the city.",
+                    "type": "float"
+                },
+                {
+                    "name": "precipitation",
+                    "description": "The amount of precipitation recorded on the order date, in millimeters.",
+                    "type": "float"
+                },
+                {
+                    "name": "L15D_avg_precipitation",
+                    "description": "The average precipitation over the last 15 days, in millimeters.",
+                    "type": "float"
+                },
+                {
+                    "name": "L365D_avg_precipitation",
+                    "description": "The average precipitation over the last 365 days, in millimeters.",
+                    "type": "float"
+                },
+                {
+                    "name": "avg_relativeHumidity",
+                    "description": "The average relative humidity percentage on the order date.",
+                    "type": "float"
+                },
+                {
+                    "name": "min_temperature",
+                    "description": "The minimum temperature recorded on the order date, in degrees Celsius.",
+                    "type": "float"
+                },
+                {
+                    "name": "max_temperature",
+                    "description": "The maximum temperature recorded on the order date, in degrees Celsius.",
+                    "type": "float"
+                },
+                {
+                    "name": "avg_temperature",
+                    "description": "The average temperature on the order date, in degrees Celsius.",
+                    "type": "float"
+                },
+                {
+                    "name": "L15D_avg_temperature",
+                    "description": "The average temperature over the last 15 days, in degrees Celsius.",
+                    "type": "float"
+                },
+                {
+                    "name": "L365D_avg_temperature",
+                    "description": "The average temperature over the last 365 days, in degrees Celsius.",
+                    "type": "float"
+                },
+                {
+                    "name": "min_temperatureFeelsLike",
+                    "description": "The minimum 'feels like' temperature on the order date, in degrees Celsius.",
+                    "type": "float"
+                },
+                {
+                    "name": "max_temperatureFeelsLike",
+                    "description": "The maximum 'feels like' temperature on the order date, in degrees Celsius.",
+                    "type": "float"
+                },
+                {
+                    "name": "avg_temperatureFeelsLike",
+                    "description": "The average 'feels like' temperature on the order date, in degrees Celsius.",
+                    "type": "float"
+                },
+                {
+                    "name": "L15D_avg_temperatureFeelsLike",
+                    "description": "The average 'feels like' temperature over the last 15 days, in degrees Celsius.",
+                    "type": "float"
+                },
+                {
+                    "name": "L365D_avg_temperatureFeelsLike",
+                    "description": "The average 'feels like' temperature over the last 365 days, in degrees Celsius.",
+                    "type": "float"
+                },
+                {
+                    "name": "data_capture",
+                    "description": "The date when the data was last updated.",
+                    "type": "datetime"
+                }
+            ]
+        },
+        "3": {
+            "path": "dataframes/MKT_participation.csv",
+            "name": "participation",
+            "description": "This sheet contains participation data for various soft drink brands over different quarters from 2023 to 2024. The data represents the participation percentage of legal drinking age (LDA+) individuals in the last 4 weeks (P4W) for each brand.",
+            "columns": [
+                {
+                    "name": "Brand",
+                    "description": "Name of the soft drink brand.",
+                    "type": "string"
+                },
+                {
+                    "name": "2023 Q2 Participation",
+                    "description": "Participation percentage of LDA+ individuals in the last 4 weeks for 2023 Q2.",
+                    "type": "float"
+                },
+                {
+                    "name": "2023 Q3 Participation",
+                    "description": "Participation percentage of LDA+ individuals in the last 4 weeks for 2023 Q3.",
+                    "type": "float"
+                },
+                {
+                    "name": "2023 Q4 Participation",
+                    "description": "Participation percentage of LDA+ individuals in the last 4 weeks for 2023 Q4.",
+                    "type": "float"
+                },
+                {
+                    "name": "2024 Q1 Participation",
+                    "description": "Participation percentage of LDA+ individuals in the last 4 weeks for 2024 Q1.",
+                    "type": "float"
+                },
+                {
+                    "name": "2024 Q2 Participation",
+                    "description": "Participation percentage of LDA+ individuals in the last 4 weeks for 2024 Q2.",
+                    "type": "float"
+                },
+                {
+                    "name": "2024 Q3 Participation",
+                    "description": "Participation percentage of LDA+ individuals in the last 4 weeks for 2024 Q3.",
+                    "type": "float"
+                },
+                {
+                    "name": "2024 Q4 Participation",
+                    "description": "Participation percentage of LDA+ individuals in the last 4 weeks for 2024 Q4.",
+                    "type": "float"
+                }
+            ]
+        },
+        "4": {
+            "path": "dataframes/MKT_servings.csv",
+            "name": "servings",
+            "description": "This sheet contains servings data for various soft drink brands over different quarters from 2023 to 2024. The data is used for marketing insights by BevCo Industries to track the performance of their soft drink brands.",
+            "columns": [
+                {
+                    "name": "Brand",
+                    "description": "Name of the soft drink brand.",
+                    "type": "string"
+                },
+                {
+                    "name": "Q2 2023 Servings",
+                    "description": "Servings of the soft drink brand in the second quarter of 2023",
+                    "type": "float"
+                },
+                {
+                    "name": "Q3 2023 Servings",
+                    "description": "Servings of the soft drink brand in the third quarter of 2023",
+                    "type": "float"
+                },
+                {
+                    "name": "Q4 2023 Servings",
+                    "description": "Servings of the soft drink brand in the fourth quarter of 2023",
+                    "type": "float"
+                },
+                {
+                    "name": "Q1 2024 Servings",
+                    "description": "Servings of the soft drink brand in the first quarter of 2024",
+                    "type": "float"
+                },
+                {
+                    "name": "Q2 2024 Servings",
+                    "description": "Servings of the soft drink brand in the second quarter of 2024",
+                    "type": "float"
+                },
+                {
+                    "name": "Q3 2024 Servings",
+                    "description": "Servings of the soft drink brand in the third quarter of 2024",
+                    "type": "float"
+                },
+                {
+                    "name": "Q4 2024 Servings",
+                    "description": "Servings of the soft drink brand in the fourth quarter of 2024",
+                    "type": "float"
+                }
+            ]
+        },
+        "5": {
+            "path": "dataframes/MKT_brand_power.csv",
+            "name": "Brand Power",
+            "description": "This sheet contains brand performance data for various soft drink brands for the years 2023 and 2024. It includes metrics such as premium, power, meaningfulness, difference, salience, and power calibration, along with their comparisons to last year (LY) and last period (LP).",
+            "columns": [
+                {
+                    "name": "Country Name",
+                    "description": "Name of the country where the data is collected.",
+                    "type": "string"
+                },
+                {
+                    "name": "Brand Name",
+                    "description": "Name of the soft drink brand.",
+                    "type": "string"
+                },
+                {
+                    "name": "Premium",
+                    "description": "Premium value for the brand in 2023 Q4.",
+                    "type": "float"
+                },
+                {
+                    "name": "Premium vs LY",
+                    "description": "Comparison of the premium value against last year for 2023 Q4.",
+                    "type": "integer"
+                },
+                {
+                    "name": "Premium vs LP",
+                    "description": "Comparison of the premium value against last period for 2023 Q4.",
+                    "type": "integer"
+                },
+                {
+                    "name": "Power",
+                    "description": "Power value for the brand in 2023 Q4.",
+                    "type": "float"
+                },
+                {
+                    "name": "Power vs LY",
+                    "description": "Comparison of the power value against last year for 2023 Q4.",
+                    "type": "float"
+                },
+                {
+                    "name": "Power vs LP",
+                    "description": "Comparison of the power value against last period for 2023 Q4.",
+                    "type": "integer"
+                },
+                {
+                    "name": "Meaningful",
+                    "description": "Meaningful value for the brand in 2023 Q4.",
+                    "type": "float"
+                },
+                {
+                    "name": "Meaningful vs LY",
+                    "description": "Comparison of the meaningful value against last year for 2023 Q4.",
+                    "type": "float"
+                },
+                {
+                    "name": "Meaningful vs LP",
+                    "description": "Comparison of the meaningful value against last period for 2023 Q4.",
+                    "type": "float"
+                },
+                {
+                    "name": "Difference",
+                    "description": "Difference value for the brand in 2024 Q4.",
+                    "type": "float"
+                },
+                {
+                    "name": "Difference vs LY",
+                    "description": "Comparison of the difference value against last year for 2024 Q4.",
+                    "type": "float"
+                },
+                {
+                    "name": "Difference vs LP",
+                    "description": "Comparison of the difference value against last period for 2024 Q4.",
+                    "type": "float"
+                },
+                {
+                    "name": "Salience",
+                    "description": "Salience value for the brand in 2024 Q4.",
+                    "type": "float"
+                },
+                {
+                    "name": "Salience vs LY",
+                    "description": "Comparison of the salience value against last year for 2024 Q4.",
+                    "type": "float"
+                },
+                {
+                    "name": "Salience vs LP",
+                    "description": "Comparison of the salience value against last period for 2024 Q4.",
+                    "type": "float"
+                },
+                {
+                    "name": "Power Calibrated",
+                    "description": "Calibrated power value for the brand in 2024 Q4.",
+                    "type": "float"
+                },
+                {
+                    "name": "Power Calibrated vs LY",
+                    "description": "Comparison of the calibrated power value against last year for 2024 Q4.",
+                    "type": "float"
+                },
+                {
+                    "name": "Power Calibrated vs LP",
+                    "description": "Comparison of the calibrated power value against last period for 2024 Q4.",
+                    "type": "float"
+                },
+                {
+                    "name": "Premium",
+                    "description": "Premium value for the brand in 2024 Q4.",
+                    "type": "float"
+                },
+                {
+                    "name": "Premium vs LY",
+                    "description": "Comparison of the premium value against last year for 2024 Q4.",
+                    "type": "integer"
+                },
+                {
+                    "name": "Premium vs LP",
+                    "description": "Comparison of the premium value against last period for 2024 Q4.",
+                    "type": "integer"
+                },
+                {
+                    "name": "Power",
+                    "description": "Power value for the brand in 2024 Q4.",
+                    "type": "float"
+                },
+                {
+                    "name": "Power vs LY",
+                    "description": "Comparison of the power value against last year for 2024 Q4.",
+                    "type": "float"
+                },
+                {
+                    "name": "Power vs LP",
+                    "description": "Comparison of the power value against last period for 2024 Q4.",
+                    "type": "integer"
+                },
+                {
+                    "name": "Meaningful",
+                    "description": "Meaningful value for the brand in 2024 Q4.",
+                    "type": "float"
+                },
+                {
+                    "name": "Meaningful vs LY",
+                    "description": "Comparison of the meaningful value against last year for 2024 Q4.",
+                    "type": "float"
+                },
+                {
+                    "name": "Meaningful vs LP",
+                    "description": "Comparison of the meaningful value against last period for 2024 Q4.",
+                    "type": "float"
+                },
+                {
+                    "name": "Difference",
+                    "description": "Difference value for the brand in 2024 Q4.",
+                    "type": "float"
+                },
+                {
+                    "name": "Difference vs LY",
+                    "description": "Comparison of the difference value against last year for 2024 Q4.",
+                    "type": "float"
+                },
+                {
+                    "name": "Difference vs LP",
+                    "description": "Comparison of the difference value against last period for 2024 Q4.",
+                    "type": "float"
+                },
+                {
+                    "name": "Salience",
+                    "description": "Salience value for the brand in 2024 Q4.",
+                    "type": "float"
+                },
+                {
+                    "name": "Salience vs LY",
+                    "description": "Comparison of the salience value against last year for 2024 Q4.",
+                    "type": "float"
+                },
+                {
+                    "name": "Salience vs LP",
+                    "description": "Comparison of the salience value against last period for 2024 Q4.",
+                    "type": "float"
+                },
+                {
+                    "name": "Power Calibrated",
+                    "description": "Calibrated power value for the brand in 2024 Q4.",
+                    "type": "float"
+                },
+                {
+                    "name": "Power Calibrated vs LY",
+                    "description": "Comparison of the calibrated power value against last year for 2024 Q4.",
+                    "type": "float"
+                },
+                {
+                    "name": "Power Calibrated vs LP",
+                    "description": "Comparison of the calibrated power value against last period for 2024 Q4.",
+                    "type": "float"
+                }
+            ]
+        },
+        "6": {
+            "path": "dataframes/B2B_stockout.csv",
+            "name": "Stockout",
+            "description": "This sheet contains stockout data for various products from BevCo Industries Inc., detailing the stockout percentages across different regions and time periods.",
+            "columns": [
+                {
+                    "name": "Year",
+                    "description": "Year of the data record",
+                    "type": "integer"
+                },
+                {
+                    "name": "Week",
+                    "description": "Week number of the year for the data record",
+                    "type": "integer"
+                },
+                {
+                    "name": "Brand",
+                    "description": "Brand of the product",
+                    "type": "string"
+                },
+                {
+                    "name": "ProductTitle",
+                    "description": "Title or name of the product",
+                    "type": "string"
+                },
+                {
+                    "name": "ProductVariantID",
+                    "description": "Unique identifier for the product variant",
+                    "type": "integer"
+                },
+                {
+                    "name": "Region",
+                    "description": "Geographical region code",
+                    "type": "string"
+                },
+                {
+                    "name": "State",
+                    "description": "State abbreviation where the data is recorded",
+                    "type": "string"
+                },
+                {
+                    "name": "City",
+                    "description": "City where the data is recorded",
+                    "type": "string"
+                },
+                {
+                    "name": "ProductsQuantity",
+                    "description": "Quantity of products available",
+                    "type": "integer"
+                },
+                {
+                    "name": "EventsQuantity",
+                    "description": "Quantity of events recorded",
+                    "type": "integer"
+                },
+                {
+                    "name": "StockoutPercentage",
+                    "description": "Percentage of stockout events",
+                    "type": "float"
+                }
+            ]
+        },
+        "7": {
+            "path": "dataframes/DTC_orders.csv",
+            "name": "Orders",
+            "description": "This sheet contains order data from BevCo Industries' direct to consumer (DTC) channel. It includes information about customer orders, product families, order ratings, and various categorical and numerical attributes related to the orders.",
+            "columns": [
+                {
+                    "name": "customer_nk",
+                    "description": "Unique identifier for the customer",
+                    "type": "string"
+                },
+                {
+                    "name": "FAMILY",
+                    "description": "Product family or brand associated with the order",
+                    "type": "string"
+                },
+                {
+                    "name": "order_nk",
+                    "description": "Unique identifier for the order",
+                    "type": "integer"
+                },
+                {
+                    "name": "order_datetime",
+                    "description": "Date and time when the order was placed",
+                    "type": "string"
+                },
+                {
+                    "name": "order_rating",
+                    "description": "Rating given to the order",
+                    "type": "float"
+                },
+                {
+                    "name": "is_first_order",
+                    "description": "Indicates if this is the customer's first order",
+                    "type": "string"
+                },
+                {
+                    "name": "is_first_order_football",
+                    "description": "Indicates if this is the customer's first order during a football event",
+                    "type": "string"
+                },
+                {
+                    "name": "is_first_order_warmup",
+                    "description": "Indicates if this is the customer's first order during a warmup event",
+                    "type": "string"
+                },
+                {
+                    "name": "is_first_order_football_2024",
+                    "description": "Indicates if this is the customer's first order during a football event in 2024",
+                    "type": "string"
+                },
+                {
+                    "name": "is_first_order_bbq",
+                    "description": "Indicates if this is the customer's first order during a BBQ event",
+                    "type": "float"
+                },
+                {
+                    "name": "coupon_code",
+                    "description": "Coupon code applied to the order",
+                    "type": "string"
+                },
+                {
+                    "name": "product_nk",
+                    "description": "Unique identifier for the product",
+                    "type": "string"
+                },
+                {
+                    "name": "item_name",
+                    "description": "Name of the product",
+                    "type": "string"
+                },
+                {
+                    "name": "category_source",
+                    "description": "Source of the category",
+                    "type": "string"
+                },
+                {
+                    "name": "unit_volume_hl",
+                    "description": "Volume of the unit in hectoliters",
+                    "type": "float"
+                },
+                {
+                    "name": "unit_quantity",
+                    "description": "Quantity of the unit",
+                    "type": "float"
+                },
+                {
+                    "name": "item_unit_value",
+                    "description": "Unit value of the product",
+                    "type": "float"
+                },
+                {
+                    "name": "line_item_offer_discount_value",
+                    "description": "Discount value for the line item",
+                    "type": "float"
+                },
+                {
+                    "name": "item_ttc_descontado",
+                    "description": "Total price of the product after discount",
+                    "type": "float"
+                },
+                {
+                    "name": "item_ttc_cheio",
+                    "description": "Total price of the product",
+                    "type": "float"
+                },
+                {
+                    "name": "item_subtotal_value",
+                    "description": "Subtotal value of the product",
+                    "type": "float"
+                },
+                {
+                    "name": "item_coupon_discount_value",
+                    "description": "Discount value for the product",
+                    "type": "float"
+                },
+                {
+                    "name": "poc_id",
+                    "description": "Unique identifier for the point of contact",
+                    "type": "string"
+                },
+                {
+                    "name": "delivery_city",
+                    "description": "City where the delivery is made",
+                    "type": "string"
+                },
+                {
+                    "name": "delivery_state",
+                    "description": "State where the delivery is made",
+                    "type": "string"
+                },
+                {
+                    "name": "delivery_uf",
+                    "description": "State abbreviation where the delivery is made",
+                    "type": "string"
+                },
+                {
+                    "name": "geo",
+                    "description": "Geographical location of the delivery",
+                    "type": "string"
+                },
+                {
+                    "name": "cnpj",
+                    "description": "Unique identifier for the company",
+                    "type": "string"
+                },
+                {
+                    "name": "order_cashback_value",
+                    "description": "Cashback value for the order",
+                    "type": "float"
+                },
+                {
+                    "name": "order_shipping_value",
+                    "description": "Shipping value for the order",
+                    "type": "float"
+                },
+                {
+                    "name": "order_subtotal_value",
+                    "description": "Subtotal value of the order",
+                    "type": "float"
+                },
+                {
+                    "name": "order_total_value",
+                    "description": "Total value of the order",
+                    "type": "float"
+                },
+                {
+                    "name": "order_coupon_discount_value",
+                    "description": "Discount value for the order",
+                    "type": "float"
+                },
+                {
+                    "name": "order_longitude",
+                    "description": "Longitude of the order",
+                    "type": "float"
+                },
+                {
+                    "name": "order_latitude",
+                    "description": "Latitude of the order",
+                    "type": "float"
+                },
+                {
+                    "name": "delivery_datetime",
+                    "description": "Date and time when the delivery is made",
+                    "type": "string"
+                },
+                {
+                    "name": "delivery_time_in_minutes",
+                    "description": "Time taken for delivery in minutes",
+                    "type": "float"
+                },
+                {
+                    "name": "unit_price_charged_tax_excl_local",
+                    "description": "Unit price of the product charged excluding tax",
+                    "type": "float"
+                },
+                {
+                    "name": "unit_price_offered_tax_excl_local",
+                    "description": "Unit price of the product offered excluding tax",
+                    "type": "float"
+                },
+                {
+                    "name": "unit_subtotal_charged_tax_excl_local",
+                    "description": "Subtotal of the product charged excluding tax",
+                    "type": "float"
+                },
+                {
+                    "name": "unit_subtotal_offered_tax_excl_local",
+                    "description": "Subtotal of the product offered excluding tax",
+                    "type": "float"
+                },
+                {
+                    "name": "source",
+                    "description": "Source of the order",
+                    "type": "string"
+                },
+                {
+                    "name": "is_fmr",
+                    "description": "Indicates if the product is a first-time purchase",
+                    "type": "string"
+                },
+                {
+                    "name": "is_fmr_football",
+                    "description": "Indicates if the product is a first-time purchase during a football event",
+                    "type": "string"
+                },
+                {
+                    "name": "is_fmr_football_2024",
+                    "description": "Indicates if the product is a first-time purchase during a football event in 2024",
+                    "type": "string"
+                },
+                {
+                    "name": "is_fmr_bbq",
+                    "description": "Indicates if the product is a first-time purchase during a BBQ event",
+                    "type": "string"
+                },
+                {
+                    "name": "is_barbecue",
+                    "description": "Indicates if the product is a BBQ event",
+                    "type": "string"
+                },
+                {
+                    "name": "is_football",
+                    "description": "Indicates if the product is a football event",
+                    "type": "string"
+                },
+                {
+                    "name": "is_football_2024",
+                    "description": "Indicates if the product is a football event in 2024",
+                    "type": "string"
+                },
+                {
+                    "name": "is_warm_up",
+                    "description": "Indicates if the product is a warm-up event",
+                    "type": "string"
+                },
+                {
+                    "name": "is_full_potential",
+                    "description": "Indicates if the product is a full potential event",
+                    "type": "string"
+                },
+                {
+                    "name": "abi_product",
+                    "description": "Indicates if the product is a BevCo product",
+                    "type": "string"
+                },
+                {
+                    "name": "is_sampling",
+                    "description": "Indicates if the product is a sampling event",
+                    "type": "string"
+                },
+                {
+                    "name": "PRODUCT_ID",
+                    "description": "Unique identifier for the product",
+                    "type": "string"
+                },
+                {
+                    "name": "SUBSOURCE_NAME",
+                    "description": "Source of the product",
+                    "type": "string"
+                },
+                {
+                    "name": "UUID",
+                    "description": "Unique identifier for the product",
+                    "type": "string"
+                },
+                {
+                    "name": "PROD_MATCH_RATIO",
+                    "description": "Match ratio for the product",
+                    "type": "float"
+                },
+                {
+                    "name": "PRODUCT_DESCRIPTION",
+                    "description": "Description of the product",
+                    "type": "string"
+                },
+                {
+                    "name": "BRAND_ID",
+                    "description": "Unique identifier for the brand",
+                    "type": "string"
+                },
+                {
+                    "name": "VARIANT",
+                    "description": "Variant of the product",
+                    "type": "string"
+                },
+                {
+                    "name": "COMPANY",
+                    "description": "Company of the product",
+                    "type": "string"
+                },
+                {
+                    "name": "CATEGORY",
+                    "description": "Category of the product",
+                    "type": "string"
+                },
+                {
+                    "name": "PACKAGE",
+                    "description": "Package of the product",
+                    "type": "string"
+                },
+                {
+                    "name": "KIT_TYPE",
+                    "description": "Kit type of the product",
+                    "type": "string"
+                },
+                {
+                    "name": "RETURNABLE",
+                    "description": "Indicates if the product is returnable",
+                    "type": "string"
+                },
+                {
+                    "name": "VOLUME",
+                    "description": "Volume of the product",
+                    "type": "float"
+                },
+                {
+                    "name": "PACK_QUANTITY",
+                    "description": "Quantity of the product",
+                    "type": "float"
+                },
+                {
+                    "name": "PGV_CODE",
+                    "description": "Code of the product",
+                    "type": "string"
+                },
+                {
+                    "name": "PGV_DESCRIPTION",
+                    "description": "Description of the product",
+                    "type": "string"
+                },
+                {
+                    "name": "MULTIPACK_PRODUCTS",
+                    "description": "Indicates if the product is a multipack",
+                    "type": "string"
+                },
+                {
+                    "name": "BASKET",
+                    "description": "Basket of the product",
+                    "type": "string"
+                },
+                {
+                    "name": "BASKET_CLUSTER",
+                    "description": "Cluster category of the basket",
+                    "type": "string"
+                },
+                {
+                    "name": "CLUSTER_AS",
+                    "description": "Cluster category for the product",
+                    "type": "string"
+                },
+                {
+                    "name": "FUTURE_BEVS",
+                    "description": "Indicates if the product is considered a future beverage",
+                    "type": "string"
+                },
+                {
+                    "name": "INOVACAO",
+                    "description": "Indicates if the product is considered innovative",
+                    "type": "string"
+                },
+                {
+                    "name": "unit_subtotal_volume_hl",
+                    "description": "Subtotal volume of the unit in hectoliters",
+                    "type": "float"
+                },
+                {
+                    "name": "unit_volume_l",
+                    "description": "Volume of the unit in liters",
+                    "type": "float"
+                },
+                {
+                    "name": "unit_subtotal_volume_l",
+                    "description": "Subtotal volume of the unit in liters",
+                    "type": "float"
+                },
+                {
+                    "name": "lover_cluster",
+                    "description": "Cluster category for loyal customers",
+                    "type": "string"
+                },
+                {
+                    "name": "id_moment",
+                    "description": "Identifier for the moment of purchase",
+                    "type": "float"
+                },
+                {
+                    "name": "id_purchase",
+                    "description": "Identifier for the purchase",
+                    "type": "float"
+                }
+            ]
+        },
+        "8": {
+            "path": "dataframes/DTC_lovers.csv",
+            "name": "Lovers Declarados",
+            "description": "This sheet contains survey data from BevCo Industries' direct-to-consumer (DTC) marketing efforts, focusing on consumer preferences for soft drink brands.",
+            "columns": [
+                {
+                    "name": "user_id",
+                    "description": "Unique identifier for each survey participant",
+                    "type": "string"
+                },
+                {
+                    "name": "wave_favorite_brand_survey",
+                    "description": "Identifier for the survey wave or iteration",
+                    "type": "string"
+                },
+                {
+                    "name": "answer_favorite_brand_survey",
+                    "description": "The brand selected as the favorite by the survey participant",
+                    "type": "string"
+                },
+                {
+                    "name": "favorite_brand_survey_datetime_brt",
+                    "description": "Date and time when the survey was completed",
+                    "type": "datetime"
+                },
+                {
+                    "name": "wave",
+                    "description": "Simplified identifier for the survey wave",
+                    "type": "string"
+                }
+            ]
+        },
+        "9": {
+            "path": "dataframes/DTC_cupons.csv",
+            "name": "Cupons",
+            "description": "This sheet contains data related to coupons issued by BevCo Industries for direct-to-consumer actions. It includes details about the coupon code, creation date, validity period, usage limits, coupon value, last usage, and the number of orders associated with each coupon.",
+            "columns": [
+                {
+                    "name": "CouponCode",
+                    "description": "Unique identifier for the coupon",
+                    "type": "string"
+                },
+                {
+                    "name": "CreationDate",
+                    "description": "Date and time when the coupon was created",
+                    "type": "datetime"
+                },
+                {
+                    "name": "ValidityStart",
+                    "description": "Start date and time of the coupon validity period",
+                    "type": "datetime"
+                },
+                {
+                    "name": "ValidityEnd",
+                    "description": "End date and time of the coupon validity period",
+                    "type": "datetime"
+                },
+                {
+                    "name": "UsageLimit",
+                    "description": "Maximum number of times the coupon can be used",
+                    "type": "integer"
+                },
+                {
+                    "name": "CouponValue",
+                    "description": "Value of the coupon",
+                    "type": "float"
+                },
+                {
+                    "name": "LastUse",
+                    "description": "Date and time of the last usage of the coupon",
+                    "type": "datetime"
+                },
+                {
+                    "name": "OrderCount",
+                    "description": "Number of orders associated with the coupon",
+                    "type": "integer"
+                }
+            ]
+        },
+        "10": {
+            "path": "dataframes/DTC_cupons2.csv",
+            "name": "Cupons 2",
+            "description": "This sheet contains coupon data from BevCo Industries' direct to consumer (DTC) actions, including details about coupon codes, validity, usage limits, and associated customer and order information.",
+            "columns": [
+                {
+                    "name": "Email",
+                    "description": "Email address of the customer",
+                    "type": "string"
+                },
+                {
+                    "name": "Unknown1",
+                    "description": "Unknown field",
+                    "type": "string"
+                },
+                {
+                    "name": "CouponCode",
+                    "description": "Coupon code used by the customer",
+                    "type": "string"
+                },
+                {
+                    "name": "StartDate",
+                    "description": "Start date of the coupon's validity",
+                    "type": "datetime"
+                },
+                {
+                    "name": "EndDate",
+                    "description": "End date of the coupon's validity",
+                    "type": "datetime"
+                },
+                {
+                    "name": "UsageLimit",
+                    "description": "Maximum number of times the coupon can be used",
+                    "type": "integer"
+                },
+                {
+                    "name": "Value",
+                    "description": "Monetary value of the coupon",
+                    "type": "float"
+                },
+                {
+                    "name": "CouponValue",
+                    "description": "Description of the coupon's discount value",
+                    "type": "string"
+                },
+                {
+                    "name": "CreationDate",
+                    "description": "Date and time when the coupon was created",
+                    "type": "datetime"
+                },
+                {
+                    "name": "ProblemID",
+                    "description": "Order number associated with the problem",
+                    "type": "float"
+                },
+                {
+                    "name": "StoreID",
+                    "description": "Point of sale ID",
+                    "type": "float"
+                },
+                {
+                    "name": "GeoName",
+                    "description": "Geographical region name",
+                    "type": "string"
+                },
+                {
+                    "name": "State",
+                    "description": "State where the transaction occurred",
+                    "type": "string"
+                },
+                {
+                    "name": "City",
+                    "description": "City where the transaction occurred",
+                    "type": "string"
+                },
+                {
+                    "name": "StoreName",
+                    "description": "Name of the point of sale",
+                    "type": "string"
+                },
+                {
+                    "name": "Channel",
+                    "description": "Channel through which the order was placed",
+                    "type": "string"
+                },
+                {
+                    "name": "ContactReason",
+                    "description": "Reason for contacting customer service",
+                    "type": "string"
+                },
+                {
+                    "name": "Item",
+                    "description": "Description of the item related to the contact reason",
+                    "type": "string"
+                },
+                {
+                    "name": "Agent",
+                    "description": "Name of the customer service agent handling the issue",
+                    "type": "string"
+                }
+            ]
+        },
+        "11": {
+            "path": "dataframes/B2B_sellin_fato.csv",
+            "name": "Sellin Fato",
+            "description": "This sheet contains B2B sales data from BevCo Industries Inc., focusing on sell-in transactions. The data includes information about the period, client, product, operation type, volume, and revenue. Contains core transactional data.",
+            "columns": [
+                {
+                    "name": "period_month_id",
+                    "description": "Identifier for the month of the period in YYYYMM format",
+                    "type": "integer"
+                },
+                {
+                    "name": "period_id",
+                    "description": "Identifier for the specific period, likely including day information in YYYYMMDD format",
+                    "type": "integer"
+                },
+                {
+                    "name": "client_code",
+                    "description": "Code representing the client",
+                    "type": "integer"
+                },
+                {
+                    "name": "unb_code",
+                    "description": "Code representing the business unit",
+                    "type": "integer"
+                },
+                {
+                    "name": "product_abbreviation_code",
+                    "description": "Code representing the abbreviated product",
+                    "type": "integer"
+                },
+                {
+                    "name": "operation_type",
+                    "description": "Type of operation, indicating the nature of the transaction",
+                    "type": "string"
+                },
+                {
+                    "name": "volume",
+                    "description": "Volume of the product sold, possibly in liters or another unit",
+                    "type": "float"
+                },
+                {
+                    "name": "billing",
+                    "description": "Revenue generated from the sales, likely in the local currency",
+                    "type": "integer"
+                },
+                {
+                    "name": "insert_date",
+                    "description": "Date and time when the data was inserted into the system",
+                    "type": "datetime"
+                },
+                {
+                    "name": "folder_date",
+                    "description": "Date representing the folder or batch date, likely in YYYYMM format",
+                    "type": "integer"
+                }
+            ]
+        },
+        "12": {
+            "path": "dataframes/B2B_sellin_client.csv",
+            "name": "Selling Client Data",
+            "description": "This sheet contains business-to-business sales data for BevCo Industries, focusing on various operational and commercial metrics across different regions and operations. Contains transactional data focusing on clients.",
+            "columns": [
+                {
+                    "name": "unb_code",
+                    "description": "Unique identifier for the business unit",
+                    "type": "integer"
+                },
+                {
+                    "name": "unb_code_with_digit",
+                    "description": "Unique identifier for the business unit with digit",
+                    "type": "integer"
+                },
+                {
+                    "name": "client_code",
+                    "description": "Unique identifier for the client",
+                    "type": "integer"
+                },
+                {
+                    "name": "geography",
+                    "description": "Geographical region code",
+                    "type": "string"
+                },
+                {
+                    "name": "commercial",
+                    "description": "Commercial area or region",
+                    "type": "string"
+                },
+                {
+                    "name": "operation",
+                    "description": "Operation name or type",
+                    "type": "string"
+                },
+                {
+                    "name": "super_commercial",
+                    "description": "Super commercial area or region",
+                    "type": "string"
+                },
+                {
+                    "name": "operation_type",
+                    "description": "Type of operation",
+                    "type": "string"
+                },
+                {
+                    "name": "geo_code",
+                    "description": "Geographical code",
+                    "type": "float"
+                },
+                {
+                    "name": "commercial_code",
+                    "description": "Commercial code",
+                    "type": "float"
+                },
+                {
+                    "name": "cod_tipo_operacao",
+                    "description": "Operation type code",
+                    "type": "float"
+                },
+                {
+                    "name": "cod_supercom",
+                    "description": "Super commercial code",
+                    "type": "float"
+                },
+                {
+                    "name": "nom_coordenador",
+                    "description": "Name of the coordinator",
+                    "type": "string"
+                },
+                {
+                    "name": "flag_fd",
+                    "description": "Flag for FD (possibly a status or indicator)",
+                    "type": "float"
+                },
+                {
+                    "name": "keyfiltrodistrib",
+                    "description": "Key for distribution filter",
+                    "type": "string"
+                },
+                {
+                    "name": "sigla_uf",
+                    "description": "State abbreviation",
+                    "type": "string"
+                },
+                {
+                    "name": "flag_ativo",
+                    "description": "Active status flag",
+                    "type": "string"
+                },
+                {
+                    "name": "nome_dr",
+                    "description": "Name of the DR (possibly a regional director)",
+                    "type": "string"
+                },
+                {
+                    "name": "nome_dr_supercom",
+                    "description": "Name of the DR for super commercial",
+                    "type": "string"
+                },
+                {
+                    "name": "nome_gc",
+                    "description": "Name of the GC (possibly a group coordinator)",
+                    "type": "string"
+                },
+                {
+                    "name": "grupo_revendas_spo",
+                    "description": "Group of SPO resales",
+                    "type": "string"
+                },
+                {
+                    "name": "cidade_matriz",
+                    "description": "Headquarter city",
+                    "type": "string"
+                },
+                {
+                    "name": "coordenador_central_bebida",
+                    "description": "Central beverage coordinator",
+                    "type": "string"
+                },
+                {
+                    "name": "grupo_foco_regional",
+                    "description": "Regional focus group",
+                    "type": "string"
+                },
+                {
+                    "name": "tipo_antigo",
+                    "description": "Old type or category",
+                    "type": "string"
+                },
+                {
+                    "name": "supercom_antiga",
+                    "description": "Old super commercial area",
+                    "type": "string"
+                },
+                {
+                    "name": "old_commercial",
+                    "description": "Old commercial area",
+                    "type": "string"
+                },
+                {
+                    "name": "old_operation",
+                    "description": "Old operation name or type",
+                    "type": "string"
+                },
+                {
+                    "name": "nielsen_split",
+                    "description": "Nielsen split information",
+                    "type": "string"
+                },
+                {
+                    "name": "resale_group_ccttv",
+                    "description": "CCTTV resale group",
+                    "type": "string"
+                },
+                {
+                    "name": "segmentation",
+                    "description": "Segmentation information",
+                    "type": "string"
+                },
+                {
+                    "name": "secondary_segmentation",
+                    "description": "Secondary segmentation information",
+                    "type": "string"
+                },
+                {
+                    "name": "manual_subsegmentation",
+                    "description": "Manual sub-segmentation",
+                    "type": "string"
+                },
+                {
+                    "name": "manual_secondary_subsegmentation",
+                    "description": "Secondary manual sub-segmentation",
+                    "type": "string"
+                },
+                {
+                    "name": "insert_date",
+                    "description": "Date of data insertion",
+                    "type": "datetime"
+                },
+                {
+                    "name": "folder_date",
+                    "description": "Date of the folder",
+                    "type": "datetime"
+                }
+            ]
+        },
+        "13": {
+            "path": "dataframes/B2B_sellin_product.csv",
+            "name": "Selling Product Data",
+            "description": "This sheet contains product sales data from BevCo Industries, focusing on business-to-business transactions. It includes product classifications, types, codes, names, and various sales metrics.",
+            "columns": [
+                {
+                    "name": "classification",
+                    "description": "Classification of the product",
+                    "type": "string"
+                },
+                {
+                    "name": "type",
+                    "description": "Type of product",
+                    "type": "string"
+                },
+                {
+                    "name": "product_code_ws_promax",
+                    "description": "Product code in WS Promax system",
+                    "type": "integer"
+                },
+                {
+                    "name": "product_code_managerial",
+                    "description": "Managerial product code",
+                    "type": "integer"
+                },
+                {
+                    "name": "product_code_managerial_sales",
+                    "description": "Managerial sales product code",
+                    "type": "integer"
+                },
+                {
+                    "name": "product_name",
+                    "description": "Name of the product",
+                    "type": "string"
+                },
+                {
+                    "name": "brand_line_name",
+                    "description": "Brand line name",
+                    "type": "string"
+                },
+                {
+                    "name": "brand_name",
+                    "description": "Brand name",
+                    "type": "string"
+                },
+                {
+                    "name": "factor_hl",
+                    "description": "Factor in hectoliters",
+                    "type": "float"
+                },
+                {
+                    "name": "sap_code",
+                    "description": "SAP code",
+                    "type": "integer"
+                },
+                {
+                    "name": "ean13_product_code",
+                    "description": "EAN13 product code",
+                    "type": "string"
+                },
+                {
+                    "name": "ean13_unit_product_code",
+                    "description": "EAN13 unit product code",
+                    "type": "string"
+                },
+                {
+                    "name": "packaging",
+                    "description": "Product packaging",
+                    "type": "string"
+                },
+                {
+                    "name": "consolidated_packaging",
+                    "description": "Consolidated packaging information",
+                    "type": "string"
+                },
+                {
+                    "name": "sdg_cube_code",
+                    "description": "SDG cube code",
+                    "type": "integer"
+                },
+                {
+                    "name": "sdg_cube_code_p",
+                    "description": "SDG cube code P",
+                    "type": "string"
+                },
+                {
+                    "name": "sdg_cube_product_name",
+                    "description": "SDG cube product name",
+                    "type": "string"
+                },
+                {
+                    "name": "supplier_cube_code",
+                    "description": "Supplier cube code",
+                    "type": "integer"
+                },
+                {
+                    "name": "supplier_cube_code_p",
+                    "description": "Supplier cube code P",
+                    "type": "string"
+                },
+                {
+                    "name": "supplier_cube_product_name",
+                    "description": "Supplier cube product name",
+                    "type": "string"
+                },
+                {
+                    "name": "pack_type",
+                    "description": "Type of pack",
+                    "type": "string"
+                },
+                {
+                    "name": "segment",
+                    "description": "Product segment",
+                    "type": "string"
+                },
+                {
+                    "name": "sub_segment",
+                    "description": "Product sub-segment",
+                    "type": "string"
+                },
+                {
+                    "name": "consolidated_brand",
+                    "description": "Consolidated brand information",
+                    "type": "string"
+                },
+                {
+                    "name": "consolidated_packaging_alt",
+                    "description": "Alternative consolidated packaging information",
+                    "type": "string"
+                },
+                {
+                    "name": "multipack",
+                    "description": "Multipack information",
+                    "type": "string"
+                },
+                {
+                    "name": "innovation",
+                    "description": "Innovation information",
+                    "type": "string"
+                },
+                {
+                    "name": "segment_lighthouse",
+                    "description": "Segment lighthouse",
+                    "type": "string"
+                },
+                {
+                    "name": "brand_lighthouse",
+                    "description": "Brand lighthouse",
+                    "type": "string"
+                },
+                {
+                    "name": "pack_cost",
+                    "description": "Pack cost information",
+                    "type": "string"
+                },
+                {
+                    "name": "pack_lighthouse",
+                    "description": "Pack lighthouse",
+                    "type": "string"
+                },
+                {
+                    "name": "color",
+                    "description": "Product color",
+                    "type": "string"
+                },
+                {
+                    "name": "segment_p1a",
+                    "description": "P1A segment",
+                    "type": "string"
+                },
+                {
+                    "name": "sub_segment_p1a",
+                    "description": "P1A sub-segment",
+                    "type": "string"
+                },
+                {
+                    "name": "brand_p1a",
+                    "description": "P1A brand",
+                    "type": "string"
+                },
+                {
+                    "name": "pack_p1a",
+                    "description": "P1A pack",
+                    "type": "string"
+                },
+                {
+                    "name": "F1",
+                    "description": "Additional data column",
+                    "type": "string"
+                },
+                {
+                    "name": "F2",
+                    "description": "Additional data column",
+                    "type": "string"
+                },
+                {
+                    "name": "F3",
+                    "description": "Additional data column",
+                    "type": "string"
+                },
+                {
+                    "name": "F4",
+                    "description": "Additional data column",
+                    "type": "string"
+                },
+                {
+                    "name": "F5",
+                    "description": "Additional data column",
+                    "type": "string"
+                },
+                {
+                    "name": "F6",
+                    "description": "Additional data column",
+                    "type": "string"
+                },
+                {
+                    "name": "F7",
+                    "description": "Additional data column",
+                    "type": "string"
+                },
+                {
+                    "name": "F8",
+                    "description": "Additional data column",
+                    "type": "string"
+                },
+                {
+                    "name": "F9",
+                    "description": "Additional data column",
+                    "type": "string"
+                },
+                {
+                    "name": "F10",
+                    "description": "Additional data column",
+                    "type": "string"
+                },
+                {
+                    "name": "F11",
+                    "description": "Additional data column",
+                    "type": "string"
+                },
+                {
+                    "name": "F12",
+                    "description": "Additional data column",
+                    "type": "string"
+                },
+                {
+                    "name": "F13",
+                    "description": "Additional data column",
+                    "type": "string"
+                },
+                {
+                    "name": "F14",
+                    "description": "Additional data column",
+                    "type": "string"
+                },
+                {
+                    "name": "F15",
+                    "description": "Additional data column",
+                    "type": "string"
+                },
+                {
+                    "name": "F16",
+                    "description": "Additional data column",
+                    "type": "string"
+                },
+                {
+                    "name": "F17",
+                    "description": "Additional data column",
+                    "type": "string"
+                },
+                {
+                    "name": "F18",
+                    "description": "Additional data column",
+                    "type": "string"
+                },
+                {
+                    "name": "F19",
+                    "description": "Additional data column",
+                    "type": "string"
+                },
+                {
+                    "name": "F20",
+                    "description": "Additional data column",
+                    "type": "string"
+                },
+                {
+                    "name": "F21",
+                    "description": "Additional data column",
+                    "type": "string"
+                },
+                {
+                    "name": "F22",
+                    "description": "Additional data column",
+                    "type": "string"
+                },
+                {
+                    "name": "F23",
+                    "description": "Additional data column",
+                    "type": "string"
+                },
+                {
+                    "name": "F24",
+                    "description": "Additional data column",
+                    "type": "string"
+                },
+                {
+                    "name": "F25",
+                    "description": "Additional data column",
+                    "type": "string"
+                },
+                {
+                    "name": "F26",
+                    "description": "Additional data column",
+                    "type": "string"
+                },
+                {
+                    "name": "F27",
+                    "description": "Additional data column",
+                    "type": "string"
+                },
+                {
+                    "name": "F28",
+                    "description": "Additional data column",
+                    "type": "string"
+                },
+                {
+                    "name": "F29",
+                    "description": "Additional data column",
+                    "type": "string"
+                },
+                {
+                    "name": "F30",
+                    "description": "Additional data column",
+                    "type": "string"
+                },
+                {
+                    "name": "sharepoint_modified_date",
+                    "description": "Date modified in SharePoint",
+                    "type": "string"
+                },
+                {
+                    "name": "datalake_inserted_date",
+                    "description": "Date inserted into the data lake",
+                    "type": "integer"
+                },
+                {
+                    "name": "partition_inserted_date",
+                    "description": "Date inserted into the partition",
+                    "type": "integer"
+                },
+                {
+                    "name": "folder_date",
+                    "description": "Folder date",
+                    "type": "datetime"
+                },
+                {
+                    "name": "marketplace_flag",
+                    "description": "Marketplace flag",
+                    "type": "integer"
+                },
+                {
+                    "name": "friendly_name",
+                    "description": "Friendly name of the product",
+                    "type": "string"
+                }
+            ]
+        }
+    }
+}

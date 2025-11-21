@@ -1,0 +1,301 @@
+Email,Unknown1,CouponCode,StartDate,EndDate,UsageLimit,Value,CouponValue,CreationDate,ProblemID,StoreID,GeoName,State,City,StoreName,Channel,ContactReason,Item,Agent
+customer144@email.com,,COUP0085,2023-09-30 12:03:05,2024-04-17 01:16:11,16,22.56,46.31 off,2022-01-02 15:44:15,,,South,TX,Meadowbrook,Store_19,Web,Delivery,CrispSoda Product,Agent_18
+customer161@email.com,,COUP0072,2024-05-18 10:59:58,2025-09-05 11:13:58,52,35.95,37.76 off,2023-06-26 16:36:38,636995,,Central,CA,Georgetown,Store_39,Web,Refund,BubbleWave Product,Agent_3
+customer429@email.com,,COUP0013,2023-10-31 04:30:00,2024-03-31 11:36:27,59,12.12,6.24 off,2023-09-28 02:09:51,519626,,North,FL,Springfield,Store_21,Web,Quality,CrispSoda Product,Agent_20
+customer11@email.com,,COUP0191,2024-07-30 02:38:14,2025-06-21 03:51:47,67,29.13,22.93 off,2024-02-23 01:37:46,189582,4,South,OH,Springfield,Store_20,Phone,Refund,RefreshPlus Product,Agent_5
+customer274@email.com,,COUP0094,2023-01-29 14:54:50,2025-12-14 11:21:07,29,9.96,39.95 off,2022-11-30 20:24:51,,33,South,OH,Riverside,Store_16,Phone,Refund,CrispSoda Product,Agent_17
+customer169@email.com,,COUP0041,2024-06-18 04:43:34,2024-12-09 03:48:20,82,7.80,26.39 off,2023-08-28 14:52:06,832044,,West,TX,Riverside,Store_17,Mobile,Refund,FizzCola Product,Agent_13
+customer173@email.com,,COUP0003,2024-05-05 10:03:44,2024-06-08 02:49:22,6,28.20,35.32 off,2023-12-26 10:43:26,,22,North,OH,Springfield,Store_46,Mobile,Refund,BubbleWave Product,Agent_19
+customer495@email.com,,COUP0097,2024-03-25 19:51:29,2024-08-02 14:29:38,8,7.36,6.12 off,2023-12-25 23:48:12,869963,,Central,TX,Meadowbrook,Store_34,Mobile,Delivery,BubbleWave Product,Agent_1
+customer214@email.com,,COUP0045,2024-09-30 12:28:00,2025-02-19 16:58:05,43,43.25,7.19 off,2022-05-14 14:54:29,,28,North,CA,Meadowbrook,Store_14,Web,Quality,PopMax Product,Agent_20
+customer126@email.com,,COUP0124,2023-10-27 11:20:48,2023-11-28 20:26:54,91,27.47,27.67 off,2023-09-17 10:51:12,561823,,Central,TX,Georgetown,Store_35,Mobile,Quality,RefreshPlus Product,Agent_19
+customer493@email.com,,COUP0165,2023-07-04 21:58:28,2024-10-21 17:03:33,5,22.28,34.25 off,2022-01-16 23:16:38,,,North,OH,Lakeside,Store_8,Web,Product Issue,PopMax Product,Agent_2
+customer209@email.com,,COUP0148,2024-07-03 11:24:49,2024-09-19 02:54:16,32,33.24,24.27 off,2023-02-08 23:07:09,500235,,East,IL,Lakeside,Store_17,Web,Product Issue,FizzCola Product,Agent_3
+customer199@email.com,,COUP0131,2024-03-02 06:53:31,2025-05-17 01:08:14,6,11.55,31.79 off,2023-02-16 23:09:34,,,East,IL,Hilltown,Store_2,Phone,Product Issue,CrispSoda Product,Agent_17
+customer35@email.com,,COUP0036,2023-05-28 10:56:08,2024-11-18 13:14:34,20,39.88,23.69 off,2022-05-25 00:44:38,383340,,Central,OH,Lakeside,Store_45,Web,Delivery,BubbleWave Product,Agent_14
+customer135@email.com,,COUP0053,2023-03-02 06:31:53,2024-11-07 17:27:45,34,18.34,29.48 off,2022-02-12 03:39:54,,35,West,PA,Georgetown,Store_25,Mobile,Delivery,CrispSoda Product,Agent_9
+customer495@email.com,,COUP0062,2023-07-16 13:01:35,2024-01-01 05:26:52,32,43.63,18.64 off,2022-02-28 03:00:21,,48,West,IL,Meadowbrook,Store_1,Phone,Quality,BubbleWave Product,Agent_4
+customer46@email.com,,COUP0176,2023-01-09 22:38:25,2023-09-12 17:44:51,9,33.64,46.92 off,2022-04-06 07:05:43,345086,,East,NY,Springfield,Store_23,Phone,Quality,BubbleWave Product,Agent_16
+customer326@email.com,,COUP0026,2024-03-28 02:29:05,2024-09-30 09:20:29,96,6.53,39.88 off,2023-05-01 17:16:10,664677,29,North,OH,Springfield,Store_40,Web,Product Issue,RefreshPlus Product,Agent_16
+customer322@email.com,,COUP0030,2023-04-12 21:19:01,2023-07-21 11:47:51,32,30.96,45.16 off,2023-02-27 00:55:57,194084,,North,TX,Riverside,Store_34,Web,Product Issue,CrispSoda Product,Agent_18
+customer368@email.com,,COUP0150,2023-12-12 01:21:12,2025-04-08 07:25:56,87,38.44,6.67 off,2022-06-15 21:54:30,,4,North,NY,Meadowbrook,Store_11,Mobile,Delivery,SparkleUp Product,Agent_17
+customer452@email.com,,COUP0154,2024-03-05 20:23:03,2024-10-30 02:31:31,44,15.67,28.66 off,2023-03-26 10:46:12,,47,North,IL,Georgetown,Store_1,Phone,Refund,RefreshPlus Product,Agent_7
+customer223@email.com,,COUP0003,2024-11-01 15:39:01,2025-02-21 08:26:42,83,36.24,9.64 off,2023-07-12 14:07:53,665483,,South,FL,Hilltown,Store_22,Phone,Product Issue,ZestDrink Product,Agent_15
+customer111@email.com,,COUP0111,2024-11-18 20:51:24,2025-05-01 05:35:12,71,39.92,48.84 off,2024-07-03 03:15:45,920124,46,East,PA,Lakeside,Store_38,Web,Quality,ZestDrink Product,Agent_17
+customer315@email.com,,COUP0014,2023-01-21 00:16:36,2023-11-19 08:58:46,2,36.14,37.47 off,2022-09-25 23:02:46,501486,20,West,IL,Hilltown,Store_31,Web,Delivery,PopMax Product,Agent_3
+customer25@email.com,,COUP0155,2023-03-06 20:51:42,2025-03-04 16:55:06,26,14.25,14.84 off,2023-01-05 00:31:44,634532,,East,PA,Georgetown,Store_14,Web,Product Issue,SparkleUp Product,Agent_17
+customer128@email.com,,COUP0026,2024-04-24 20:22:13,2025-08-12 02:00:59,46,28.89,28.16 off,2023-12-14 19:45:46,,,South,IL,Hilltown,Store_28,Phone,Quality,CrispSoda Product,Agent_10
+customer242@email.com,,COUP0013,2024-11-27 10:07:10,2025-03-19 15:12:56,54,48.16,25.92 off,2024-08-27 03:28:37,511193,34,Central,IL,Riverside,Store_2,Phone,Delivery,PopMax Product,Agent_20
+customer24@email.com,,COUP0065,2023-05-31 21:29:59,2024-01-06 08:06:58,91,40.12,37.58 off,2022-03-21 05:31:35,,,North,FL,Meadowbrook,Store_38,Mobile,Delivery,CrispSoda Product,Agent_13
+customer165@email.com,,COUP0005,2023-02-14 00:31:06,2025-02-01 13:16:09,38,28.55,30.47 off,2022-06-10 18:30:29,,,West,IL,Hilltown,Store_49,Phone,Quality,FizzCola Product,Agent_15
+customer202@email.com,,COUP0073,2024-02-28 06:45:16,2025-05-15 21:35:59,32,14.58,41.19 off,2022-07-26 10:26:24,,,East,FL,Riverside,Store_46,Phone,Quality,ZestDrink Product,Agent_2
+customer159@email.com,,COUP0077,2024-05-07 22:28:29,2025-11-28 00:31:48,45,27.26,41.41 off,2024-04-23 00:09:07,,49,West,TX,Meadowbrook,Store_28,Phone,Delivery,RefreshPlus Product,Agent_14
+customer98@email.com,,COUP0058,2024-04-24 23:55:00,2024-08-05 20:39:39,11,15.63,21.38 off,2022-04-25 12:19:04,,,South,IL,Lakeside,Store_8,Web,Quality,FizzCola Product,Agent_3
+customer220@email.com,,COUP0113,2023-07-11 07:28:49,2024-03-21 23:27:23,4,48.77,25.18 off,2022-04-30 12:13:51,405958,4,Central,PA,Springfield,Store_27,Web,Quality,PopMax Product,Agent_3
+customer491@email.com,,COUP0087,2024-01-24 16:27:18,2024-05-20 18:07:37,49,29.22,23.49 off,2023-08-01 17:01:17,545982,,South,FL,Meadowbrook,Store_29,Web,Product Issue,RefreshPlus Product,Agent_8
+customer245@email.com,,COUP0010,2024-02-29 14:17:18,2025-07-18 06:40:32,5,11.47,29.91 off,2022-11-09 19:21:30,322836,12,West,OH,Lakeside,Store_26,Web,Product Issue,RefreshPlus Product,Agent_1
+customer294@email.com,,COUP0001,2023-10-08 05:34:10,2025-12-23 20:31:50,74,43.86,40.86 off,2023-06-30 13:35:55,673623,,East,TX,Springfield,Store_3,Web,Product Issue,RefreshPlus Product,Agent_1
+customer131@email.com,,COUP0028,2024-02-25 03:40:58,2024-08-13 10:41:10,21,46.85,40.34 off,2022-07-05 23:15:57,766760,32,Central,TX,Lakeside,Store_1,Mobile,Quality,BubbleWave Product,Agent_11
+customer99@email.com,,COUP0078,2023-10-07 00:34:56,2024-12-15 19:52:46,36,30.08,45.38 off,2023-09-08 00:45:30,767210,28,East,NY,Georgetown,Store_23,Mobile,Product Issue,RefreshPlus Product,Agent_12
+customer184@email.com,,COUP0167,2023-11-19 18:45:50,2025-05-29 02:54:03,80,8.41,38.89 off,2022-02-27 08:52:51,406206,30,North,CA,Lakeside,Store_46,Mobile,Quality,SparkleUp Product,Agent_16
+customer157@email.com,,COUP0151,2024-11-14 14:28:01,2025-04-25 22:28:31,95,37.64,6.92 off,2024-10-14 10:01:49,825910,18,North,FL,Hilltown,Store_3,Mobile,Quality,CrispSoda Product,Agent_12
+customer117@email.com,,COUP0155,2023-02-26 23:33:24,2024-06-08 00:56:33,32,49.43,6.55 off,2022-05-08 10:41:24,577729,,North,IL,Riverside,Store_21,Phone,Quality,FizzCola Product,Agent_3
+customer301@email.com,,COUP0175,2023-12-14 09:46:29,2024-01-20 11:37:58,24,13.30,9.33 off,2022-09-11 03:21:03,777883,,North,OH,Meadowbrook,Store_1,Mobile,Delivery,FizzCola Product,Agent_4
+customer352@email.com,,COUP0093,2023-03-22 17:16:44,2024-01-15 23:40:06,64,49.41,27.70 off,2022-05-26 14:33:05,,34,West,IL,Hilltown,Store_10,Mobile,Product Issue,SparkleUp Product,Agent_12
+customer207@email.com,,COUP0112,2023-07-27 23:47:50,2025-01-25 20:49:35,52,27.46,20.61 off,2022-11-09 16:23:13,,37,Central,FL,Georgetown,Store_4,Phone,Product Issue,CrispSoda Product,Agent_17
+customer363@email.com,,COUP0139,2023-10-02 01:31:22,2025-06-08 03:51:07,99,40.79,19.13 off,2022-02-22 22:12:44,,,North,FL,Georgetown,Store_48,Web,Refund,FizzCola Product,Agent_6
+customer176@email.com,,COUP0116,2024-10-18 21:36:44,2025-05-26 20:57:49,8,36.98,48.96 off,2023-01-14 20:22:39,,27,North,OH,Springfield,Store_41,Mobile,Quality,BubbleWave Product,Agent_14
+customer1@email.com,,COUP0186,2024-09-17 02:50:40,2025-09-28 23:53:16,34,6.23,49.63 off,2023-02-11 21:02:24,412880,,West,FL,Riverside,Store_45,Mobile,Product Issue,SparkleUp Product,Agent_15
+customer19@email.com,,COUP0100,2024-10-21 16:53:51,2025-03-21 03:13:53,22,13.09,49.55 off,2022-02-18 02:02:13,,,East,TX,Hilltown,Store_29,Web,Product Issue,BubbleWave Product,Agent_20
+customer101@email.com,,COUP0075,2024-09-01 13:15:18,2024-09-12 11:45:00,3,30.28,14.58 off,2022-02-23 21:12:43,413944,44,North,OH,Riverside,Store_6,Phone,Refund,PopMax Product,Agent_20
+customer498@email.com,,COUP0149,2024-01-15 17:53:19,2025-12-30 13:37:58,1,24.52,29.96 off,2022-09-13 07:46:07,710579,37,North,TX,Hilltown,Store_13,Mobile,Refund,PopMax Product,Agent_11
+customer417@email.com,,COUP0053,2023-06-30 10:30:23,2024-03-03 15:48:50,17,37.77,27.20 off,2023-06-28 06:29:47,,2,South,IL,Georgetown,Store_47,Mobile,Quality,PopMax Product,Agent_8
+customer108@email.com,,COUP0067,2023-03-28 02:31:47,2024-03-16 05:55:58,76,45.01,11.87 off,2022-07-31 14:50:02,498398,14,West,PA,Georgetown,Store_49,Phone,Refund,ZestDrink Product,Agent_2
+customer353@email.com,,COUP0131,2024-06-02 12:34:13,2025-01-06 01:44:29,49,23.90,34.19 off,2022-06-25 13:33:30,507065,,Central,CA,Springfield,Store_49,Mobile,Refund,CrispSoda Product,Agent_12
+customer345@email.com,,COUP0136,2024-12-09 21:35:08,2025-06-27 08:31:24,94,37.95,48.65 off,2023-08-06 14:25:19,,48,North,NY,Georgetown,Store_42,Phone,Product Issue,SparkleUp Product,Agent_3
+customer345@email.com,,COUP0121,2024-12-10 15:49:48,2025-08-14 00:23:03,85,39.22,6.75 off,2024-12-07 04:55:46,482878,3,West,CA,Springfield,Store_45,Web,Refund,BubbleWave Product,Agent_4
+customer432@email.com,,COUP0123,2024-10-28 11:37:19,2025-11-21 09:20:07,59,15.72,8.08 off,2022-06-12 14:19:13,,,East,FL,Lakeside,Store_11,Mobile,Delivery,FizzCola Product,Agent_15
+customer249@email.com,,COUP0133,2024-10-09 23:35:12,2025-08-01 13:27:33,11,45.15,22.84 off,2022-02-14 06:26:20,,46,East,PA,Georgetown,Store_45,Phone,Product Issue,SparkleUp Product,Agent_20
+customer443@email.com,,COUP0117,2023-06-02 02:38:54,2024-03-11 11:17:02,64,46.64,29.14 off,2023-01-24 18:28:36,,,East,NY,Meadowbrook,Store_6,Mobile,Product Issue,BubbleWave Product,Agent_14
+customer452@email.com,,COUP0047,2024-01-14 13:39:29,2025-08-22 13:53:58,53,46.26,32.77 off,2023-11-05 09:26:01,,,North,IL,Riverside,Store_37,Web,Quality,SparkleUp Product,Agent_9
+customer102@email.com,,COUP0084,2024-03-19 05:36:49,2024-04-12 07:59:41,51,35.01,41.86 off,2022-08-04 21:34:07,953951,8,West,PA,Meadowbrook,Store_5,Web,Delivery,FizzCola Product,Agent_19
+customer335@email.com,,COUP0127,2023-05-02 20:42:05,2025-11-16 19:20:40,61,33.29,23.35 off,2022-07-08 05:31:12,886258,47,South,FL,Hilltown,Store_4,Mobile,Delivery,PopMax Product,Agent_15
+customer105@email.com,,COUP0183,2023-11-15 00:46:09,2023-11-20 12:47:11,76,23.33,16.73 off,2022-12-30 13:09:28,209856,,North,FL,Hilltown,Store_23,Mobile,Quality,SparkleUp Product,Agent_7
+customer159@email.com,,COUP0054,2023-06-24 04:09:05,2023-12-13 09:05:20,4,22.75,5.06 off,2022-11-11 17:38:15,,14,South,OH,Georgetown,Store_32,Phone,Quality,SparkleUp Product,Agent_16
+customer381@email.com,,COUP0136,2024-05-20 11:53:13,2025-10-25 18:16:25,30,19.57,5.99 off,2023-12-22 14:23:23,361810,,Central,CA,Riverside,Store_27,Phone,Product Issue,CrispSoda Product,Agent_19
+customer169@email.com,,COUP0058,2023-12-09 04:29:58,2025-03-03 11:15:35,92,41.75,16.35 off,2022-04-26 15:53:50,,,South,TX,Springfield,Store_10,Phone,Quality,ZestDrink Product,Agent_7
+customer386@email.com,,COUP0170,2023-06-20 18:56:44,2024-12-20 09:26:29,63,10.34,49.10 off,2022-03-24 16:00:14,262403,47,East,OH,Lakeside,Store_49,Mobile,Refund,FizzCola Product,Agent_7
+customer250@email.com,,COUP0009,2024-03-21 05:03:32,2025-08-12 00:22:43,61,11.37,14.88 off,2023-10-26 01:17:34,,,North,TX,Riverside,Store_19,Phone,Product Issue,CrispSoda Product,Agent_13
+customer141@email.com,,COUP0171,2024-05-16 18:02:59,2025-04-10 08:32:50,11,32.35,34.67 off,2024-03-04 02:01:30,995182,,Central,NY,Springfield,Store_45,Web,Product Issue,CrispSoda Product,Agent_11
+customer121@email.com,,COUP0130,2024-08-28 10:50:59,2025-10-17 05:52:09,24,32.62,48.00 off,2022-10-15 18:39:36,841891,45,North,OH,Springfield,Store_6,Mobile,Delivery,PopMax Product,Agent_4
+customer113@email.com,,COUP0172,2023-10-08 18:47:42,2024-02-26 14:37:31,93,41.07,32.88 off,2023-06-06 16:30:57,,,East,CA,Springfield,Store_16,Web,Refund,FizzCola Product,Agent_17
+customer214@email.com,,COUP0114,2023-11-14 01:45:34,2025-02-21 20:24:36,42,13.87,9.09 off,2022-10-15 17:40:21,,30,Central,TX,Meadowbrook,Store_27,Mobile,Delivery,CrispSoda Product,Agent_13
+customer79@email.com,,COUP0043,2023-11-10 18:58:39,2024-10-10 01:13:00,63,11.05,16.15 off,2022-07-08 17:58:23,547024,48,East,PA,Hilltown,Store_17,Phone,Delivery,CrispSoda Product,Agent_9
+customer354@email.com,,COUP0080,2024-09-27 13:30:55,2025-04-17 20:22:40,45,39.07,44.71 off,2024-01-14 11:38:57,265640,,East,OH,Hilltown,Store_29,Web,Product Issue,ZestDrink Product,Agent_17
+customer315@email.com,,COUP0015,2024-01-22 07:52:16,2025-10-23 01:49:46,40,33.18,39.65 off,2023-08-21 06:15:11,893097,8,South,NY,Georgetown,Store_32,Mobile,Quality,RefreshPlus Product,Agent_4
+customer229@email.com,,COUP0032,2024-04-02 09:52:32,2025-12-12 13:50:12,54,16.42,21.20 off,2023-06-22 01:58:02,,18,West,CA,Riverside,Store_38,Mobile,Refund,PopMax Product,Agent_20
+customer160@email.com,,COUP0097,2023-06-05 08:37:15,2025-08-31 21:14:09,71,25.37,5.28 off,2022-05-03 16:55:41,,4,Central,TX,Meadowbrook,Store_45,Web,Product Issue,RefreshPlus Product,Agent_3
+customer210@email.com,,COUP0168,2024-11-03 14:00:04,2025-09-09 08:13:23,80,11.75,14.62 off,2022-12-12 12:07:24,965534,,West,IL,Georgetown,Store_42,Mobile,Product Issue,BubbleWave Product,Agent_19
+customer146@email.com,,COUP0115,2023-11-18 19:46:24,2025-12-26 04:29:40,2,25.99,39.97 off,2022-08-04 09:43:06,,32,North,TX,Riverside,Store_22,Web,Product Issue,BubbleWave Product,Agent_20
+customer222@email.com,,COUP0121,2024-12-28 03:58:14,2025-10-04 14:00:27,13,40.39,39.71 off,2023-07-03 22:14:40,,,Central,NY,Meadowbrook,Store_7,Web,Refund,RefreshPlus Product,Agent_20
+customer385@email.com,,COUP0048,2023-03-19 08:13:46,2023-09-12 18:04:01,23,13.59,25.13 off,2022-05-15 10:06:23,,6,East,PA,Springfield,Store_45,Phone,Product Issue,FizzCola Product,Agent_5
+customer466@email.com,,COUP0110,2024-06-02 11:53:32,2024-08-11 14:50:06,50,9.91,10.87 off,2023-12-16 20:05:24,758334,46,South,CA,Riverside,Store_26,Web,Product Issue,SparkleUp Product,Agent_18
+customer30@email.com,,COUP0168,2023-06-12 06:13:20,2024-05-02 05:04:39,85,12.16,29.65 off,2023-01-22 14:15:13,,,North,IL,Riverside,Store_50,Mobile,Product Issue,PopMax Product,Agent_15
+customer274@email.com,,COUP0055,2023-06-24 06:48:20,2024-06-15 21:08:33,13,31.17,35.58 off,2022-07-12 14:15:05,101381,,West,FL,Hilltown,Store_25,Phone,Product Issue,FizzCola Product,Agent_6
+customer415@email.com,,COUP0109,2024-10-28 20:48:00,2025-05-25 09:10:42,85,27.91,27.52 off,2022-11-16 22:52:29,611118,10,Central,CA,Hilltown,Store_7,Mobile,Quality,CrispSoda Product,Agent_5
+customer359@email.com,,COUP0033,2024-02-10 21:57:34,2024-11-27 00:05:17,29,46.76,44.52 off,2023-05-02 07:05:22,666769,,East,NY,Riverside,Store_10,Web,Delivery,SparkleUp Product,Agent_15
+customer128@email.com,,COUP0112,2024-09-22 05:22:29,2024-11-28 03:36:38,76,14.55,42.35 off,2023-09-09 06:14:00,,,North,CA,Riverside,Store_14,Mobile,Quality,SparkleUp Product,Agent_13
+customer52@email.com,,COUP0010,2024-04-20 11:46:55,2025-08-01 06:43:20,60,14.80,22.95 off,2022-09-30 21:27:37,462451,,East,IL,Georgetown,Store_7,Mobile,Refund,ZestDrink Product,Agent_15
+customer6@email.com,,COUP0055,2023-06-23 04:59:55,2024-04-28 01:12:16,47,22.35,5.91 off,2023-03-04 22:19:04,618631,,North,IL,Meadowbrook,Store_36,Phone,Product Issue,RefreshPlus Product,Agent_13
+customer122@email.com,,COUP0081,2024-06-30 10:33:34,2025-11-01 04:13:18,55,24.72,23.01 off,2024-05-21 05:35:52,,,South,CA,Springfield,Store_26,Phone,Product Issue,FizzCola Product,Agent_7
+customer52@email.com,,COUP0039,2024-01-09 11:31:12,2025-05-06 17:21:15,1,45.71,44.06 off,2022-04-18 00:10:00,,25,East,TX,Meadowbrook,Store_17,Mobile,Delivery,SparkleUp Product,Agent_15
+customer399@email.com,,COUP0079,2023-02-12 07:19:30,2024-11-24 15:23:59,87,44.59,23.05 off,2022-07-11 01:49:49,709329,1,West,CA,Riverside,Store_22,Web,Quality,SparkleUp Product,Agent_15
+customer231@email.com,,COUP0017,2023-05-29 23:33:38,2024-05-17 05:33:52,60,30.64,14.66 off,2023-01-14 02:19:07,,,North,OH,Lakeside,Store_33,Web,Product Issue,FizzCola Product,Agent_13
+customer114@email.com,,COUP0087,2023-10-16 19:05:57,2025-08-20 11:28:52,90,36.83,14.46 off,2022-07-24 21:36:08,963537,,North,PA,Lakeside,Store_16,Phone,Quality,BubbleWave Product,Agent_14
+customer285@email.com,,COUP0130,2024-05-15 17:41:28,2025-08-18 08:05:44,41,35.03,44.38 off,2022-02-16 17:25:24,,18,North,PA,Georgetown,Store_2,Phone,Refund,FizzCola Product,Agent_20
+customer230@email.com,,COUP0029,2024-09-27 18:12:09,2024-10-07 02:25:03,4,31.59,29.37 off,2023-01-28 21:56:16,,,South,NY,Hilltown,Store_43,Web,Product Issue,SparkleUp Product,Agent_9
+customer385@email.com,,COUP0083,2024-06-19 08:36:21,2024-08-11 19:46:52,94,26.15,5.79 off,2024-01-21 03:39:13,637433,35,North,FL,Springfield,Store_11,Phone,Product Issue,BubbleWave Product,Agent_13
+customer333@email.com,,COUP0010,2023-01-15 09:29:15,2023-11-06 00:09:45,40,45.23,23.14 off,2022-01-26 23:34:12,423419,35,West,FL,Lakeside,Store_44,Phone,Quality,FizzCola Product,Agent_13
+customer28@email.com,,COUP0042,2023-04-30 04:03:02,2025-08-17 09:08:28,5,38.73,43.38 off,2022-07-24 07:48:23,148649,,West,IL,Hilltown,Store_13,Web,Quality,CrispSoda Product,Agent_19
+customer227@email.com,,COUP0084,2024-10-31 17:10:21,2025-08-23 18:33:04,61,48.54,6.92 off,2024-08-13 18:45:06,,,Central,NY,Meadowbrook,Store_29,Mobile,Quality,BubbleWave Product,Agent_14
+customer332@email.com,,COUP0074,2023-11-09 16:48:56,2025-09-14 23:21:31,18,49.29,23.18 off,2023-06-13 06:55:00,,39,North,IL,Lakeside,Store_16,Web,Product Issue,CrispSoda Product,Agent_15
+customer498@email.com,,COUP0097,2024-05-24 07:15:56,2024-09-19 01:51:33,68,24.72,19.40 off,2022-02-04 04:14:08,,13,West,FL,Meadowbrook,Store_25,Web,Delivery,CrispSoda Product,Agent_3
+customer64@email.com,,COUP0116,2024-05-03 19:11:04,2025-06-16 02:30:01,84,14.54,7.50 off,2024-04-07 17:11:37,655351,27,West,OH,Hilltown,Store_40,Web,Product Issue,ZestDrink Product,Agent_2
+customer327@email.com,,COUP0040,2023-07-19 14:11:03,2025-06-15 11:20:19,2,13.23,15.75 off,2022-04-05 03:30:59,,,Central,CA,Hilltown,Store_13,Mobile,Product Issue,ZestDrink Product,Agent_1
+customer401@email.com,,COUP0025,2023-11-22 19:31:21,2024-03-01 01:49:01,38,38.70,10.46 off,2023-03-22 23:43:56,,13,North,FL,Hilltown,Store_43,Web,Product Issue,RefreshPlus Product,Agent_19
+customer134@email.com,,COUP0051,2023-03-06 18:41:33,2024-02-27 23:39:13,48,20.26,15.56 off,2022-07-03 14:56:03,,16,East,TX,Georgetown,Store_31,Mobile,Delivery,CrispSoda Product,Agent_4
+customer104@email.com,,COUP0154,2024-01-12 02:11:41,2025-09-26 12:00:08,34,18.66,46.63 off,2022-08-27 10:47:56,,14,Central,IL,Hilltown,Store_49,Phone,Product Issue,PopMax Product,Agent_4
+customer215@email.com,,COUP0191,2024-02-15 08:29:05,2025-11-13 07:10:40,84,31.00,49.32 off,2022-04-08 06:29:33,,,North,IL,Meadowbrook,Store_12,Phone,Refund,CrispSoda Product,Agent_10
+customer362@email.com,,COUP0196,2023-07-07 05:49:29,2023-10-12 18:01:57,39,41.51,24.93 off,2022-07-07 01:04:09,964614,,South,NY,Springfield,Store_5,Mobile,Quality,PopMax Product,Agent_10
+customer51@email.com,,COUP0165,2024-11-20 10:53:57,2025-07-02 17:39:06,23,33.61,21.94 off,2023-07-27 01:09:25,,,South,PA,Meadowbrook,Store_50,Mobile,Product Issue,ZestDrink Product,Agent_13
+customer82@email.com,,COUP0113,2024-04-22 14:41:25,2024-06-03 11:49:11,50,9.39,39.02 off,2023-01-21 13:57:15,,,North,OH,Lakeside,Store_38,Phone,Delivery,FizzCola Product,Agent_20
+customer139@email.com,,COUP0033,2023-11-08 20:31:19,2025-05-24 17:06:35,11,6.48,34.14 off,2022-08-07 09:36:51,392142,,East,TX,Springfield,Store_12,Phone,Quality,RefreshPlus Product,Agent_3
+customer353@email.com,,COUP0043,2023-04-27 18:28:26,2023-11-19 13:17:32,71,8.16,35.07 off,2022-03-22 12:32:14,502772,,South,CA,Meadowbrook,Store_27,Phone,Product Issue,CrispSoda Product,Agent_12
+customer235@email.com,,COUP0171,2024-03-30 03:36:08,2024-06-09 14:00:09,96,13.85,7.71 off,2023-11-01 14:05:26,,39,North,NY,Riverside,Store_4,Web,Delivery,ZestDrink Product,Agent_2
+customer285@email.com,,COUP0036,2024-08-10 23:03:05,2024-09-01 23:11:22,93,44.90,17.63 off,2022-01-15 19:36:41,985205,10,East,IL,Lakeside,Store_39,Mobile,Product Issue,FizzCola Product,Agent_19
+customer148@email.com,,COUP0012,2023-05-05 16:05:49,2024-08-23 18:48:15,11,6.51,40.61 off,2022-06-22 04:07:48,,,West,IL,Lakeside,Store_39,Web,Product Issue,PopMax Product,Agent_2
+customer323@email.com,,COUP0146,2023-06-01 14:31:45,2023-09-27 03:59:00,16,27.77,36.45 off,2022-01-25 17:06:15,,41,North,OH,Hilltown,Store_48,Mobile,Product Issue,BubbleWave Product,Agent_17
+customer81@email.com,,COUP0028,2024-12-18 11:31:45,2025-04-30 15:00:06,32,7.15,45.50 off,2022-06-30 18:40:40,,,Central,IL,Meadowbrook,Store_17,Phone,Delivery,SparkleUp Product,Agent_10
+customer448@email.com,,COUP0010,2024-08-02 06:00:10,2025-09-29 18:52:48,66,48.76,24.30 off,2023-10-28 05:48:26,341162,44,East,CA,Springfield,Store_42,Mobile,Delivery,SparkleUp Product,Agent_2
+customer12@email.com,,COUP0076,2024-05-16 16:58:36,2025-10-11 08:10:36,43,35.90,23.08 off,2022-08-14 00:07:14,667318,16,North,OH,Meadowbrook,Store_23,Phone,Quality,BubbleWave Product,Agent_9
+customer209@email.com,,COUP0015,2024-03-09 22:37:08,2025-02-25 16:36:21,25,44.38,43.10 off,2023-07-02 17:22:51,436166,2,South,NY,Springfield,Store_46,Mobile,Quality,RefreshPlus Product,Agent_3
+customer346@email.com,,COUP0040,2023-03-17 03:38:34,2024-10-17 00:44:31,45,44.33,19.15 off,2022-09-12 13:48:18,383074,24,East,OH,Hilltown,Store_18,Mobile,Refund,SparkleUp Product,Agent_15
+customer102@email.com,,COUP0076,2023-06-09 03:10:43,2024-10-09 10:19:30,1,30.43,28.67 off,2022-12-05 17:01:38,193665,,East,IL,Meadowbrook,Store_10,Phone,Product Issue,FizzCola Product,Agent_5
+customer5@email.com,,COUP0193,2024-03-28 14:18:34,2025-10-09 12:38:24,46,9.07,20.46 off,2023-05-05 10:45:16,,8,West,TX,Riverside,Store_35,Phone,Delivery,RefreshPlus Product,Agent_5
+customer19@email.com,,COUP0026,2024-03-10 08:04:26,2025-10-23 23:27:28,71,43.13,37.29 off,2024-03-10 05:10:10,,7,West,PA,Riverside,Store_1,Phone,Quality,CrispSoda Product,Agent_1
+customer301@email.com,,COUP0025,2023-11-03 07:06:13,2025-11-01 03:29:53,79,37.89,45.79 off,2022-12-02 02:30:19,,28,Central,FL,Meadowbrook,Store_46,Phone,Delivery,BubbleWave Product,Agent_3
+customer470@email.com,,COUP0128,2024-08-15 22:34:21,2025-08-21 12:16:46,20,49.00,6.06 off,2022-08-03 00:41:15,,,Central,FL,Meadowbrook,Store_13,Mobile,Delivery,PopMax Product,Agent_3
+customer248@email.com,,COUP0187,2023-01-05 12:21:31,2025-01-30 15:25:36,63,25.69,6.99 off,2022-03-06 11:57:06,,,Central,TX,Meadowbrook,Store_44,Phone,Delivery,FizzCola Product,Agent_3
+customer133@email.com,,COUP0133,2024-12-05 22:47:55,2025-05-30 09:45:22,31,14.66,22.96 off,2023-05-11 18:25:02,,,North,OH,Riverside,Store_50,Web,Product Issue,RefreshPlus Product,Agent_4
+customer18@email.com,,COUP0101,2024-03-24 21:10:28,2024-07-29 17:30:19,40,46.52,27.53 off,2022-05-25 06:00:00,,,Central,PA,Meadowbrook,Store_34,Phone,Refund,CrispSoda Product,Agent_10
+customer311@email.com,,COUP0087,2024-08-27 14:08:44,2025-12-22 14:00:12,90,26.09,22.05 off,2024-02-07 08:34:27,836399,36,South,OH,Springfield,Store_44,Mobile,Delivery,FizzCola Product,Agent_10
+customer232@email.com,,COUP0061,2023-07-13 17:51:49,2023-08-02 22:57:33,60,18.69,32.19 off,2022-02-07 09:25:01,679511,16,Central,IL,Riverside,Store_19,Mobile,Delivery,FizzCola Product,Agent_12
+customer88@email.com,,COUP0112,2024-05-30 08:32:50,2025-12-24 22:10:35,5,37.44,31.41 off,2022-04-18 14:54:10,,8,East,PA,Riverside,Store_38,Web,Delivery,PopMax Product,Agent_15
+customer314@email.com,,COUP0173,2024-10-26 12:21:51,2025-08-09 08:34:40,76,45.74,21.64 off,2022-09-01 13:20:40,,7,East,IL,Georgetown,Store_6,Phone,Refund,SparkleUp Product,Agent_18
+customer256@email.com,,COUP0197,2023-01-05 07:19:46,2025-04-22 23:39:44,60,16.27,48.77 off,2022-07-06 12:26:34,,10,Central,IL,Springfield,Store_26,Mobile,Delivery,PopMax Product,Agent_5
+customer447@email.com,,COUP0186,2024-08-13 01:15:35,2024-12-16 08:12:00,70,10.35,49.54 off,2024-06-20 16:02:01,,13,West,OH,Lakeside,Store_43,Phone,Delivery,FizzCola Product,Agent_4
+customer65@email.com,,COUP0030,2023-01-30 10:39:57,2025-12-28 06:10:09,87,11.94,32.83 off,2022-11-12 16:05:19,,,North,FL,Springfield,Store_23,Phone,Refund,RefreshPlus Product,Agent_8
+customer43@email.com,,COUP0027,2023-12-17 03:38:38,2025-08-28 03:06:16,66,20.28,21.90 off,2023-04-30 04:24:06,,,West,NY,Hilltown,Store_49,Web,Product Issue,PopMax Product,Agent_20
+customer190@email.com,,COUP0177,2024-04-16 18:14:16,2024-06-09 00:52:39,12,47.79,40.81 off,2023-05-10 23:31:47,591364,37,East,TX,Lakeside,Store_48,Mobile,Product Issue,SparkleUp Product,Agent_8
+customer460@email.com,,COUP0106,2023-02-13 05:40:30,2025-01-27 00:14:02,28,16.47,42.79 off,2022-10-29 20:14:27,245409,31,Central,TX,Georgetown,Store_28,Phone,Quality,BubbleWave Product,Agent_5
+customer355@email.com,,COUP0084,2024-01-24 10:29:37,2025-08-12 11:53:40,12,10.47,47.05 off,2023-11-24 07:55:02,474129,16,North,PA,Meadowbrook,Store_18,Phone,Refund,PopMax Product,Agent_4
+customer487@email.com,,COUP0171,2023-06-21 21:04:26,2025-12-20 00:50:05,63,27.43,27.85 off,2023-05-02 20:58:49,,,South,FL,Meadowbrook,Store_32,Phone,Delivery,FizzCola Product,Agent_4
+customer117@email.com,,COUP0164,2024-01-12 08:14:20,2024-07-07 04:57:50,11,30.37,8.34 off,2022-01-19 07:37:37,514562,,Central,NY,Meadowbrook,Store_18,Phone,Refund,CrispSoda Product,Agent_17
+customer37@email.com,,COUP0135,2023-08-24 21:01:40,2025-05-22 15:30:08,40,7.80,33.88 off,2022-08-28 13:12:21,901209,34,Central,TX,Meadowbrook,Store_24,Web,Product Issue,SparkleUp Product,Agent_5
+customer35@email.com,,COUP0117,2024-05-07 02:33:19,2025-05-10 08:53:23,29,37.97,31.37 off,2022-05-28 02:09:48,261104,10,East,NY,Meadowbrook,Store_40,Web,Delivery,CrispSoda Product,Agent_20
+customer120@email.com,,COUP0082,2024-06-26 23:39:04,2025-03-08 15:25:09,93,46.15,18.26 off,2024-02-02 08:00:10,132880,40,East,IL,Riverside,Store_16,Mobile,Delivery,ZestDrink Product,Agent_16
+customer369@email.com,,COUP0087,2023-04-20 10:15:08,2024-11-23 12:59:49,78,38.10,14.32 off,2022-08-14 06:55:21,341881,17,East,IL,Georgetown,Store_18,Web,Product Issue,PopMax Product,Agent_9
+customer496@email.com,,COUP0015,2024-11-02 21:53:00,2025-03-01 09:35:07,99,21.09,9.61 off,2024-03-11 09:43:02,865569,,North,TX,Georgetown,Store_2,Phone,Product Issue,CrispSoda Product,Agent_13
+customer157@email.com,,COUP0062,2023-05-15 00:36:30,2025-06-22 14:39:48,38,35.31,12.58 off,2022-03-31 21:48:48,144781,,East,TX,Georgetown,Store_33,Mobile,Product Issue,BubbleWave Product,Agent_16
+customer23@email.com,,COUP0145,2024-08-12 01:04:35,2025-06-14 19:02:32,57,41.18,33.59 off,2023-11-11 01:52:30,,40,East,OH,Springfield,Store_11,Web,Quality,CrispSoda Product,Agent_8
+customer298@email.com,,COUP0086,2023-09-03 21:23:25,2024-02-11 12:07:38,10,32.20,37.24 off,2022-05-17 19:46:55,126348,41,East,TX,Georgetown,Store_38,Mobile,Refund,PopMax Product,Agent_10
+customer362@email.com,,COUP0060,2024-06-19 14:56:59,2024-11-09 13:08:15,33,38.58,25.38 off,2023-09-26 23:25:53,293957,,South,TX,Meadowbrook,Store_30,Mobile,Quality,BubbleWave Product,Agent_19
+customer88@email.com,,COUP0062,2023-01-11 15:32:21,2024-02-16 16:22:27,84,13.94,45.76 off,2022-06-06 05:44:08,,,West,IL,Lakeside,Store_29,Web,Quality,ZestDrink Product,Agent_6
+customer105@email.com,,COUP0188,2024-08-23 08:35:57,2024-11-07 07:42:12,17,37.41,16.12 off,2023-12-04 05:58:42,,27,East,IL,Riverside,Store_48,Mobile,Refund,RefreshPlus Product,Agent_9
+customer409@email.com,,COUP0185,2023-03-05 21:34:01,2023-08-07 05:18:23,48,17.93,47.53 off,2022-04-28 11:17:54,250358,28,North,TX,Georgetown,Store_33,Web,Product Issue,SparkleUp Product,Agent_16
+customer217@email.com,,COUP0193,2023-02-17 15:06:47,2025-02-08 16:44:49,27,22.90,17.28 off,2022-08-14 18:51:03,683054,,East,PA,Hilltown,Store_28,Mobile,Delivery,SparkleUp Product,Agent_2
+customer313@email.com,,COUP0131,2024-10-30 00:43:25,2025-06-20 04:25:18,11,32.14,40.30 off,2022-02-17 01:28:42,,36,South,CA,Hilltown,Store_28,Phone,Refund,FizzCola Product,Agent_20
+customer431@email.com,,COUP0003,2024-12-07 19:09:12,2025-06-28 10:24:53,6,6.33,25.06 off,2023-04-21 14:33:34,,,East,PA,Riverside,Store_40,Web,Delivery,FizzCola Product,Agent_11
+customer302@email.com,,COUP0052,2024-03-08 00:23:50,2024-12-16 06:44:48,89,46.26,8.63 off,2024-02-11 17:14:21,263460,,Central,IL,Riverside,Store_48,Web,Quality,BubbleWave Product,Agent_18
+customer347@email.com,,COUP0142,2023-07-18 14:41:03,2023-11-03 18:26:41,36,17.03,35.71 off,2022-05-06 18:12:27,874468,,East,OH,Georgetown,Store_35,Phone,Product Issue,SparkleUp Product,Agent_14
+customer362@email.com,,COUP0032,2023-03-03 05:53:31,2024-09-18 23:46:06,4,33.43,6.69 off,2022-08-08 03:04:32,,1,West,OH,Riverside,Store_50,Mobile,Product Issue,RefreshPlus Product,Agent_16
+customer38@email.com,,COUP0119,2024-01-20 13:23:43,2025-06-19 01:13:52,14,5.22,43.94 off,2022-04-20 12:59:03,130114,44,East,OH,Lakeside,Store_31,Web,Delivery,CrispSoda Product,Agent_6
+customer215@email.com,,COUP0009,2023-03-22 14:05:34,2025-10-23 22:48:16,11,46.02,12.49 off,2022-01-22 21:31:48,710378,,North,NY,Hilltown,Store_1,Phone,Delivery,ZestDrink Product,Agent_11
+customer237@email.com,,COUP0089,2023-04-09 21:22:56,2023-10-15 08:17:04,72,16.16,25.56 off,2022-06-24 11:40:42,699748,,Central,FL,Hilltown,Store_24,Web,Refund,FizzCola Product,Agent_13
+customer109@email.com,,COUP0156,2023-12-01 00:14:43,2025-11-03 00:37:23,77,15.53,41.82 off,2023-07-05 11:38:29,,,East,IL,Springfield,Store_31,Phone,Refund,ZestDrink Product,Agent_1
+customer484@email.com,,COUP0120,2024-10-08 14:58:56,2025-01-22 20:35:07,64,20.62,5.93 off,2023-05-04 06:04:02,,30,Central,IL,Meadowbrook,Store_29,Mobile,Delivery,RefreshPlus Product,Agent_17
+customer144@email.com,,COUP0039,2023-02-22 22:33:14,2023-11-17 19:29:29,48,43.61,40.94 off,2022-07-11 10:08:20,574698,,Central,TX,Lakeside,Store_48,Mobile,Delivery,ZestDrink Product,Agent_1
+customer92@email.com,,COUP0062,2023-05-19 21:21:15,2024-02-20 16:44:42,14,28.32,16.83 off,2023-02-08 10:34:12,305538,,West,CA,Georgetown,Store_41,Web,Delivery,FizzCola Product,Agent_13
+customer290@email.com,,COUP0038,2023-10-20 19:29:18,2025-02-04 18:02:35,70,31.27,43.44 off,2023-07-15 13:11:17,,30,Central,CA,Lakeside,Store_50,Mobile,Product Issue,FizzCola Product,Agent_12
+customer318@email.com,,COUP0082,2023-10-22 08:45:08,2025-09-12 13:31:37,71,11.54,49.32 off,2023-06-22 00:55:00,,,East,OH,Lakeside,Store_45,Web,Refund,RefreshPlus Product,Agent_13
+customer423@email.com,,COUP0039,2024-08-22 10:58:28,2025-05-29 11:16:00,4,45.44,16.43 off,2024-02-12 18:08:48,,,West,PA,Georgetown,Store_11,Web,Product Issue,SparkleUp Product,Agent_20
+customer279@email.com,,COUP0111,2024-04-18 21:13:11,2025-01-27 07:24:24,35,48.99,42.21 off,2022-06-19 19:48:35,,,South,TX,Hilltown,Store_39,Mobile,Delivery,FizzCola Product,Agent_2
+customer182@email.com,,COUP0132,2023-03-14 23:14:34,2023-04-16 20:26:26,56,23.58,29.47 off,2022-02-06 16:35:20,,,North,OH,Meadowbrook,Store_50,Phone,Refund,BubbleWave Product,Agent_8
+customer478@email.com,,COUP0141,2023-10-26 18:01:50,2024-11-19 01:01:23,95,18.97,39.06 off,2022-02-25 04:43:13,,,North,OH,Hilltown,Store_44,Mobile,Product Issue,PopMax Product,Agent_2
+customer429@email.com,,COUP0173,2023-07-15 14:53:36,2025-04-11 03:25:04,52,26.23,41.84 off,2022-04-25 10:41:55,,25,West,PA,Hilltown,Store_47,Phone,Delivery,SparkleUp Product,Agent_5
+customer41@email.com,,COUP0083,2023-06-18 19:37:57,2025-06-20 03:42:37,69,29.16,28.98 off,2023-01-17 09:47:49,,,North,OH,Lakeside,Store_23,Web,Delivery,CrispSoda Product,Agent_4
+customer13@email.com,,COUP0124,2023-05-20 08:42:27,2023-07-11 13:16:01,100,34.13,44.10 off,2022-07-29 23:33:53,584196,24,East,FL,Riverside,Store_39,Web,Product Issue,CrispSoda Product,Agent_5
+customer46@email.com,,COUP0146,2023-05-04 08:21:15,2023-07-01 01:12:16,73,38.16,15.42 off,2022-02-14 14:18:47,,42,North,IL,Georgetown,Store_38,Web,Product Issue,BubbleWave Product,Agent_10
+customer119@email.com,,COUP0169,2023-01-21 14:14:55,2025-07-02 18:06:27,29,19.27,28.05 off,2022-04-18 14:30:16,,,Central,CA,Springfield,Store_10,Mobile,Quality,SparkleUp Product,Agent_13
+customer276@email.com,,COUP0127,2023-03-23 05:13:05,2025-12-04 01:16:47,1,34.91,43.53 off,2022-06-02 17:02:38,874451,,West,OH,Hilltown,Store_12,Phone,Delivery,PopMax Product,Agent_3
+customer312@email.com,,COUP0066,2023-09-24 23:03:57,2025-07-23 23:57:54,33,15.74,39.27 off,2022-10-25 15:53:38,157885,18,South,FL,Springfield,Store_4,Phone,Quality,BubbleWave Product,Agent_19
+customer167@email.com,,COUP0069,2023-03-18 15:37:06,2024-05-31 11:09:18,30,30.72,34.59 off,2022-06-10 07:26:19,,,West,NY,Lakeside,Store_27,Mobile,Quality,FizzCola Product,Agent_4
+customer187@email.com,,COUP0048,2023-10-26 19:48:08,2023-11-15 22:19:24,43,41.71,33.65 off,2022-09-13 07:06:58,837390,,East,IL,Hilltown,Store_50,Web,Quality,ZestDrink Product,Agent_5
+customer150@email.com,,COUP0020,2023-05-22 04:07:13,2023-12-13 21:39:05,7,23.94,32.45 off,2022-12-20 18:15:55,567733,17,Central,FL,Meadowbrook,Store_40,Phone,Product Issue,FizzCola Product,Agent_3
+customer39@email.com,,COUP0084,2024-06-01 14:17:36,2025-05-21 14:54:16,33,16.31,13.51 off,2022-03-18 21:28:03,,,Central,OH,Meadowbrook,Store_28,Phone,Quality,BubbleWave Product,Agent_16
+customer68@email.com,,COUP0140,2023-03-26 16:12:51,2023-09-27 12:33:20,71,38.60,27.13 off,2022-12-17 07:08:20,413529,,Central,FL,Meadowbrook,Store_27,Phone,Delivery,SparkleUp Product,Agent_19
+customer423@email.com,,COUP0039,2023-01-13 10:50:09,2025-07-19 18:01:19,87,26.29,43.40 off,2022-06-07 09:31:16,500781,7,South,NY,Riverside,Store_1,Phone,Refund,FizzCola Product,Agent_18
+customer96@email.com,,COUP0120,2024-05-14 12:15:32,2024-10-15 05:39:46,14,5.58,37.03 off,2022-10-22 01:40:25,,,West,FL,Georgetown,Store_23,Web,Refund,BubbleWave Product,Agent_19
+customer304@email.com,,COUP0168,2023-04-12 01:46:51,2025-09-06 07:46:13,30,17.74,29.91 off,2022-10-06 15:30:34,749975,32,West,OH,Springfield,Store_3,Web,Refund,CrispSoda Product,Agent_19
+customer231@email.com,,COUP0151,2024-04-27 18:25:12,2025-12-19 03:20:37,23,44.99,33.53 off,2022-10-10 17:27:44,,13,South,FL,Georgetown,Store_14,Phone,Product Issue,CrispSoda Product,Agent_11
+customer466@email.com,,COUP0129,2023-02-27 02:29:34,2024-07-25 20:10:21,82,34.25,47.21 off,2022-12-28 23:50:30,950215,5,West,NY,Springfield,Store_3,Web,Quality,PopMax Product,Agent_6
+customer360@email.com,,COUP0155,2024-05-30 04:57:57,2025-06-21 17:54:35,90,13.44,47.44 off,2024-05-20 05:58:37,,21,East,NY,Georgetown,Store_25,Phone,Delivery,RefreshPlus Product,Agent_9
+customer230@email.com,,COUP0015,2024-10-28 17:39:27,2025-01-31 05:52:06,42,40.71,9.51 off,2024-01-31 21:32:46,,,West,IL,Georgetown,Store_7,Phone,Product Issue,ZestDrink Product,Agent_6
+customer176@email.com,,COUP0046,2023-08-04 16:38:36,2024-01-20 09:30:58,71,31.63,41.98 off,2022-11-19 01:21:45,900601,,South,IL,Georgetown,Store_13,Web,Delivery,PopMax Product,Agent_14
+customer13@email.com,,COUP0018,2024-01-31 06:02:38,2025-03-09 04:00:34,9,42.16,17.30 off,2023-07-13 23:37:28,156541,,North,PA,Hilltown,Store_43,Phone,Quality,PopMax Product,Agent_10
+customer211@email.com,,COUP0042,2024-08-08 14:39:13,2025-01-23 10:10:07,36,39.04,18.16 off,2022-09-14 05:53:39,834916,25,East,IL,Springfield,Store_41,Mobile,Quality,RefreshPlus Product,Agent_14
+customer463@email.com,,COUP0194,2023-02-03 22:03:42,2024-07-25 00:55:18,68,30.71,33.76 off,2022-05-16 09:33:57,,,East,PA,Hilltown,Store_3,Mobile,Product Issue,FizzCola Product,Agent_18
+customer131@email.com,,COUP0064,2023-12-19 01:34:22,2024-11-20 11:25:17,69,9.56,14.45 off,2023-09-14 03:51:10,,,South,IL,Springfield,Store_46,Web,Product Issue,ZestDrink Product,Agent_4
+customer403@email.com,,COUP0044,2024-01-02 03:45:42,2025-08-23 21:29:43,99,42.55,26.06 off,2023-01-06 17:09:29,713796,26,South,OH,Riverside,Store_5,Web,Product Issue,BubbleWave Product,Agent_15
+customer286@email.com,,COUP0185,2023-04-25 21:27:44,2023-11-16 22:01:23,29,18.36,9.48 off,2022-05-22 04:24:30,,36,West,TX,Hilltown,Store_10,Phone,Quality,SparkleUp Product,Agent_3
+customer229@email.com,,COUP0126,2024-10-03 06:29:23,2025-08-15 11:24:13,97,26.65,41.23 off,2023-09-27 17:54:22,916507,3,East,PA,Georgetown,Store_18,Mobile,Product Issue,FizzCola Product,Agent_5
+customer6@email.com,,COUP0117,2023-03-12 06:05:55,2023-04-08 16:28:51,50,17.70,36.78 off,2022-05-10 19:41:53,,35,Central,OH,Hilltown,Store_41,Mobile,Quality,FizzCola Product,Agent_9
+customer268@email.com,,COUP0057,2024-03-03 05:21:50,2024-03-27 14:51:16,15,18.71,14.28 off,2022-10-31 07:54:07,521693,,East,FL,Meadowbrook,Store_39,Phone,Refund,CrispSoda Product,Agent_11
+customer179@email.com,,COUP0111,2024-09-17 00:59:13,2025-04-23 13:41:48,28,42.22,22.41 off,2023-05-27 13:54:29,966780,12,Central,OH,Meadowbrook,Store_31,Phone,Delivery,CrispSoda Product,Agent_13
+customer386@email.com,,COUP0149,2024-08-03 21:48:32,2024-10-01 09:53:28,76,13.18,32.37 off,2022-09-29 16:55:51,361519,,West,OH,Springfield,Store_33,Mobile,Delivery,ZestDrink Product,Agent_1
+customer260@email.com,,COUP0044,2023-03-02 02:12:26,2025-01-07 01:54:49,72,9.32,44.66 off,2022-05-10 13:17:23,180844,31,East,OH,Georgetown,Store_4,Mobile,Refund,RefreshPlus Product,Agent_13
+customer163@email.com,,COUP0006,2023-12-08 14:06:02,2024-11-22 10:49:08,10,13.25,48.94 off,2023-06-24 14:14:55,,31,North,OH,Hilltown,Store_1,Web,Delivery,FizzCola Product,Agent_10
+customer401@email.com,,COUP0151,2024-09-24 01:54:04,2025-12-28 00:52:39,27,36.15,9.65 off,2024-03-04 14:52:06,595124,,South,CA,Georgetown,Store_50,Web,Refund,RefreshPlus Product,Agent_17
+customer267@email.com,,COUP0157,2023-07-18 02:54:39,2025-12-28 18:52:03,16,12.11,44.84 off,2022-04-09 16:29:58,522916,36,North,CA,Riverside,Store_22,Web,Delivery,PopMax Product,Agent_5
+customer56@email.com,,COUP0098,2024-07-18 09:26:50,2025-07-17 22:51:46,52,33.75,47.13 off,2023-01-23 15:55:25,945456,43,South,TX,Lakeside,Store_15,Web,Product Issue,BubbleWave Product,Agent_9
+customer163@email.com,,COUP0013,2024-07-07 09:09:08,2025-08-23 18:48:48,6,29.99,47.56 off,2022-10-04 10:14:18,676692,,Central,TX,Lakeside,Store_6,Web,Quality,ZestDrink Product,Agent_2
+customer85@email.com,,COUP0167,2024-03-12 10:31:07,2025-07-15 13:05:26,5,24.58,35.81 off,2022-07-17 21:40:31,579406,21,South,PA,Meadowbrook,Store_25,Phone,Quality,FizzCola Product,Agent_8
+customer370@email.com,,COUP0045,2024-02-03 09:43:07,2024-04-15 21:38:43,21,13.54,34.92 off,2022-05-08 02:32:08,,,East,CA,Lakeside,Store_5,Phone,Quality,CrispSoda Product,Agent_20
+customer237@email.com,,COUP0023,2023-09-05 02:02:53,2025-08-16 06:52:47,99,48.83,25.31 off,2022-10-22 20:00:01,310593,5,East,CA,Lakeside,Store_44,Web,Quality,ZestDrink Product,Agent_12
+customer236@email.com,,COUP0167,2024-09-11 21:58:04,2025-02-16 04:44:38,99,48.73,16.51 off,2023-03-19 12:44:40,,13,South,PA,Hilltown,Store_25,Mobile,Quality,RefreshPlus Product,Agent_10
+customer21@email.com,,COUP0115,2024-02-16 18:03:39,2024-05-05 09:21:11,90,42.18,36.66 off,2022-12-08 06:07:26,613473,,West,OH,Springfield,Store_1,Phone,Quality,RefreshPlus Product,Agent_5
+customer457@email.com,,COUP0062,2023-11-22 06:12:59,2025-06-19 09:20:32,49,42.64,49.17 off,2022-02-18 02:00:29,,,Central,OH,Georgetown,Store_38,Mobile,Refund,RefreshPlus Product,Agent_8
+customer232@email.com,,COUP0064,2023-08-09 22:26:27,2025-01-10 19:02:11,93,25.96,32.06 off,2022-06-01 05:55:59,988530,,East,CA,Meadowbrook,Store_45,Phone,Delivery,FizzCola Product,Agent_12
+customer54@email.com,,COUP0082,2024-10-02 08:18:09,2024-10-16 19:25:16,20,30.06,49.27 off,2024-05-28 23:01:53,,,South,FL,Georgetown,Store_21,Mobile,Product Issue,RefreshPlus Product,Agent_7
+customer122@email.com,,COUP0135,2023-04-25 12:43:35,2024-05-02 10:03:26,96,44.59,6.11 off,2023-03-17 15:10:05,,,Central,OH,Georgetown,Store_46,Web,Quality,PopMax Product,Agent_14
+customer177@email.com,,COUP0083,2023-07-05 20:26:00,2024-01-09 16:42:32,24,34.07,9.31 off,2022-12-04 11:57:06,,46,East,FL,Riverside,Store_23,Phone,Product Issue,SparkleUp Product,Agent_15
+customer315@email.com,,COUP0004,2023-04-09 10:04:25,2023-09-29 01:25:00,45,23.26,25.90 off,2022-02-13 01:43:14,666796,,East,IL,Springfield,Store_50,Web,Quality,BubbleWave Product,Agent_9
+customer201@email.com,,COUP0040,2024-04-08 03:12:19,2025-03-14 06:02:01,66,25.86,26.13 off,2023-03-17 00:05:26,,49,North,FL,Hilltown,Store_30,Mobile,Delivery,BubbleWave Product,Agent_11
+customer192@email.com,,COUP0035,2024-12-15 03:08:20,2025-02-14 06:59:39,73,28.04,35.06 off,2024-01-18 16:27:49,948511,43,West,TX,Meadowbrook,Store_49,Web,Product Issue,RefreshPlus Product,Agent_9
+customer408@email.com,,COUP0066,2023-12-11 00:08:22,2024-01-20 21:59:30,37,46.34,44.94 off,2023-08-12 03:08:52,,20,West,IL,Riverside,Store_42,Web,Delivery,PopMax Product,Agent_10
+customer85@email.com,,COUP0183,2023-12-23 02:02:20,2025-05-26 18:07:57,81,23.36,40.47 off,2022-03-11 23:35:34,,28,West,IL,Springfield,Store_48,Mobile,Delivery,ZestDrink Product,Agent_9
+customer265@email.com,,COUP0002,2024-06-21 16:13:05,2025-11-05 01:57:42,63,33.54,7.37 off,2024-03-09 16:36:44,,,Central,CA,Lakeside,Store_31,Phone,Delivery,CrispSoda Product,Agent_2
+customer483@email.com,,COUP0057,2024-11-22 06:42:19,2025-10-10 07:14:44,44,36.50,21.24 off,2024-07-06 20:05:34,810435,40,North,PA,Meadowbrook,Store_41,Phone,Delivery,BubbleWave Product,Agent_9
+customer470@email.com,,COUP0090,2023-06-17 13:31:23,2025-04-05 00:21:03,81,5.71,19.60 off,2022-08-14 07:26:01,278212,,East,CA,Lakeside,Store_13,Web,Product Issue,RefreshPlus Product,Agent_1
+customer315@email.com,,COUP0100,2023-12-11 12:47:32,2024-05-03 05:35:37,18,20.84,11.57 off,2022-10-07 14:05:16,,,North,FL,Springfield,Store_10,Mobile,Refund,RefreshPlus Product,Agent_12
+customer346@email.com,,COUP0196,2024-02-27 05:19:16,2025-10-04 23:19:37,90,5.78,30.54 off,2022-02-07 10:22:28,436472,,North,CA,Hilltown,Store_31,Mobile,Quality,ZestDrink Product,Agent_20
+customer226@email.com,,COUP0162,2024-03-26 03:52:07,2024-11-16 21:13:54,59,32.85,29.09 off,2022-09-14 07:54:02,266887,,North,NY,Springfield,Store_36,Phone,Refund,SparkleUp Product,Agent_16
+customer57@email.com,,COUP0200,2024-10-19 16:18:11,2025-10-28 23:16:52,53,34.34,6.84 off,2023-11-13 04:52:49,,,North,FL,Lakeside,Store_3,Web,Quality,FizzCola Product,Agent_17
+customer452@email.com,,COUP0020,2023-05-18 10:05:05,2025-08-20 01:47:50,18,26.28,20.31 off,2022-05-16 23:09:35,,,North,OH,Georgetown,Store_39,Web,Quality,CrispSoda Product,Agent_15
+customer25@email.com,,COUP0046,2023-08-02 01:44:45,2023-12-26 04:10:37,50,9.61,46.96 off,2022-01-21 00:32:49,374882,48,Central,NY,Georgetown,Store_18,Mobile,Refund,SparkleUp Product,Agent_12
+customer181@email.com,,COUP0072,2023-06-25 00:54:02,2023-08-05 21:08:29,84,42.80,41.02 off,2023-04-27 16:19:05,,1,East,PA,Hilltown,Store_20,Phone,Quality,ZestDrink Product,Agent_16
+customer60@email.com,,COUP0047,2024-12-03 14:23:39,2025-06-27 10:42:10,57,23.64,35.41 off,2022-05-14 10:58:29,,,West,NY,Lakeside,Store_4,Mobile,Product Issue,RefreshPlus Product,Agent_11
+customer116@email.com,,COUP0158,2023-03-25 08:02:07,2025-06-25 22:54:53,13,26.36,44.50 off,2022-03-08 06:25:35,687702,43,East,NY,Lakeside,Store_13,Web,Delivery,PopMax Product,Agent_20
+customer261@email.com,,COUP0199,2023-01-21 21:26:17,2024-12-21 23:03:32,53,34.84,13.48 off,2022-08-13 05:05:28,992594,,South,IL,Springfield,Store_29,Phone,Delivery,CrispSoda Product,Agent_20
+customer367@email.com,,COUP0098,2024-08-31 10:49:09,2025-05-25 08:38:01,58,20.48,29.17 off,2024-01-27 21:23:00,,,East,OH,Hilltown,Store_48,Mobile,Delivery,BubbleWave Product,Agent_19
+customer257@email.com,,COUP0060,2023-07-10 18:22:14,2024-02-08 04:34:19,16,8.67,18.60 off,2023-05-22 00:15:13,971376,,East,PA,Riverside,Store_4,Phone,Refund,CrispSoda Product,Agent_2
+customer147@email.com,,COUP0186,2023-04-14 15:47:53,2023-11-17 05:31:44,91,41.51,33.05 off,2022-07-22 00:19:44,342466,,South,OH,Georgetown,Store_23,Web,Delivery,SparkleUp Product,Agent_9
+customer359@email.com,,COUP0133,2023-06-16 16:43:33,2025-10-07 05:13:41,63,37.79,18.46 off,2022-08-22 03:32:14,725507,20,South,IL,Lakeside,Store_23,Web,Quality,FizzCola Product,Agent_14
+customer111@email.com,,COUP0133,2023-05-30 17:34:32,2024-11-13 01:21:00,91,36.13,40.11 off,2022-06-16 07:33:57,,,Central,IL,Springfield,Store_49,Mobile,Delivery,FizzCola Product,Agent_12
+customer127@email.com,,COUP0014,2023-10-14 09:13:44,2024-04-29 04:12:39,76,19.56,47.01 off,2023-03-24 18:02:48,769965,24,Central,IL,Georgetown,Store_13,Web,Product Issue,BubbleWave Product,Agent_18
+customer294@email.com,,COUP0010,2023-11-09 15:34:58,2025-05-27 15:40:37,36,30.43,11.66 off,2023-01-24 05:57:37,,10,West,CA,Lakeside,Store_26,Phone,Quality,RefreshPlus Product,Agent_1
+customer436@email.com,,COUP0153,2023-02-11 01:35:28,2024-02-11 05:15:49,65,36.34,10.64 off,2022-07-23 22:15:45,993684,,East,IL,Hilltown,Store_17,Phone,Delivery,FizzCola Product,Agent_7
+customer392@email.com,,COUP0015,2023-03-02 17:59:48,2025-06-03 00:40:33,42,18.34,49.98 off,2022-06-23 04:03:09,277025,,North,IL,Lakeside,Store_50,Web,Delivery,ZestDrink Product,Agent_4
+customer264@email.com,,COUP0008,2023-02-10 08:39:32,2024-06-09 17:08:01,70,21.50,8.92 off,2022-05-25 04:44:19,,42,West,IL,Riverside,Store_6,Phone,Product Issue,PopMax Product,Agent_18
+customer299@email.com,,COUP0190,2024-07-21 12:27:54,2025-05-17 09:11:38,80,36.66,21.36 off,2024-02-20 19:32:25,533456,,Central,OH,Springfield,Store_24,Phone,Product Issue,PopMax Product,Agent_14
+customer413@email.com,,COUP0101,2024-03-31 13:56:20,2025-11-25 22:40:02,77,23.22,33.54 off,2023-02-23 00:20:11,,11,West,PA,Hilltown,Store_44,Web,Quality,CrispSoda Product,Agent_4
+customer376@email.com,,COUP0121,2024-10-14 22:18:36,2025-05-24 14:43:02,91,30.92,29.62 off,2024-09-03 19:29:47,,,North,IL,Hilltown,Store_26,Web,Product Issue,BubbleWave Product,Agent_2
+customer288@email.com,,COUP0159,2023-01-31 10:29:10,2023-02-28 00:00:41,16,6.03,46.38 off,2022-09-09 17:49:32,,,East,IL,Georgetown,Store_36,Mobile,Product Issue,CrispSoda Product,Agent_4
+customer357@email.com,,COUP0139,2024-12-23 21:24:37,2025-11-13 11:32:09,47,11.58,22.83 off,2024-06-22 21:56:03,,12,West,CA,Hilltown,Store_25,Phone,Quality,PopMax Product,Agent_1
+customer494@email.com,,COUP0089,2023-03-14 04:27:50,2025-12-18 21:44:48,33,19.33,29.64 off,2022-03-07 07:21:27,279213,16,North,OH,Springfield,Store_40,Phone,Delivery,SparkleUp Product,Agent_9
+customer49@email.com,,COUP0038,2024-11-24 21:30:40,2025-11-24 06:09:34,72,11.55,42.90 off,2023-11-20 09:45:18,585395,,East,CA,Lakeside,Store_25,Mobile,Quality,BubbleWave Product,Agent_14
+customer49@email.com,,COUP0069,2023-02-04 00:58:49,2025-04-28 22:16:46,30,41.09,27.68 off,2022-10-28 05:24:42,825871,,South,NY,Georgetown,Store_30,Mobile,Delivery,RefreshPlus Product,Agent_6
+customer178@email.com,,COUP0109,2024-09-07 13:47:40,2024-09-10 19:22:22,8,30.27,42.48 off,2023-10-07 01:50:39,336257,18,East,NY,Georgetown,Store_8,Mobile,Refund,CrispSoda Product,Agent_13
+customer58@email.com,,COUP0165,2023-05-07 19:56:51,2023-11-21 18:53:13,77,19.65,27.44 off,2022-02-10 16:38:05,,43,West,NY,Georgetown,Store_37,Phone,Refund,PopMax Product,Agent_7
+customer365@email.com,,COUP0121,2023-07-09 23:15:10,2024-03-28 03:33:52,11,11.05,25.02 off,2023-05-09 17:19:17,,13,South,PA,Springfield,Store_11,Mobile,Product Issue,RefreshPlus Product,Agent_13
+customer337@email.com,,COUP0073,2023-12-18 22:25:34,2024-12-14 00:10:38,23,8.16,12.57 off,2023-05-21 17:24:22,,45,South,OH,Georgetown,Store_1,Web,Refund,PopMax Product,Agent_3
+customer352@email.com,,COUP0184,2023-09-24 09:00:58,2025-09-05 17:32:38,83,42.28,6.85 off,2022-12-16 14:42:39,487075,,East,FL,Lakeside,Store_21,Web,Refund,ZestDrink Product,Agent_15
+customer411@email.com,,COUP0029,2024-07-18 22:32:42,2025-04-05 07:45:32,32,13.57,9.23 off,2022-08-25 05:36:37,,46,East,FL,Georgetown,Store_32,Phone,Product Issue,RefreshPlus Product,Agent_17
+customer138@email.com,,COUP0163,2024-01-30 15:04:08,2024-10-03 15:05:05,6,37.53,49.53 off,2022-05-10 02:54:29,833900,,South,OH,Georgetown,Store_29,Web,Quality,SparkleUp Product,Agent_3
+customer137@email.com,,COUP0129,2024-02-06 16:06:10,2024-03-31 18:16:49,20,37.50,20.53 off,2023-01-14 14:44:57,,,North,OH,Georgetown,Store_38,Phone,Product Issue,FizzCola Product,Agent_18
+customer171@email.com,,COUP0045,2024-09-17 05:32:50,2025-11-17 17:38:52,97,25.60,12.27 off,2022-04-23 05:24:03,533423,,Central,IL,Riverside,Store_45,Mobile,Refund,ZestDrink Product,Agent_3
+customer388@email.com,,COUP0079,2023-01-11 14:46:00,2025-10-03 02:18:47,6,42.25,36.39 off,2022-10-06 17:26:25,925287,,East,TX,Georgetown,Store_13,Web,Refund,BubbleWave Product,Agent_5
+customer470@email.com,,COUP0175,2023-11-21 05:42:34,2024-08-31 16:54:40,1,19.10,41.76 off,2022-10-09 17:55:29,,,East,TX,Springfield,Store_35,Phone,Delivery,FizzCola Product,Agent_4
+customer145@email.com,,COUP0011,2023-08-26 12:54:36,2025-08-03 16:11:43,23,21.92,24.33 off,2022-04-16 00:30:44,,10,South,IL,Riverside,Store_37,Phone,Product Issue,PopMax Product,Agent_6
+customer114@email.com,,COUP0037,2024-09-21 02:16:22,2024-10-25 00:57:07,40,13.82,26.64 off,2023-10-19 05:46:31,332741,,South,TX,Springfield,Store_18,Web,Quality,ZestDrink Product,Agent_10
+customer211@email.com,,COUP0074,2024-01-05 03:37:14,2025-09-20 05:26:56,91,17.30,29.35 off,2023-05-08 04:04:24,946342,17,North,OH,Georgetown,Store_42,Mobile,Quality,ZestDrink Product,Agent_18
+customer266@email.com,,COUP0026,2023-06-10 18:35:42,2024-06-30 12:41:01,77,40.47,16.35 off,2022-02-08 19:17:44,,23,South,PA,Springfield,Store_1,Web,Refund,SparkleUp Product,Agent_12
+customer422@email.com,,COUP0017,2023-06-13 06:00:37,2024-10-09 07:26:03,7,37.05,10.72 off,2022-08-16 06:05:39,,40,Central,TX,Lakeside,Store_47,Mobile,Product Issue,SparkleUp Product,Agent_10
+customer430@email.com,,COUP0179,2024-09-24 11:06:50,2025-03-12 13:44:52,77,30.77,7.31 off,2024-09-14 23:41:31,,34,Central,IL,Hilltown,Store_11,Phone,Delivery,SparkleUp Product,Agent_4
+customer310@email.com,,COUP0109,2024-02-10 16:48:49,2024-08-07 21:46:03,90,43.24,18.28 off,2023-06-21 04:30:14,,,Central,IL,Riverside,Store_16,Mobile,Refund,CrispSoda Product,Agent_7
+customer353@email.com,,COUP0149,2023-06-16 22:54:36,2025-06-04 01:37:29,35,33.10,30.57 off,2022-11-26 23:01:18,417470,41,North,OH,Meadowbrook,Store_2,Phone,Product Issue,PopMax Product,Agent_11
+customer314@email.com,,COUP0141,2023-06-02 01:57:25,2025-09-18 02:01:30,22,22.26,49.94 off,2022-07-30 01:03:28,591887,3,Central,IL,Lakeside,Store_48,Phone,Product Issue,FizzCola Product,Agent_15
+customer200@email.com,,COUP0100,2023-07-28 03:04:41,2024-11-07 13:37:19,53,39.50,19.65 off,2023-06-27 23:31:49,,,East,CA,Springfield,Store_37,Phone,Quality,CrispSoda Product,Agent_5
+customer48@email.com,,COUP0111,2023-11-21 16:43:40,2025-05-16 01:30:23,17,27.30,40.11 off,2023-11-02 19:16:55,711088,23,North,NY,Hilltown,Store_11,Mobile,Delivery,ZestDrink Product,Agent_15
+customer186@email.com,,COUP0003,2024-08-25 05:12:20,2024-09-28 04:33:18,97,30.48,17.01 off,2022-08-17 21:26:01,776831,31,South,CA,Lakeside,Store_27,Web,Refund,SparkleUp Product,Agent_19
+customer205@email.com,,COUP0125,2024-08-18 01:45:55,2025-08-07 12:39:02,97,6.22,47.84 off,2024-01-15 10:04:06,,37,East,FL,Georgetown,Store_28,Mobile,Delivery,BubbleWave Product,Agent_7
+customer187@email.com,,COUP0173,2023-12-11 23:08:24,2025-01-17 15:08:22,50,30.89,27.96 off,2022-11-25 15:01:48,,,West,CA,Georgetown,Store_23,Mobile,Refund,SparkleUp Product,Agent_19
+customer435@email.com,,COUP0139,2023-07-08 04:08:56,2024-07-30 22:56:43,91,31.24,40.15 off,2022-08-21 22:35:10,367333,46,South,TX,Springfield,Store_20,Phone,Delivery,ZestDrink Product,Agent_7
+customer261@email.com,,COUP0058,2023-05-16 13:38:47,2023-11-11 22:52:32,13,21.03,13.26 off,2023-03-04 23:39:40,367015,49,North,NY,Meadowbrook,Store_1,Phone,Product Issue,FizzCola Product,Agent_5
+customer234@email.com,,COUP0150,2024-09-30 17:48:09,2024-10-27 18:18:24,9,28.39,28.65 off,2023-03-31 14:23:20,,48,South,PA,Georgetown,Store_23,Mobile,Delivery,FizzCola Product,Agent_5
+customer112@email.com,,COUP0142,2024-09-26 21:34:38,2025-06-12 12:56:40,58,14.34,34.92 off,2023-09-07 10:11:23,,28,Central,IL,Hilltown,Store_35,Web,Delivery,RefreshPlus Product,Agent_3
+customer12@email.com,,COUP0033,2023-05-18 00:29:47,2025-02-14 17:54:06,80,44.17,41.62 off,2022-12-08 06:44:15,,,West,CA,Meadowbrook,Store_20,Web,Delivery,BubbleWave Product,Agent_19
+customer116@email.com,,COUP0066,2024-03-28 18:28:24,2025-04-23 09:37:40,46,38.62,13.26 off,2022-04-02 17:09:36,129778,29,West,FL,Lakeside,Store_20,Web,Product Issue,FizzCola Product,Agent_19
+customer76@email.com,,COUP0148,2023-10-20 03:38:28,2025-10-12 01:45:20,55,11.04,14.09 off,2023-07-31 04:52:49,,,Central,PA,Georgetown,Store_20,Web,Delivery,PopMax Product,Agent_9
+customer436@email.com,,COUP0173,2023-10-26 21:12:19,2025-06-05 15:18:44,29,41.11,33.68 off,2023-07-05 14:35:06,171906,,West,FL,Springfield,Store_41,Web,Quality,ZestDrink Product,Agent_18
+customer128@email.com,,COUP0107,2024-10-06 14:46:31,2025-09-11 08:00:56,7,49.00,35.64 off,2023-03-14 14:44:12,696701,,Central,IL,Georgetown,Store_42,Phone,Refund,CrispSoda Product,Agent_4
+customer48@email.com,,COUP0116,2023-05-03 16:08:20,2023-06-08 20:10:16,85,34.68,21.63 off,2023-03-28 05:50:11,424202,,Central,IL,Georgetown,Store_49,Phone,Quality,RefreshPlus Product,Agent_19
+customer152@email.com,,COUP0079,2024-04-22 18:40:15,2024-09-26 16:56:40,80,44.84,32.00 off,2022-08-06 10:32:52,,27,North,TX,Springfield,Store_38,Web,Refund,PopMax Product,Agent_4
+customer52@email.com,,COUP0086,2024-02-18 21:26:27,2025-03-13 07:36:31,44,38.46,15.28 off,2023-02-05 10:29:11,715270,,Central,PA,Riverside,Store_34,Phone,Product Issue,ZestDrink Product,Agent_5
+customer151@email.com,,COUP0156,2024-08-11 08:47:43,2024-08-12 06:21:44,31,43.54,31.51 off,2022-04-13 18:34:20,458247,,North,TX,Springfield,Store_50,Mobile,Quality,ZestDrink Product,Agent_2
+customer20@email.com,,COUP0016,2024-03-16 10:11:03,2025-01-16 07:41:48,20,26.29,16.04 off,2023-10-15 04:47:46,,12,Central,TX,Meadowbrook,Store_1,Mobile,Delivery,ZestDrink Product,Agent_10
+customer277@email.com,,COUP0175,2023-11-01 16:43:56,2025-07-04 04:13:57,99,19.12,26.30 off,2022-08-31 05:23:38,273534,6,West,IL,Springfield,Store_5,Mobile,Delivery,RefreshPlus Product,Agent_15
+customer117@email.com,,COUP0064,2024-12-30 06:06:30,2025-02-07 16:01:14,64,36.27,41.14 off,2023-11-20 14:18:25,942796,,North,CA,Hilltown,Store_32,Mobile,Delivery,ZestDrink Product,Agent_4
+customer280@email.com,,COUP0059,2024-08-02 12:23:23,2024-10-06 00:02:46,17,34.82,32.80 off,2024-04-03 08:10:40,,,West,TX,Hilltown,Store_48,Mobile,Product Issue,BubbleWave Product,Agent_7
+customer205@email.com,,COUP0082,2024-01-28 11:00:15,2025-01-07 22:41:51,67,33.90,9.64 off,2022-08-28 03:23:25,895912,,Central,IL,Georgetown,Store_48,Mobile,Product Issue,ZestDrink Product,Agent_7
+customer82@email.com,,COUP0171,2024-01-13 12:11:57,2024-08-03 10:10:49,23,48.50,21.79 off,2024-01-02 16:52:49,164653,,West,NY,Springfield,Store_34,Web,Refund,PopMax Product,Agent_6

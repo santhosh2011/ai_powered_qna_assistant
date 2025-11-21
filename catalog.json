@@ -1,0 +1,3595 @@
+{
+  "B2B_sellin_client": {
+    "name": "B2B_sellin_client",
+    "description": "This sheet contains business-to-business sales data for BevCo Industries, focusing on various operational and commercial metrics across different regions and operations. Contains transactional data focusing on clients.",
+    "columns": [
+      {
+        "name": "unb_code",
+        "type": "BIGINT",
+        "description": "Unique identifier for the business unit",
+        "sample_values": [
+          "8823",
+          "8125",
+          "3771",
+          "1667",
+          "3682"
+        ]
+      },
+      {
+        "name": "unb_code_with_digit",
+        "type": "BIGINT",
+        "description": "Unique identifier for the business unit with digit",
+        "sample_values": [
+          "89404",
+          "28153",
+          "73871",
+          "37007",
+          "50043"
+        ]
+      },
+      {
+        "name": "client_code",
+        "type": "BIGINT",
+        "description": "Unique identifier for the client",
+        "sample_values": [
+          "13940",
+          "78839",
+          "91119",
+          "55380",
+          "49285"
+        ]
+      },
+      {
+        "name": "geography",
+        "type": "VARCHAR",
+        "description": "Geographical region code",
+        "sample_values": [
+          "GEO_4",
+          "GEO_3",
+          "GEO_2",
+          "GEO_5",
+          "GEO_1"
+        ]
+      },
+      {
+        "name": "commercial",
+        "type": "VARCHAR",
+        "description": "Commercial area or region",
+        "sample_values": [
+          "COM_6",
+          "COM_1",
+          "COM_2",
+          "COM_3",
+          "COM_9"
+        ]
+      },
+      {
+        "name": "operation",
+        "type": "VARCHAR",
+        "description": "Operation name or type",
+        "sample_values": [
+          "OP_19",
+          "OP_1",
+          "OP_8",
+          "OP_9",
+          "OP_3"
+        ]
+      },
+      {
+        "name": "super_commercial",
+        "type": "VARCHAR",
+        "description": "Super commercial area or region",
+        "sample_values": [
+          "SUPERCOM_4",
+          "SUPERCOM_1",
+          "SUPERCOM_3",
+          "SUPERCOM_5",
+          "SUPERCOM_2"
+        ]
+      },
+      {
+        "name": "operation_type",
+        "type": "VARCHAR",
+        "description": "Type of operation",
+        "sample_values": [
+          "Direct",
+          "Indirect"
+        ]
+      },
+      {
+        "name": "geo_code",
+        "type": "BIGINT",
+        "description": "Geographical code",
+        "sample_values": [
+          "17",
+          "1",
+          "12",
+          "27",
+          "32"
+        ]
+      },
+      {
+        "name": "commercial_code",
+        "type": "BIGINT",
+        "description": "Commercial code",
+        "sample_values": [
+          "17",
+          "56",
+          "12",
+          "84",
+          "27"
+        ]
+      },
+      {
+        "name": "cod_tipo_operacao",
+        "type": "BIGINT",
+        "description": "Operation type code",
+        "sample_values": [
+          "1",
+          "10",
+          "6",
+          "9",
+          "3"
+        ]
+      },
+      {
+        "name": "cod_supercom",
+        "type": "BIGINT",
+        "description": "Super commercial code",
+        "sample_values": [
+          "16",
+          "17",
+          "12",
+          "1",
+          "10"
+        ]
+      },
+      {
+        "name": "nom_coordenador",
+        "type": "VARCHAR",
+        "description": "Name of the coordinator",
+        "sample_values": [
+          "Coordinator_7",
+          "Coordinator_14",
+          "Coordinator_10",
+          "Coordinator_1",
+          "Coordinator_19"
+        ]
+      },
+      {
+        "name": "flag_fd",
+        "type": "BIGINT",
+        "description": "Flag for FD (possibly a status or indicator)",
+        "sample_values": [
+          "0",
+          "1"
+        ]
+      },
+      {
+        "name": "keyfiltrodistrib",
+        "type": "VARCHAR",
+        "description": "Key for distribution filter",
+        "sample_values": [
+          "KEY_79",
+          "KEY_24",
+          "KEY_33",
+          "KEY_70",
+          "KEY_20"
+        ]
+      },
+      {
+        "name": "sigla_uf",
+        "type": "VARCHAR",
+        "description": "State abbreviation",
+        "sample_values": [
+          "CA",
+          "FL",
+          "TX",
+          "IL",
+          "PA"
+        ]
+      },
+      {
+        "name": "flag_ativo",
+        "type": "VARCHAR",
+        "description": "Active status flag",
+        "sample_values": [
+          "Inactive",
+          "Active"
+        ]
+      },
+      {
+        "name": "nome_dr",
+        "type": "VARCHAR",
+        "description": "Name of the DR (possibly a regional director)",
+        "sample_values": [
+          "Director_4",
+          "Director_11",
+          "Director_12",
+          "Director_13",
+          "Director_3"
+        ]
+      },
+      {
+        "name": "nome_dr_supercom",
+        "type": "VARCHAR",
+        "description": "Name of the DR for super commercial",
+        "sample_values": [
+          "Director_SC_11",
+          "Director_SC_1",
+          "Director_SC_5",
+          "Director_SC_3",
+          "Director_SC_13"
+        ]
+      },
+      {
+        "name": "nome_gc",
+        "type": "VARCHAR",
+        "description": "Name of the GC (possibly a group coordinator)",
+        "sample_values": [
+          "Manager_21",
+          "Manager_8",
+          "Manager_6",
+          "Manager_14",
+          "Manager_5"
+        ]
+      },
+      {
+        "name": "grupo_revendas_spo",
+        "type": "VARCHAR",
+        "description": "Group of SPO resales",
+        "sample_values": [
+          "Group_8",
+          "Group_10",
+          "Group_3",
+          "Group_1",
+          "Group_9"
+        ]
+      },
+      {
+        "name": "cidade_matriz",
+        "type": "VARCHAR",
+        "description": "Headquarter city",
+        "sample_values": [
+          "Riverside",
+          "Springfield",
+          "Lakeside",
+          "Hilltown",
+          "Georgetown"
+        ]
+      },
+      {
+        "name": "coordenador_central_bebida",
+        "type": "VARCHAR",
+        "description": "Central beverage coordinator",
+        "sample_values": [
+          "Central_Coord_6",
+          "Central_Coord_8",
+          "Central_Coord_3",
+          "Central_Coord_1",
+          "Central_Coord_7"
+        ]
+      },
+      {
+        "name": "grupo_foco_regional",
+        "type": "VARCHAR",
+        "description": "Regional focus group",
+        "sample_values": [
+          "Focus_5",
+          "Focus_1",
+          "Focus_3",
+          "Focus_6",
+          "Focus_7"
+        ]
+      },
+      {
+        "name": "tipo_antigo",
+        "type": "VARCHAR",
+        "description": "Old type or category",
+        "sample_values": [
+          "Type_2",
+          "Type_1",
+          "Type_5",
+          "Type_4",
+          "Type_3"
+        ]
+      },
+      {
+        "name": "supercom_antiga",
+        "type": "VARCHAR",
+        "description": "Old super commercial area",
+        "sample_values": [
+          "OldSC_3",
+          "OldSC_1",
+          "OldSC_5",
+          "OldSC_2",
+          "OldSC_4"
+        ]
+      },
+      {
+        "name": "old_commercial",
+        "type": "VARCHAR",
+        "description": "Old commercial area",
+        "sample_values": [
+          "OldCom_6",
+          "OldCom_4",
+          "OldCom_3",
+          "OldCom_7",
+          "OldCom_10"
+        ]
+      },
+      {
+        "name": "old_operation",
+        "type": "VARCHAR",
+        "description": "Old operation name or type",
+        "sample_values": [
+          "OldOp_11",
+          "OldOp_5",
+          "OldOp_8",
+          "OldOp_3",
+          "OldOp_12"
+        ]
+      },
+      {
+        "name": "nielsen_split",
+        "type": "VARCHAR",
+        "description": "Nielsen split information",
+        "sample_values": [
+          "Nielsen_2",
+          "Nielsen_3",
+          "Nielsen_1",
+          "Nielsen_5",
+          "Nielsen_4"
+        ]
+      },
+      {
+        "name": "resale_group_ccttv",
+        "type": "VARCHAR",
+        "description": "CCTTV resale group",
+        "sample_values": [
+          "CCTTV_5",
+          "CCTTV_7",
+          "CCTTV_2",
+          "CCTTV_3",
+          "CCTTV_6"
+        ]
+      },
+      {
+        "name": "segmentation",
+        "type": "VARCHAR",
+        "description": "Segmentation information",
+        "sample_values": [
+          "Seg_4",
+          "Seg_1",
+          "Seg_3",
+          "Seg_2",
+          "Seg_5"
+        ]
+      },
+      {
+        "name": "secondary_segmentation",
+        "type": "VARCHAR",
+        "description": "Secondary segmentation information",
+        "sample_values": [
+          "SecSeg_4",
+          "SecSeg_1",
+          "SecSeg_3",
+          "SecSeg_2"
+        ]
+      },
+      {
+        "name": "manual_subsegmentation",
+        "type": "VARCHAR",
+        "description": "Manual sub-segmentation",
+        "sample_values": [
+          "ManSeg_1",
+          "ManSeg_3",
+          "ManSeg_2"
+        ]
+      },
+      {
+        "name": "manual_secondary_subsegmentation",
+        "type": "VARCHAR",
+        "description": "Secondary manual sub-segmentation",
+        "sample_values": [
+          "ManSecSeg_2",
+          "ManSecSeg_3",
+          "ManSecSeg_1"
+        ]
+      },
+      {
+        "name": "insert_date",
+        "type": "TIMESTAMP",
+        "description": "Date of data insertion",
+        "sample_values": [
+          "2025-11-14 04:37:36",
+          "2024-06-01 07:03:31",
+          "2023-06-19 17:03:00",
+          "2024-04-24 13:48:58",
+          "2023-12-03 07:10:29"
+        ]
+      },
+      {
+        "name": "folder_date",
+        "type": "DATE",
+        "description": "Date of the folder",
+        "sample_values": [
+          "2025-11-14",
+          "2024-04-18",
+          "2023-11-22",
+          "2025-11-11",
+          "2023-07-23"
+        ]
+      }
+    ]
+  },
+  "B2B_sellin_fato": {
+    "name": "B2B_sellin_fato",
+    "description": "This sheet contains B2B sales data from BevCo Industries Inc., focusing on sell-in transactions. The data includes information about the period, client, product, operation type, volume, and revenue. Contains core transactional data.",
+    "columns": [
+      {
+        "name": "period_month_id",
+        "type": "BIGINT",
+        "description": "Identifier for the month of the period in YYYYMM format",
+        "sample_values": [
+          "202301",
+          "202411",
+          "202312",
+          "202408",
+          "202310"
+        ]
+      },
+      {
+        "name": "period_id",
+        "type": "BIGINT",
+        "description": "Identifier for the specific period, likely including day information in YYYYMMDD format",
+        "sample_values": [
+          "20230502",
+          "20230928",
+          "20230414",
+          "20240924",
+          "20230702"
+        ]
+      },
+      {
+        "name": "client_code",
+        "type": "BIGINT",
+        "description": "Code representing the client",
+        "sample_values": [
+          "39323",
+          "37305",
+          "28351",
+          "36888",
+          "40011"
+        ]
+      },
+      {
+        "name": "unb_code",
+        "type": "BIGINT",
+        "description": "Code representing the business unit",
+        "sample_values": [
+          "9800",
+          "5292",
+          "8316",
+          "4694",
+          "2738"
+        ]
+      },
+      {
+        "name": "product_abbreviation_code",
+        "type": "BIGINT",
+        "description": "Code representing the abbreviated product",
+        "sample_values": [
+          "183",
+          "927",
+          "126",
+          "681",
+          "518"
+        ]
+      },
+      {
+        "name": "operation_type",
+        "type": "VARCHAR",
+        "description": "Type of operation, indicating the nature of the transaction",
+        "sample_values": [
+          "DIRECT",
+          "INDIRECT",
+          "DISTRIBUTOR"
+        ]
+      },
+      {
+        "name": "volume",
+        "type": "DOUBLE",
+        "description": "Volume of the product sold, possibly in liters or another unit",
+        "sample_values": [
+          "3739.74",
+          "4253.37",
+          "4498.1",
+          "2725.0",
+          "4896.11"
+        ]
+      },
+      {
+        "name": "billing",
+        "type": "BIGINT",
+        "description": "Revenue generated from the sales, likely in the local currency",
+        "sample_values": [
+          "493679",
+          "280165",
+          "263644",
+          "233951",
+          "287769"
+        ]
+      },
+      {
+        "name": "insert_date",
+        "type": "TIMESTAMP",
+        "description": "Date and time when the data was inserted into the system",
+        "sample_values": [
+          "2025-05-13 00:25:17",
+          "2023-06-22 06:35:13",
+          "2025-03-08 09:44:46",
+          "2024-05-05 10:39:16",
+          "2023-01-13 19:01:43"
+        ]
+      },
+      {
+        "name": "folder_date",
+        "type": "BIGINT",
+        "description": "Date representing the folder or batch date, likely in YYYYMM format",
+        "sample_values": [
+          "202301",
+          "202411",
+          "202312",
+          "202310",
+          "202306"
+        ]
+      }
+    ]
+  },
+  "B2B_sellin_product": {
+    "name": "B2B_sellin_product",
+    "description": "This sheet contains product sales data from BevCo Industries, focusing on business-to-business transactions. It includes product classifications, types, codes, names, and various sales metrics.",
+    "columns": [
+      {
+        "name": "classification",
+        "type": "VARCHAR",
+        "description": "Classification of the product",
+        "sample_values": [
+          "Economy",
+          "Premium",
+          "Standard"
+        ]
+      },
+      {
+        "name": "type",
+        "type": "VARCHAR",
+        "description": "Type of product",
+        "sample_values": [
+          "Water",
+          "Juice",
+          "Soda"
+        ]
+      },
+      {
+        "name": "product_code_ws_promax",
+        "type": "BIGINT",
+        "description": "Product code in WS Promax system",
+        "sample_values": [
+          "103635",
+          "413672",
+          "155032",
+          "195266",
+          "433928"
+        ]
+      },
+      {
+        "name": "product_code_managerial",
+        "type": "BIGINT",
+        "description": "Managerial product code",
+        "sample_values": [
+          "62045",
+          "94956",
+          "11764",
+          "90696",
+          "72677"
+        ]
+      },
+      {
+        "name": "product_code_managerial_sales",
+        "type": "BIGINT",
+        "description": "Managerial sales product code",
+        "sample_values": [
+          "85880",
+          "29331",
+          "17345",
+          "19456",
+          "38313"
+        ]
+      },
+      {
+        "name": "product_name",
+        "type": "VARCHAR",
+        "description": "Name of the product",
+        "sample_values": [
+          "PopMax 12pk",
+          "ZestDrink 12pk",
+          "ZestDrink 14pk",
+          "SparkleUp 16pk",
+          "PopMax 13pk"
+        ]
+      },
+      {
+        "name": "brand_line_name",
+        "type": "VARCHAR",
+        "description": "Brand line name",
+        "sample_values": [
+          "BubbleWave Line",
+          "RefreshPlus Line",
+          "PopMax Line",
+          "CrispSoda Line",
+          "FizzCola Line"
+        ]
+      },
+      {
+        "name": "brand_name",
+        "type": "VARCHAR",
+        "description": "Brand name",
+        "sample_values": [
+          "PopMax",
+          "SparkleUp",
+          "BubbleWave",
+          "ZestDrink",
+          "RefreshPlus"
+        ]
+      },
+      {
+        "name": "factor_hl",
+        "type": "DOUBLE",
+        "description": "Factor in hectoliters",
+        "sample_values": [
+          "0.341",
+          "0.044",
+          "0.339",
+          "0.146",
+          "0.167"
+        ]
+      },
+      {
+        "name": "sap_code",
+        "type": "BIGINT",
+        "description": "SAP code",
+        "sample_values": [
+          "8688763",
+          "6955699",
+          "8106581",
+          "5182981",
+          "9866823"
+        ]
+      },
+      {
+        "name": "ean13_product_code",
+        "type": "BIGINT",
+        "description": "EAN13 product code",
+        "sample_values": [
+          "8606711459007",
+          "6359830219885",
+          "1946430803761",
+          "1153051596546",
+          "6590140336714"
+        ]
+      },
+      {
+        "name": "ean13_unit_product_code",
+        "type": "BIGINT",
+        "description": "EAN13 unit product code",
+        "sample_values": [
+          "7535294247391",
+          "7395037695326",
+          "8529831686195",
+          "3022825641435",
+          "9476451331976"
+        ]
+      },
+      {
+        "name": "packaging",
+        "type": "VARCHAR",
+        "description": "Product packaging",
+        "sample_values": [
+          "Can",
+          "Bottle",
+          "PET"
+        ]
+      },
+      {
+        "name": "consolidated_packaging",
+        "type": "VARCHAR",
+        "description": "Consolidated packaging information",
+        "sample_values": [
+          "Bottle",
+          "Can"
+        ]
+      },
+      {
+        "name": "sdg_cube_code",
+        "type": "BIGINT",
+        "description": "SDG cube code",
+        "sample_values": [
+          "368",
+          "608",
+          "155",
+          "222",
+          "413"
+        ]
+      },
+      {
+        "name": "sdg_cube_code_p",
+        "type": "VARCHAR",
+        "description": "SDG cube code P",
+        "sample_values": [
+          "P342",
+          "P398",
+          "P261",
+          "P311",
+          "P224"
+        ]
+      },
+      {
+        "name": "sdg_cube_product_name",
+        "type": "VARCHAR",
+        "description": "SDG cube product name",
+        "sample_values": [
+          "SDG Product 93",
+          "SDG Product 41",
+          "SDG Product 39",
+          "SDG Product 1",
+          "SDG Product 70"
+        ]
+      },
+      {
+        "name": "supplier_cube_code",
+        "type": "BIGINT",
+        "description": "Supplier cube code",
+        "sample_values": [
+          "406",
+          "232",
+          "936",
+          "720",
+          "438"
+        ]
+      },
+      {
+        "name": "supplier_cube_code_p",
+        "type": "VARCHAR",
+        "description": "Supplier cube code P",
+        "sample_values": [
+          "P215",
+          "P324",
+          "P825",
+          "P905",
+          "P487"
+        ]
+      },
+      {
+        "name": "supplier_cube_product_name",
+        "type": "VARCHAR",
+        "description": "Supplier cube product name",
+        "sample_values": [
+          "Supplier Product 76",
+          "Supplier Product 8",
+          "Supplier Product 64",
+          "Supplier Product 21",
+          "Supplier Product 63"
+        ]
+      },
+      {
+        "name": "pack_type",
+        "type": "VARCHAR",
+        "description": "Type of pack",
+        "sample_values": [
+          "Value",
+          "Premium",
+          "Standard"
+        ]
+      },
+      {
+        "name": "segment",
+        "type": "VARCHAR",
+        "description": "Product segment",
+        "sample_values": [
+          "Non-Carbonated",
+          "Carbonated"
+        ]
+      },
+      {
+        "name": "sub_segment",
+        "type": "VARCHAR",
+        "description": "Product sub-segment",
+        "sample_values": [
+          "Cola",
+          "Citrus",
+          "Berry"
+        ]
+      },
+      {
+        "name": "consolidated_brand",
+        "type": "VARCHAR",
+        "description": "Consolidated brand information",
+        "sample_values": [
+          "PopMax",
+          "ZestDrink",
+          "RefreshPlus",
+          "SparkleUp",
+          "FizzCola"
+        ]
+      },
+      {
+        "name": "consolidated_packaging_alt",
+        "type": "VARCHAR",
+        "description": "Alternative consolidated packaging information",
+        "sample_values": [
+          "Can",
+          "Bottle"
+        ]
+      },
+      {
+        "name": "multipack",
+        "type": "BOOLEAN",
+        "description": "Multipack information",
+        "sample_values": [
+          "False",
+          "True"
+        ]
+      },
+      {
+        "name": "innovation",
+        "type": "BOOLEAN",
+        "description": "Innovation information",
+        "sample_values": [
+          "False",
+          "True"
+        ]
+      },
+      {
+        "name": "segment_lighthouse",
+        "type": "VARCHAR",
+        "description": "Segment lighthouse",
+        "sample_values": [
+          "Seg_1",
+          "Seg_4",
+          "Seg_3",
+          "Seg_2",
+          "Seg_5"
+        ]
+      },
+      {
+        "name": "brand_lighthouse",
+        "type": "VARCHAR",
+        "description": "Brand lighthouse",
+        "sample_values": [
+          "PopMax",
+          "RefreshPlus",
+          "ZestDrink",
+          "SparkleUp",
+          "BubbleWave"
+        ]
+      },
+      {
+        "name": "pack_cost",
+        "type": "VARCHAR",
+        "description": "Pack cost information",
+        "sample_values": [
+          "Medium",
+          "Low",
+          "High"
+        ]
+      },
+      {
+        "name": "pack_lighthouse",
+        "type": "VARCHAR",
+        "description": "Pack lighthouse",
+        "sample_values": [
+          "Pack_4",
+          "Pack_2",
+          "Pack_5",
+          "Pack_1",
+          "Pack_3"
+        ]
+      },
+      {
+        "name": "color",
+        "type": "VARCHAR",
+        "description": "Product color",
+        "sample_values": [
+          "Blue",
+          "Red",
+          "Green"
+        ]
+      },
+      {
+        "name": "segment_p1a",
+        "type": "VARCHAR",
+        "description": "P1A segment",
+        "sample_values": [
+          "P1A_Seg_3",
+          "P1A_Seg_1",
+          "P1A_Seg_2"
+        ]
+      },
+      {
+        "name": "sub_segment_p1a",
+        "type": "VARCHAR",
+        "description": "P1A sub-segment",
+        "sample_values": [
+          "P1A_SubSeg_1",
+          "P1A_SubSeg_3",
+          "P1A_SubSeg_2"
+        ]
+      },
+      {
+        "name": "brand_p1a",
+        "type": "VARCHAR",
+        "description": "P1A brand",
+        "sample_values": [
+          "PopMax",
+          "SparkleUp",
+          "RefreshPlus",
+          "ZestDrink",
+          "BubbleWave"
+        ]
+      },
+      {
+        "name": "pack_p1a",
+        "type": "VARCHAR",
+        "description": "P1A pack",
+        "sample_values": [
+          "P1A_Pack_3",
+          "P1A_Pack_2",
+          "P1A_Pack_1"
+        ]
+      },
+      {
+        "name": "F1",
+        "type": "VARCHAR",
+        "description": "Additional data column",
+        "sample_values": []
+      },
+      {
+        "name": "F2",
+        "type": "VARCHAR",
+        "description": "Additional data column",
+        "sample_values": []
+      },
+      {
+        "name": "F3",
+        "type": "VARCHAR",
+        "description": "Additional data column",
+        "sample_values": []
+      },
+      {
+        "name": "F4",
+        "type": "VARCHAR",
+        "description": "Additional data column",
+        "sample_values": []
+      },
+      {
+        "name": "F5",
+        "type": "VARCHAR",
+        "description": "Additional data column",
+        "sample_values": []
+      },
+      {
+        "name": "F6",
+        "type": "VARCHAR",
+        "description": "Additional data column",
+        "sample_values": []
+      },
+      {
+        "name": "F7",
+        "type": "VARCHAR",
+        "description": "Additional data column",
+        "sample_values": []
+      },
+      {
+        "name": "F8",
+        "type": "VARCHAR",
+        "description": "Additional data column",
+        "sample_values": []
+      },
+      {
+        "name": "F9",
+        "type": "VARCHAR",
+        "description": "Additional data column",
+        "sample_values": []
+      },
+      {
+        "name": "F10",
+        "type": "VARCHAR",
+        "description": "Additional data column",
+        "sample_values": []
+      },
+      {
+        "name": "F11",
+        "type": "VARCHAR",
+        "description": "Additional data column",
+        "sample_values": []
+      },
+      {
+        "name": "F12",
+        "type": "VARCHAR",
+        "description": "Additional data column",
+        "sample_values": []
+      },
+      {
+        "name": "F13",
+        "type": "VARCHAR",
+        "description": "Additional data column",
+        "sample_values": []
+      },
+      {
+        "name": "F14",
+        "type": "VARCHAR",
+        "description": "Additional data column",
+        "sample_values": []
+      },
+      {
+        "name": "F15",
+        "type": "VARCHAR",
+        "description": "Additional data column",
+        "sample_values": []
+      },
+      {
+        "name": "F16",
+        "type": "VARCHAR",
+        "description": "Additional data column",
+        "sample_values": []
+      },
+      {
+        "name": "F17",
+        "type": "VARCHAR",
+        "description": "Additional data column",
+        "sample_values": []
+      },
+      {
+        "name": "F18",
+        "type": "VARCHAR",
+        "description": "Additional data column",
+        "sample_values": []
+      },
+      {
+        "name": "F19",
+        "type": "VARCHAR",
+        "description": "Additional data column",
+        "sample_values": []
+      },
+      {
+        "name": "F20",
+        "type": "VARCHAR",
+        "description": "Additional data column",
+        "sample_values": []
+      },
+      {
+        "name": "F21",
+        "type": "VARCHAR",
+        "description": "Additional data column",
+        "sample_values": []
+      },
+      {
+        "name": "F22",
+        "type": "VARCHAR",
+        "description": "Additional data column",
+        "sample_values": []
+      },
+      {
+        "name": "F23",
+        "type": "VARCHAR",
+        "description": "Additional data column",
+        "sample_values": []
+      },
+      {
+        "name": "F24",
+        "type": "VARCHAR",
+        "description": "Additional data column",
+        "sample_values": []
+      },
+      {
+        "name": "F25",
+        "type": "VARCHAR",
+        "description": "Additional data column",
+        "sample_values": []
+      },
+      {
+        "name": "F26",
+        "type": "VARCHAR",
+        "description": "Additional data column",
+        "sample_values": []
+      },
+      {
+        "name": "F27",
+        "type": "VARCHAR",
+        "description": "Additional data column",
+        "sample_values": []
+      },
+      {
+        "name": "F28",
+        "type": "VARCHAR",
+        "description": "Additional data column",
+        "sample_values": []
+      },
+      {
+        "name": "F29",
+        "type": "VARCHAR",
+        "description": "Additional data column",
+        "sample_values": []
+      },
+      {
+        "name": "F30",
+        "type": "VARCHAR",
+        "description": "Additional data column",
+        "sample_values": []
+      },
+      {
+        "name": "sharepoint_modified_date",
+        "type": "VARCHAR",
+        "description": "Date modified in SharePoint",
+        "sample_values": []
+      },
+      {
+        "name": "datalake_inserted_date",
+        "type": "BIGINT",
+        "description": "Date inserted into the data lake",
+        "sample_values": [
+          "20230111",
+          "20230807",
+          "20241219",
+          "20230412",
+          "20250411"
+        ]
+      },
+      {
+        "name": "partition_inserted_date",
+        "type": "BIGINT",
+        "description": "Date inserted into the partition",
+        "sample_values": [
+          "20230111",
+          "20230807",
+          "20241219",
+          "20230412",
+          "20250411"
+        ]
+      },
+      {
+        "name": "folder_date",
+        "type": "BIGINT",
+        "description": "Folder date",
+        "sample_values": [
+          "20230111",
+          "20230807",
+          "20241219",
+          "20230412",
+          "20250411"
+        ]
+      },
+      {
+        "name": "marketplace_flag",
+        "type": "DATE",
+        "description": "Marketplace flag",
+        "sample_values": [
+          "2025-03-25",
+          "2024-01-09",
+          "2024-06-23",
+          "2023-11-18",
+          "2023-05-06"
+        ]
+      },
+      {
+        "name": "friendly_name",
+        "type": "BIGINT",
+        "description": "Friendly name of the product",
+        "sample_values": [
+          "0",
+          "1"
+        ]
+      }
+    ]
+  },
+  "B2B_stockout": {
+    "name": "B2B_stockout",
+    "description": "This sheet contains stockout data for various products from BevCo Industries Inc., detailing the stockout percentages across different regions and time periods.",
+    "columns": [
+      {
+        "name": "Year",
+        "type": "BIGINT",
+        "description": "Year of the data record",
+        "sample_values": [
+          "2023",
+          "2024"
+        ]
+      },
+      {
+        "name": "Week",
+        "type": "BIGINT",
+        "description": "Week number of the year for the data record",
+        "sample_values": [
+          "27",
+          "12",
+          "17",
+          "1",
+          "23"
+        ]
+      },
+      {
+        "name": "Brand",
+        "type": "VARCHAR",
+        "description": "Brand of the product",
+        "sample_values": [
+          "PopMax",
+          "RefreshPlus",
+          "ZestDrink",
+          "SparkleUp",
+          "CrispSoda"
+        ]
+      },
+      {
+        "name": "ProductTitle",
+        "type": "VARCHAR",
+        "description": "Title or name of the product",
+        "sample_values": [
+          "Product_64",
+          "Product_22",
+          "Product_62",
+          "Product_23",
+          "Product_95"
+        ]
+      },
+      {
+        "name": "ProductVariantID",
+        "type": "BIGINT",
+        "description": "Unique identifier for the product variant",
+        "sample_values": [
+          "85109",
+          "73264",
+          "74940",
+          "71697",
+          "89454"
+        ]
+      },
+      {
+        "name": "Region",
+        "type": "VARCHAR",
+        "description": "Geographical region code",
+        "sample_values": [
+          "North",
+          "Central",
+          "West",
+          "East",
+          "South"
+        ]
+      },
+      {
+        "name": "State",
+        "type": "VARCHAR",
+        "description": "State abbreviation where the data is recorded",
+        "sample_values": [
+          "CA",
+          "FL",
+          "OH",
+          "TX",
+          "NY"
+        ]
+      },
+      {
+        "name": "City",
+        "type": "VARCHAR",
+        "description": "City where the data is recorded",
+        "sample_values": [
+          "Hilltown",
+          "Meadowbrook",
+          "Springfield",
+          "Lakeside",
+          "Georgetown"
+        ]
+      },
+      {
+        "name": "ProductsQuantity",
+        "type": "BIGINT",
+        "description": "Quantity of products available",
+        "sample_values": [
+          "205",
+          "357",
+          "105",
+          "468",
+          "318"
+        ]
+      },
+      {
+        "name": "EventsQuantity",
+        "type": "BIGINT",
+        "description": "Quantity of events recorded",
+        "sample_values": [
+          "21",
+          "93",
+          "65",
+          "77",
+          "10"
+        ]
+      },
+      {
+        "name": "StockoutPercentage",
+        "type": "DOUBLE",
+        "description": "Percentage of stockout events",
+        "sample_values": [
+          "22.66",
+          "2.6",
+          "20.5",
+          "17.46",
+          "14.58"
+        ]
+      }
+    ]
+  },
+  "B2B_weather": {
+    "name": "B2B_weather",
+    "description": "Tracks weather data for various cities. It is a record of daily weather observations including temperature, precipitation, and humidity. The data is used for analyzing weather patterns and their impact on business operations, particularly in the context of B2B sales for BevCo Industries.",
+    "columns": [
+      {
+        "name": "order_date",
+        "type": "DATE",
+        "description": "The date of the weather observation or order.",
+        "sample_values": [
+          "2023-03-03",
+          "2023-04-09",
+          "2023-04-12",
+          "2023-05-06",
+          "2023-07-23"
+        ]
+      },
+      {
+        "name": "uf",
+        "type": "VARCHAR",
+        "description": "The state abbreviation where the city is located.",
+        "sample_values": [
+          "CA",
+          "TX",
+          "FL",
+          "OH",
+          "PA"
+        ]
+      },
+      {
+        "name": "city",
+        "type": "VARCHAR",
+        "description": "The name of the city where the weather data was recorded.",
+        "sample_values": [
+          "Riverside",
+          "Meadowbrook",
+          "Hilltown",
+          "Georgetown",
+          "Lakeside"
+        ]
+      },
+      {
+        "name": "latitude",
+        "type": "DOUBLE",
+        "description": "The latitude coordinate of the city.",
+        "sample_values": [
+          "-27.2089",
+          "-25.933",
+          "-34.605",
+          "-23.2693",
+          "-32.4733"
+        ]
+      },
+      {
+        "name": "longitude",
+        "type": "DOUBLE",
+        "description": "The longitude coordinate of the city.",
+        "sample_values": [
+          "-40.0751",
+          "-40.5857",
+          "-48.1603",
+          "-40.5568",
+          "-44.0533"
+        ]
+      },
+      {
+        "name": "precipitation",
+        "type": "DOUBLE",
+        "description": "The amount of precipitation recorded on the order date, in millimeters.",
+        "sample_values": [
+          "10.51",
+          "13.58",
+          "41.02",
+          "3.67",
+          "22.85"
+        ]
+      },
+      {
+        "name": "L15D_avg_precipitation",
+        "type": "DOUBLE",
+        "description": "The average precipitation over the last 15 days, in millimeters.",
+        "sample_values": [
+          "12.37",
+          "8.17",
+          "6.4",
+          "15.73",
+          "13.8"
+        ]
+      },
+      {
+        "name": "L365D_avg_precipitation",
+        "type": "DOUBLE",
+        "description": "The average precipitation over the last 365 days, in millimeters.",
+        "sample_values": [
+          "11.9",
+          "17.1",
+          "20.5",
+          "18.03",
+          "24.53"
+        ]
+      },
+      {
+        "name": "avg_relativeHumidity",
+        "type": "DOUBLE",
+        "description": "The average relative humidity percentage on the order date.",
+        "sample_values": [
+          "55.6",
+          "82.16",
+          "72.41",
+          "73.74",
+          "79.04"
+        ]
+      },
+      {
+        "name": "min_temperature",
+        "type": "DOUBLE",
+        "description": "The minimum temperature recorded on the order date, in degrees Celsius.",
+        "sample_values": [
+          "14.32",
+          "15.09",
+          "29.13",
+          "18.45",
+          "25.25"
+        ]
+      },
+      {
+        "name": "max_temperature",
+        "type": "DOUBLE",
+        "description": "The maximum temperature recorded on the order date, in degrees Celsius.",
+        "sample_values": [
+          "33.15",
+          "23.63",
+          "31.3",
+          "37.56",
+          "30.03"
+        ]
+      },
+      {
+        "name": "avg_temperature",
+        "type": "DOUBLE",
+        "description": "The average temperature on the order date, in degrees Celsius.",
+        "sample_values": [
+          "19.78",
+          "22.97",
+          "33.83",
+          "33.6",
+          "21.4"
+        ]
+      },
+      {
+        "name": "L15D_avg_temperature",
+        "type": "DOUBLE",
+        "description": "The average temperature over the last 15 days, in degrees Celsius.",
+        "sample_values": [
+          "23.61",
+          "32.92",
+          "35.7",
+          "24.77",
+          "32.49"
+        ]
+      },
+      {
+        "name": "L365D_avg_temperature",
+        "type": "DOUBLE",
+        "description": "The average temperature over the last 365 days, in degrees Celsius.",
+        "sample_values": [
+          "31.7",
+          "33.46",
+          "34.24",
+          "22.02",
+          "18.04"
+        ]
+      },
+      {
+        "name": "min_temperatureFeelsLike",
+        "type": "DOUBLE",
+        "description": "The minimum 'feels like' temperature on the order date, in degrees Celsius.",
+        "sample_values": [
+          "19.54",
+          "15.73",
+          "31.67",
+          "19.12",
+          "26.61"
+        ]
+      },
+      {
+        "name": "max_temperatureFeelsLike",
+        "type": "DOUBLE",
+        "description": "The maximum 'feels like' temperature on the order date, in degrees Celsius.",
+        "sample_values": [
+          "33.53",
+          "41.56",
+          "38.52",
+          "32.35",
+          "27.85"
+        ]
+      },
+      {
+        "name": "avg_temperatureFeelsLike",
+        "type": "DOUBLE",
+        "description": "The average 'feels like' temperature on the order date, in degrees Celsius.",
+        "sample_values": [
+          "33.63",
+          "33.1",
+          "19.44",
+          "33.68",
+          "33.81"
+        ]
+      },
+      {
+        "name": "L15D_avg_temperatureFeelsLike",
+        "type": "DOUBLE",
+        "description": "The average 'feels like' temperature over the last 15 days, in degrees Celsius.",
+        "sample_values": [
+          "27.32",
+          "20.41",
+          "23.43",
+          "25.89",
+          "31.8"
+        ]
+      },
+      {
+        "name": "L365D_avg_temperatureFeelsLike",
+        "type": "DOUBLE",
+        "description": "The average 'feels like' temperature over the last 365 days, in degrees Celsius.",
+        "sample_values": [
+          "33.56",
+          "23.43",
+          "20.41",
+          "31.36",
+          "36.97"
+        ]
+      },
+      {
+        "name": "data_capture",
+        "type": "DATE",
+        "description": "The date when the data was last updated.",
+        "sample_values": [
+          "2023-04-09",
+          "2023-04-12",
+          "2023-05-06",
+          "2023-08-06",
+          "2023-08-08"
+        ]
+      }
+    ]
+  },
+  "DTC_cupons": {
+    "name": "DTC_cupons",
+    "description": "This sheet contains data related to coupons issued by BevCo Industries for direct-to-consumer actions. It includes details about the coupon code, creation date, validity period, usage limits, coupon value, last usage, and the number of orders associated with each coupon.",
+    "columns": [
+      {
+        "name": "CouponCode",
+        "type": "VARCHAR",
+        "description": "Unique identifier for the coupon",
+        "sample_values": [
+          "COUP0017",
+          "COUP0035",
+          "COUP0051",
+          "COUP0055",
+          "COUP0058"
+        ]
+      },
+      {
+        "name": "CreationDate",
+        "type": "TIMESTAMP",
+        "description": "Date and time when the coupon was created",
+        "sample_values": [
+          "2023-12-12 18:27:09",
+          "2024-02-20 16:21:17",
+          "2023-10-13 04:02:11",
+          "2024-03-05 07:32:32",
+          "2023-02-24 17:17:13"
+        ]
+      },
+      {
+        "name": "ValidityStart",
+        "type": "TIMESTAMP",
+        "description": "Start date and time of the coupon validity period",
+        "sample_values": [
+          "2024-04-27 18:12:29",
+          "2024-08-07 16:34:45",
+          "2024-11-16 05:48:28",
+          "2024-12-21 12:20:00",
+          "2024-09-19 14:50:04"
+        ]
+      },
+      {
+        "name": "ValidityEnd",
+        "type": "TIMESTAMP",
+        "description": "End date and time of the coupon validity period",
+        "sample_values": [
+          "2025-05-05 02:22:05",
+          "2025-04-23 07:45:05",
+          "2025-01-01 22:44:40",
+          "2024-06-09 16:45:51",
+          "2024-05-16 06:34:59"
+        ]
+      },
+      {
+        "name": "UsageLimit",
+        "type": "BIGINT",
+        "description": "Maximum number of times the coupon can be used",
+        "sample_values": [
+          "711",
+          "519",
+          "875",
+          "291",
+          "231"
+        ]
+      },
+      {
+        "name": "CouponValue",
+        "type": "DOUBLE",
+        "description": "Value of the coupon",
+        "sample_values": [
+          "26.13",
+          "43.54",
+          "27.07",
+          "19.44",
+          "27.9"
+        ]
+      },
+      {
+        "name": "LastUse",
+        "type": "TIMESTAMP",
+        "description": "Date and time of the last usage of the coupon",
+        "sample_values": [
+          "2025-03-30 17:32:06",
+          "2025-10-05 01:42:17",
+          "2025-03-06 08:53:30",
+          "2024-07-07 23:31:05",
+          "2025-08-01 19:41:46"
+        ]
+      },
+      {
+        "name": "OrderCount",
+        "type": "BIGINT",
+        "description": "Number of orders associated with the coupon",
+        "sample_values": [
+          "56",
+          "27",
+          "68",
+          "84",
+          "12"
+        ]
+      }
+    ]
+  },
+  "DTC_cupons2": {
+    "name": "DTC_cupons2",
+    "description": "This sheet contains coupon data from BevCo Industries' direct to consumer (DTC) actions, including details about coupon codes, validity, usage limits, and associated customer and order information.",
+    "columns": [
+      {
+        "name": "Email",
+        "type": "VARCHAR",
+        "description": "Email address of the customer",
+        "sample_values": [
+          "customer432@email.com",
+          "customer249@email.com",
+          "customer447@email.com",
+          "customer190@email.com",
+          "customer496@email.com"
+        ]
+      },
+      {
+        "name": "Unknown1",
+        "type": "VARCHAR",
+        "description": "Unknown field",
+        "sample_values": []
+      },
+      {
+        "name": "CouponCode",
+        "type": "VARCHAR",
+        "description": "Coupon code used by the customer",
+        "sample_values": [
+          "COUP0073",
+          "COUP0058",
+          "COUP0171",
+          "COUP0110",
+          "COUP0055"
+        ]
+      },
+      {
+        "name": "StartDate",
+        "type": "TIMESTAMP",
+        "description": "Start date of the coupon's validity",
+        "sample_values": [
+          "2024-06-18 04:43:34",
+          "2024-05-05 10:03:44",
+          "2024-03-25 19:51:29",
+          "2024-05-20 11:53:13",
+          "2024-11-03 14:00:04"
+        ]
+      },
+      {
+        "name": "EndDate",
+        "type": "TIMESTAMP",
+        "description": "End date of the coupon's validity",
+        "sample_values": [
+          "2025-03-21 03:13:53",
+          "2023-11-20 12:47:11",
+          "2024-12-20 09:26:29",
+          "2024-04-28 01:12:16",
+          "2025-11-01 04:13:18"
+        ]
+      },
+      {
+        "name": "UsageLimit",
+        "type": "BIGINT",
+        "description": "Maximum number of times the coupon can be used",
+        "sample_values": [
+          "1",
+          "17",
+          "92",
+          "68",
+          "84"
+        ]
+      },
+      {
+        "name": "Value",
+        "type": "DOUBLE",
+        "description": "Monetary value of the coupon",
+        "sample_values": [
+          "11.55",
+          "14.58",
+          "32.62",
+          "41.07",
+          "25.37"
+        ]
+      },
+      {
+        "name": "CouponValue",
+        "type": "VARCHAR",
+        "description": "Description of the coupon's discount value",
+        "sample_values": [
+          "37.76 off",
+          "14.84 off",
+          "41.86 off",
+          "32.88 off",
+          "21.20 off"
+        ]
+      },
+      {
+        "name": "CreationDate",
+        "type": "TIMESTAMP",
+        "description": "Date and time when the coupon was created",
+        "sample_values": [
+          "2022-04-30 12:13:51",
+          "2022-05-26 14:33:05",
+          "2022-04-26 15:53:50",
+          "2023-09-09 06:14:00",
+          "2023-03-04 22:19:04"
+        ]
+      },
+      {
+        "name": "ProblemID",
+        "type": "BIGINT",
+        "description": "Order number associated with the problem",
+        "sample_values": [
+          "194084",
+          "634532",
+          "101381",
+          "836399",
+          "261104"
+        ]
+      },
+      {
+        "name": "StoreID",
+        "type": "BIGINT",
+        "description": "Point of sale ID",
+        "sample_values": [
+          "12",
+          "27",
+          "1",
+          "17",
+          "33"
+        ]
+      },
+      {
+        "name": "GeoName",
+        "type": "VARCHAR",
+        "description": "Geographical region name",
+        "sample_values": [
+          "Central",
+          "South",
+          "West",
+          "East",
+          "North"
+        ]
+      },
+      {
+        "name": "State",
+        "type": "VARCHAR",
+        "description": "State where the transaction occurred",
+        "sample_values": [
+          "CA",
+          "TX",
+          "NY",
+          "PA",
+          "FL"
+        ]
+      },
+      {
+        "name": "City",
+        "type": "VARCHAR",
+        "description": "City where the transaction occurred",
+        "sample_values": [
+          "Hilltown",
+          "Riverside",
+          "Springfield",
+          "Lakeside",
+          "Georgetown"
+        ]
+      },
+      {
+        "name": "StoreName",
+        "type": "VARCHAR",
+        "description": "Name of the point of sale",
+        "sample_values": [
+          "Store_7",
+          "Store_12",
+          "Store_19",
+          "Store_21",
+          "Store_2"
+        ]
+      },
+      {
+        "name": "Channel",
+        "type": "VARCHAR",
+        "description": "Channel through which the order was placed",
+        "sample_values": [
+          "Web",
+          "Mobile",
+          "Phone"
+        ]
+      },
+      {
+        "name": "ContactReason",
+        "type": "VARCHAR",
+        "description": "Reason for contacting customer service",
+        "sample_values": [
+          "Refund",
+          "Quality",
+          "Product Issue",
+          "Delivery"
+        ]
+      },
+      {
+        "name": "Item",
+        "type": "VARCHAR",
+        "description": "Description of the item related to the contact reason",
+        "sample_values": [
+          "ZestDrink Product",
+          "SparkleUp Product",
+          "BubbleWave Product",
+          "FizzCola Product",
+          "RefreshPlus Product"
+        ]
+      },
+      {
+        "name": "Agent",
+        "type": "VARCHAR",
+        "description": "Name of the customer service agent handling the issue",
+        "sample_values": [
+          "Agent_18",
+          "Agent_13",
+          "Agent_15",
+          "Agent_19",
+          "Agent_14"
+        ]
+      }
+    ]
+  },
+  "DTC_lovers": {
+    "name": "DTC_lovers",
+    "description": "This sheet contains survey data from BevCo Industries' direct-to-consumer (DTC) marketing efforts, focusing on consumer preferences for soft drink brands.",
+    "columns": [
+      {
+        "name": "user_id",
+        "type": "VARCHAR",
+        "description": "Unique identifier for each survey participant",
+        "sample_values": [
+          "USR000006",
+          "USR000034",
+          "USR000054",
+          "USR000081",
+          "USR000108"
+        ]
+      },
+      {
+        "name": "wave_favorite_brand_survey",
+        "type": "VARCHAR",
+        "description": "Identifier for the survey wave or iteration",
+        "sample_values": [
+          "Wave_1",
+          "Wave_2",
+          "Wave_5",
+          "Wave_4",
+          "Wave_3"
+        ]
+      },
+      {
+        "name": "answer_favorite_brand_survey",
+        "type": "VARCHAR",
+        "description": "The brand selected as the favorite by the survey participant",
+        "sample_values": [
+          "PopMax",
+          "SparkleUp",
+          "ZestDrink",
+          "RefreshPlus",
+          "FizzCola"
+        ]
+      },
+      {
+        "name": "favorite_brand_survey_datetime_brt",
+        "type": "TIMESTAMP",
+        "description": "Date and time when the survey was completed",
+        "sample_values": [
+          "2024-11-04 06:16:04",
+          "2024-05-07 09:21:50",
+          "2024-09-01 02:36:36",
+          "2024-02-05 11:41:58",
+          "2024-07-24 13:53:35"
+        ]
+      },
+      {
+        "name": "wave",
+        "type": "BIGINT",
+        "description": "Simplified identifier for the survey wave",
+        "sample_values": [
+          "1",
+          "3",
+          "4",
+          "5",
+          "2"
+        ]
+      }
+    ]
+  },
+  "DTC_orders": {
+    "name": "DTC_orders",
+    "description": "This sheet contains order data from BevCo Industries' direct to consumer (DTC) channel. It includes information about customer orders, product families, order ratings, and various categorical and numerical attributes related to the orders.",
+    "columns": [
+      {
+        "name": "customer_nk",
+        "type": "VARCHAR",
+        "description": "Unique identifier for the customer",
+        "sample_values": [
+          "CUST000052",
+          "CUST000309",
+          "CUST000036",
+          "CUST000325",
+          "CUST000300"
+        ]
+      },
+      {
+        "name": "FAMILY",
+        "type": "VARCHAR",
+        "description": "Product family or brand associated with the order",
+        "sample_values": [
+          "PopMax",
+          "BubbleWave",
+          "RefreshPlus",
+          "ZestDrink",
+          "CrispSoda"
+        ]
+      },
+      {
+        "name": "order_nk",
+        "type": "BIGINT",
+        "description": "Unique identifier for the order",
+        "sample_values": [
+          "488015",
+          "138041",
+          "433959",
+          "552073",
+          "343480"
+        ]
+      },
+      {
+        "name": "order_datetime",
+        "type": "TIMESTAMP",
+        "description": "Date and time when the order was placed",
+        "sample_values": [
+          "2024-12-16 12:59:17",
+          "2024-03-12 09:10:15",
+          "2023-10-19 14:17:00",
+          "2023-06-29 06:47:42",
+          "2024-05-25 06:45:07"
+        ]
+      },
+      {
+        "name": "order_rating",
+        "type": "DOUBLE",
+        "description": "Rating given to the order",
+        "sample_values": [
+          "4.6",
+          "1.5",
+          "2.5",
+          "4.9",
+          "1.7"
+        ]
+      },
+      {
+        "name": "is_first_order",
+        "type": "BOOLEAN",
+        "description": "Indicates if this is the customer's first order",
+        "sample_values": [
+          "False",
+          "True"
+        ]
+      },
+      {
+        "name": "is_first_order_football",
+        "type": "BOOLEAN",
+        "description": "Indicates if this is the customer's first order during a football event",
+        "sample_values": [
+          "False",
+          "True"
+        ]
+      },
+      {
+        "name": "is_first_order_warmup",
+        "type": "BOOLEAN",
+        "description": "Indicates if this is the customer's first order during a warmup event",
+        "sample_values": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "name": "is_first_order_football_2024",
+        "type": "BOOLEAN",
+        "description": "Indicates if this is the customer's first order during a football event in 2024",
+        "sample_values": [
+          "False",
+          "True"
+        ]
+      },
+      {
+        "name": "is_first_order_bbq",
+        "type": "BIGINT",
+        "description": "Indicates if this is the customer's first order during a BBQ event",
+        "sample_values": [
+          "0",
+          "1"
+        ]
+      },
+      {
+        "name": "coupon_code",
+        "type": "VARCHAR",
+        "description": "Coupon code applied to the order",
+        "sample_values": [
+          "COUP42",
+          "COUP6",
+          "COUP150",
+          "COUP182",
+          "COUP79"
+        ]
+      },
+      {
+        "name": "product_nk",
+        "type": "VARCHAR",
+        "description": "Unique identifier for the product",
+        "sample_values": [
+          "PROD7289",
+          "PROD8479",
+          "PROD9487",
+          "PROD3972",
+          "PROD2308"
+        ]
+      },
+      {
+        "name": "item_name",
+        "type": "VARCHAR",
+        "description": "Name of the product",
+        "sample_values": [
+          "CrispSoda Pack",
+          "FizzCola Pack",
+          "BubbleWave Pack",
+          "SparkleUp Pack",
+          "ZestDrink Pack"
+        ]
+      },
+      {
+        "name": "category_source",
+        "type": "VARCHAR",
+        "description": "Source of the category",
+        "sample_values": [
+          "DTC"
+        ]
+      },
+      {
+        "name": "unit_volume_hl",
+        "type": "DOUBLE",
+        "description": "Volume of the unit in hectoliters",
+        "sample_values": [
+          "0.219",
+          "0.044",
+          "0.077",
+          "0.323",
+          "0.335"
+        ]
+      },
+      {
+        "name": "unit_quantity",
+        "type": "BIGINT",
+        "description": "Quantity of the unit",
+        "sample_values": [
+          "1",
+          "12",
+          "17",
+          "10",
+          "15"
+        ]
+      },
+      {
+        "name": "item_unit_value",
+        "type": "DOUBLE",
+        "description": "Unit value of the product",
+        "sample_values": [
+          "9.45",
+          "7.93",
+          "19.64",
+          "21.53",
+          "17.1"
+        ]
+      },
+      {
+        "name": "line_item_offer_discount_value",
+        "type": "DOUBLE",
+        "description": "Discount value for the line item",
+        "sample_values": [
+          "1.55",
+          "1.83",
+          "4.46",
+          "3.57",
+          "4.97"
+        ]
+      },
+      {
+        "name": "item_ttc_descontado",
+        "type": "DOUBLE",
+        "description": "Total price of the product after discount",
+        "sample_values": [
+          "4.48",
+          "173.01",
+          "132.55",
+          "44.44",
+          "301.84"
+        ]
+      },
+      {
+        "name": "item_ttc_cheio",
+        "type": "DOUBLE",
+        "description": "Total price of the product",
+        "sample_values": [
+          "123.92",
+          "119.12",
+          "253.76",
+          "453.6",
+          "44.7"
+        ]
+      },
+      {
+        "name": "item_subtotal_value",
+        "type": "DOUBLE",
+        "description": "Subtotal value of the product",
+        "sample_values": [
+          "123.92",
+          "119.12",
+          "253.76",
+          "453.6",
+          "44.7"
+        ]
+      },
+      {
+        "name": "item_coupon_discount_value",
+        "type": "DOUBLE",
+        "description": "Discount value for the product",
+        "sample_values": [
+          "1.08",
+          "2.95",
+          "8.13",
+          "2.76",
+          "9.79"
+        ]
+      },
+      {
+        "name": "poc_id",
+        "type": "VARCHAR",
+        "description": "Unique identifier for the point of contact",
+        "sample_values": [
+          "POC486",
+          "POC437",
+          "POC619",
+          "POC649",
+          "POC237"
+        ]
+      },
+      {
+        "name": "delivery_city",
+        "type": "VARCHAR",
+        "description": "City where the delivery is made",
+        "sample_values": [
+          "Riverside",
+          "Meadowbrook",
+          "Hilltown",
+          "Georgetown",
+          "Lakeside"
+        ]
+      },
+      {
+        "name": "delivery_state",
+        "type": "VARCHAR",
+        "description": "State where the delivery is made",
+        "sample_values": [
+          "CA",
+          "NY",
+          "TX",
+          "OH",
+          "FL"
+        ]
+      },
+      {
+        "name": "delivery_uf",
+        "type": "VARCHAR",
+        "description": "State abbreviation where the delivery is made",
+        "sample_values": [
+          "CA",
+          "NY",
+          "TX",
+          "FL",
+          "IL"
+        ]
+      },
+      {
+        "name": "geo",
+        "type": "VARCHAR",
+        "description": "Geographical location of the delivery",
+        "sample_values": [
+          "North",
+          "Central",
+          "West",
+          "East",
+          "South"
+        ]
+      },
+      {
+        "name": "cnpj",
+        "type": "BIGINT",
+        "description": "Unique identifier for the company",
+        "sample_values": [
+          "52444135624472",
+          "16562876312780",
+          "18388624983603",
+          "45434271600764",
+          "68436579368205"
+        ]
+      },
+      {
+        "name": "order_cashback_value",
+        "type": "DOUBLE",
+        "description": "Cashback value for the order",
+        "sample_values": [
+          "4.97",
+          "2.38",
+          "1.32",
+          "2.76",
+          "0.28"
+        ]
+      },
+      {
+        "name": "order_shipping_value",
+        "type": "DOUBLE",
+        "description": "Shipping value for the order",
+        "sample_values": [
+          "5.58",
+          "11.85",
+          "8.13",
+          "12.37",
+          "6.43"
+        ]
+      },
+      {
+        "name": "order_subtotal_value",
+        "type": "DOUBLE",
+        "description": "Subtotal value of the order",
+        "sample_values": [
+          "123.92",
+          "119.12",
+          "253.76",
+          "453.6",
+          "44.7"
+        ]
+      },
+      {
+        "name": "order_total_value",
+        "type": "DOUBLE",
+        "description": "Total value of the order",
+        "sample_values": [
+          "191.89",
+          "253.62",
+          "157.59",
+          "114.74",
+          "39.46"
+        ]
+      },
+      {
+        "name": "order_coupon_discount_value",
+        "type": "DOUBLE",
+        "description": "Discount value for the order",
+        "sample_values": [
+          "1.08",
+          "2.95",
+          "8.13",
+          "2.76",
+          "9.79"
+        ]
+      },
+      {
+        "name": "order_longitude",
+        "type": "DOUBLE",
+        "description": "Longitude of the order",
+        "sample_values": [
+          "-102.5879",
+          "-102.7829",
+          "-80.9452",
+          "-75.4926",
+          "-109.2979"
+        ]
+      },
+      {
+        "name": "order_latitude",
+        "type": "DOUBLE",
+        "description": "Latitude of the order",
+        "sample_values": [
+          "37.3114",
+          "43.2903",
+          "35.0269",
+          "36.9572",
+          "47.3266"
+        ]
+      },
+      {
+        "name": "delivery_datetime",
+        "type": "TIMESTAMP",
+        "description": "Date and time when the delivery is made",
+        "sample_values": [
+          "2024-11-04 00:03:22",
+          "2023-12-07 08:19:38",
+          "2024-12-23 12:03:58",
+          "2024-12-18 05:46:12",
+          "2024-08-28 07:14:20"
+        ]
+      },
+      {
+        "name": "delivery_time_in_minutes",
+        "type": "BIGINT",
+        "description": "Time taken for delivery in minutes",
+        "sample_values": [
+          "97",
+          "46",
+          "140",
+          "121",
+          "30"
+        ]
+      },
+      {
+        "name": "unit_price_charged_tax_excl_local",
+        "type": "DOUBLE",
+        "description": "Unit price of the product charged excluding tax",
+        "sample_values": [
+          "9.45",
+          "7.93",
+          "19.64",
+          "21.53",
+          "17.1"
+        ]
+      },
+      {
+        "name": "unit_price_offered_tax_excl_local",
+        "type": "DOUBLE",
+        "description": "Unit price of the product offered excluding tax",
+        "sample_values": [
+          "25.5",
+          "19.12",
+          "22.66",
+          "9.45",
+          "8.63"
+        ]
+      },
+      {
+        "name": "unit_subtotal_charged_tax_excl_local",
+        "type": "DOUBLE",
+        "description": "Subtotal of the product charged excluding tax",
+        "sample_values": [
+          "63.44",
+          "203.04",
+          "63.08",
+          "108.0",
+          "383.01"
+        ]
+      },
+      {
+        "name": "unit_subtotal_offered_tax_excl_local",
+        "type": "DOUBLE",
+        "description": "Subtotal of the product offered excluding tax",
+        "sample_values": [
+          "90.39",
+          "52.28",
+          "172.81",
+          "457.38",
+          "109.3"
+        ]
+      },
+      {
+        "name": "source",
+        "type": "VARCHAR",
+        "description": "Source of the order",
+        "sample_values": [
+          "Web"
+        ]
+      },
+      {
+        "name": "is_fmr",
+        "type": "BOOLEAN",
+        "description": "Indicates if the product is a first-time purchase",
+        "sample_values": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "name": "is_fmr_football",
+        "type": "BOOLEAN",
+        "description": "Indicates if the product is a first-time purchase during a football event",
+        "sample_values": [
+          "False",
+          "True"
+        ]
+      },
+      {
+        "name": "is_fmr_football_2024",
+        "type": "BOOLEAN",
+        "description": "Indicates if the product is a first-time purchase during a football event in 2024",
+        "sample_values": [
+          "False",
+          "True"
+        ]
+      },
+      {
+        "name": "is_fmr_bbq",
+        "type": "BOOLEAN",
+        "description": "Indicates if the product is a first-time purchase during a BBQ event",
+        "sample_values": [
+          "False",
+          "True"
+        ]
+      },
+      {
+        "name": "is_barbecue",
+        "type": "BOOLEAN",
+        "description": "Indicates if the product is a BBQ event",
+        "sample_values": [
+          "False",
+          "True"
+        ]
+      },
+      {
+        "name": "is_football",
+        "type": "BOOLEAN",
+        "description": "Indicates if the product is a football event",
+        "sample_values": [
+          "False",
+          "True"
+        ]
+      },
+      {
+        "name": "is_football_2024",
+        "type": "BOOLEAN",
+        "description": "Indicates if the product is a football event in 2024",
+        "sample_values": [
+          "False",
+          "True"
+        ]
+      },
+      {
+        "name": "is_warm_up",
+        "type": "BOOLEAN",
+        "description": "Indicates if the product is a warm-up event",
+        "sample_values": [
+          "False",
+          "True"
+        ]
+      },
+      {
+        "name": "is_full_potential",
+        "type": "BOOLEAN",
+        "description": "Indicates if the product is a full potential event",
+        "sample_values": [
+          "True",
+          "False"
+        ]
+      },
+      {
+        "name": "abi_product",
+        "type": "BOOLEAN",
+        "description": "Indicates if the product is a BevCo product",
+        "sample_values": [
+          "True"
+        ]
+      },
+      {
+        "name": "is_sampling",
+        "type": "BOOLEAN",
+        "description": "Indicates if the product is a sampling event",
+        "sample_values": [
+          "False",
+          "True"
+        ]
+      },
+      {
+        "name": "PRODUCT_ID",
+        "type": "BIGINT",
+        "description": "Unique identifier for the product",
+        "sample_values": [
+          "3148",
+          "3683",
+          "6781",
+          "2633",
+          "5843"
+        ]
+      },
+      {
+        "name": "SUBSOURCE_NAME",
+        "type": "VARCHAR",
+        "description": "Source of the product",
+        "sample_values": [
+          "Online"
+        ]
+      },
+      {
+        "name": "UUID",
+        "type": "VARCHAR",
+        "description": "Unique identifier for the product",
+        "sample_values": [
+          "51404562-6371",
+          "72349738-7455",
+          "12280897-9675",
+          "78038336-9864",
+          "27382664-7878"
+        ]
+      },
+      {
+        "name": "PROD_MATCH_RATIO",
+        "type": "DOUBLE",
+        "description": "Match ratio for the product",
+        "sample_values": [
+          "0.81",
+          "0.9",
+          "0.83",
+          "0.93",
+          "0.99"
+        ]
+      },
+      {
+        "name": "PRODUCT_DESCRIPTION",
+        "type": "VARCHAR",
+        "description": "Description of the product",
+        "sample_values": [
+          "CrispSoda 12-Pack",
+          "RefreshPlus 12-Pack",
+          "ZestDrink 12-Pack",
+          "BubbleWave 12-Pack",
+          "SparkleUp 12-Pack"
+        ]
+      },
+      {
+        "name": "BRAND_ID",
+        "type": "VARCHAR",
+        "description": "Unique identifier for the brand",
+        "sample_values": [
+          "BRD6",
+          "BRD4",
+          "BRD1",
+          "BRD3",
+          "BRD2"
+        ]
+      },
+      {
+        "name": "VARIANT",
+        "type": "VARCHAR",
+        "description": "Variant of the product",
+        "sample_values": [
+          "Regular"
+        ]
+      },
+      {
+        "name": "COMPANY",
+        "type": "VARCHAR",
+        "description": "Company of the product",
+        "sample_values": [
+          "BevCo"
+        ]
+      },
+      {
+        "name": "CATEGORY",
+        "type": "VARCHAR",
+        "description": "Category of the product",
+        "sample_values": [
+          "Soft Drink"
+        ]
+      },
+      {
+        "name": "PACKAGE",
+        "type": "VARCHAR",
+        "description": "Package of the product",
+        "sample_values": [
+          "Can"
+        ]
+      },
+      {
+        "name": "KIT_TYPE",
+        "type": "VARCHAR",
+        "description": "Kit type of the product",
+        "sample_values": [
+          "Standard"
+        ]
+      },
+      {
+        "name": "RETURNABLE",
+        "type": "BOOLEAN",
+        "description": "Indicates if the product is returnable",
+        "sample_values": [
+          "False"
+        ]
+      },
+      {
+        "name": "VOLUME",
+        "type": "DOUBLE",
+        "description": "Volume of the product",
+        "sample_values": [
+          "1.7",
+          "1.5",
+          "0.5",
+          "0.4",
+          "0.9"
+        ]
+      },
+      {
+        "name": "PACK_QUANTITY",
+        "type": "BIGINT",
+        "description": "Quantity of the product",
+        "sample_values": [
+          "6",
+          "22",
+          "17",
+          "21",
+          "18"
+        ]
+      },
+      {
+        "name": "PGV_CODE",
+        "type": "VARCHAR",
+        "description": "Code of the product",
+        "sample_values": [
+          "PGV666",
+          "PGV713",
+          "PGV156",
+          "PGV900",
+          "PGV163"
+        ]
+      },
+      {
+        "name": "PGV_DESCRIPTION",
+        "type": "VARCHAR",
+        "description": "Description of the product",
+        "sample_values": [
+          "Premium Pack"
+        ]
+      },
+      {
+        "name": "MULTIPACK_PRODUCTS",
+        "type": "BOOLEAN",
+        "description": "Indicates if the product is a multipack",
+        "sample_values": [
+          "False"
+        ]
+      },
+      {
+        "name": "BASKET",
+        "type": "VARCHAR",
+        "description": "Basket of the product",
+        "sample_values": [
+          "Standard"
+        ]
+      },
+      {
+        "name": "BASKET_CLUSTER",
+        "type": "VARCHAR",
+        "description": "Cluster category of the basket",
+        "sample_values": [
+          "Core"
+        ]
+      },
+      {
+        "name": "CLUSTER_AS",
+        "type": "VARCHAR",
+        "description": "Cluster category for the product",
+        "sample_values": [
+          "A"
+        ]
+      },
+      {
+        "name": "FUTURE_BEVS",
+        "type": "BOOLEAN",
+        "description": "Indicates if the product is considered a future beverage",
+        "sample_values": [
+          "False"
+        ]
+      },
+      {
+        "name": "INOVACAO",
+        "type": "BOOLEAN",
+        "description": "Indicates if the product is considered innovative",
+        "sample_values": [
+          "False"
+        ]
+      },
+      {
+        "name": "unit_subtotal_volume_hl",
+        "type": "DOUBLE",
+        "description": "Subtotal volume of the unit in hectoliters",
+        "sample_values": [
+          "0.056",
+          "0.017",
+          "0.07",
+          "0.219",
+          "0.271"
+        ]
+      },
+      {
+        "name": "unit_volume_l",
+        "type": "DOUBLE",
+        "description": "Volume of the unit in liters",
+        "sample_values": [
+          "1.37",
+          "3.67",
+          "2.38",
+          "1.57",
+          "2.81"
+        ]
+      },
+      {
+        "name": "unit_subtotal_volume_l",
+        "type": "DOUBLE",
+        "description": "Subtotal volume of the unit in liters",
+        "sample_values": [
+          "14.58",
+          "16.68",
+          "2.81",
+          "5.6",
+          "17.61"
+        ]
+      },
+      {
+        "name": "lover_cluster",
+        "type": "VARCHAR",
+        "description": "Cluster category for loyal customers",
+        "sample_values": [
+          "Occasional",
+          "Loyal",
+          "New",
+          "Regular"
+        ]
+      },
+      {
+        "name": "id_moment",
+        "type": "BIGINT",
+        "description": "Identifier for the moment of purchase",
+        "sample_values": [
+          "17",
+          "68",
+          "12",
+          "92",
+          "56"
+        ]
+      },
+      {
+        "name": "id_purchase",
+        "type": "BIGINT",
+        "description": "Identifier for the purchase",
+        "sample_values": [
+          "394",
+          "239",
+          "156",
+          "433",
+          "318"
+        ]
+      }
+    ]
+  },
+  "MKT_brand_power": {
+    "name": "MKT_brand_power",
+    "description": "This sheet contains brand performance data for various soft drink brands for the years 2023 and 2024. It includes metrics such as premium, power, meaningfulness, difference, salience, and power calibration, along with their comparisons to last year (LY) and last period (LP).",
+    "columns": [
+      {
+        "name": "Country Name",
+        "type": "VARCHAR",
+        "description": "Name of the country where the data is collected.",
+        "sample_values": [
+          "USA"
+        ]
+      },
+      {
+        "name": "Brand Name",
+        "type": "VARCHAR",
+        "description": "Name of the soft drink brand.",
+        "sample_values": [
+          "PopMax",
+          "RefreshPlus",
+          "SparkleUp",
+          "ZestDrink",
+          "FizzCola"
+        ]
+      },
+      {
+        "name": "Premium",
+        "type": "DOUBLE",
+        "description": "Premium value for the brand in 2024 Q4.",
+        "sample_values": [
+          "94.5",
+          "17.64",
+          "65.66",
+          "67.1",
+          "33.2"
+        ]
+      },
+      {
+        "name": "Premium vs LY",
+        "type": "BIGINT",
+        "description": "Comparison of the premium value against last year for 2024 Q4.",
+        "sample_values": [
+          "-5",
+          "-4",
+          "1",
+          "5",
+          "3"
+        ]
+      },
+      {
+        "name": "Premium vs LP",
+        "type": "BIGINT",
+        "description": "Comparison of the premium value against last period for 2024 Q4.",
+        "sample_values": [
+          "-3",
+          "-1",
+          "2",
+          "0",
+          "3"
+        ]
+      },
+      {
+        "name": "Power",
+        "type": "DOUBLE",
+        "description": "Power value for the brand in 2024 Q4.",
+        "sample_values": [
+          "85.88",
+          "93.05",
+          "36.58",
+          "68.68",
+          "42.73"
+        ]
+      },
+      {
+        "name": "Power vs LY",
+        "type": "DOUBLE",
+        "description": "Comparison of the power value against last year for 2024 Q4.",
+        "sample_values": [
+          "-3.9",
+          "-2.1",
+          "6.8",
+          "-5.9",
+          "1.6"
+        ]
+      },
+      {
+        "name": "Power vs LP",
+        "type": "BIGINT",
+        "description": "Comparison of the power value against last period for 2024 Q4.",
+        "sample_values": [
+          "-2",
+          "2",
+          "1",
+          "-1"
+        ]
+      },
+      {
+        "name": "Meaningful",
+        "type": "DOUBLE",
+        "description": "Meaningful value for the brand in 2024 Q4.",
+        "sample_values": [
+          "22.66",
+          "35.52",
+          "61.45",
+          "33.73",
+          "61.84"
+        ]
+      },
+      {
+        "name": "Meaningful vs LY",
+        "type": "DOUBLE",
+        "description": "Comparison of the meaningful value against last year for 2024 Q4.",
+        "sample_values": [
+          "5.8",
+          "4.8",
+          "-6.8",
+          "1.4",
+          "-7.2"
+        ]
+      },
+      {
+        "name": "Meaningful vs LP",
+        "type": "DOUBLE",
+        "description": "Comparison of the meaningful value against last period for 2024 Q4.",
+        "sample_values": [
+          "-3.2",
+          "1.4",
+          "-1.6",
+          "2.8",
+          "2.0"
+        ]
+      },
+      {
+        "name": "Difference",
+        "type": "DOUBLE",
+        "description": "Difference value for the brand in 2024 Q4.",
+        "sample_values": [
+          "29.58",
+          "74.31",
+          "42.43",
+          "16.52",
+          "67.96"
+        ]
+      },
+      {
+        "name": "Difference vs LY",
+        "type": "DOUBLE",
+        "description": "Comparison of the difference value against last year for 2024 Q4.",
+        "sample_values": [
+          "-4.2",
+          "-3.3",
+          "-6.5",
+          "3.6",
+          "0.2"
+        ]
+      },
+      {
+        "name": "Difference vs LP",
+        "type": "DOUBLE",
+        "description": "Comparison of the difference value against last period for 2024 Q4.",
+        "sample_values": [
+          "-1.0",
+          "-1.6",
+          "-1.8",
+          "-2.4",
+          "2.9"
+        ]
+      },
+      {
+        "name": "Salience",
+        "type": "DOUBLE",
+        "description": "Salience value for the brand in 2024 Q4.",
+        "sample_values": [
+          "66.91",
+          "58.48",
+          "11.28",
+          "91.93",
+          "79.2"
+        ]
+      },
+      {
+        "name": "Salience vs LY",
+        "type": "DOUBLE",
+        "description": "Comparison of the salience value against last year for 2024 Q4.",
+        "sample_values": [
+          "4.6",
+          "1.6",
+          "8.7",
+          "-4.0",
+          "-0.1"
+        ]
+      },
+      {
+        "name": "Salience vs LP",
+        "type": "DOUBLE",
+        "description": "Comparison of the salience value against last period for 2024 Q4.",
+        "sample_values": [
+          "1.6",
+          "-2.6",
+          "-1.9",
+          "3.7",
+          "3.5"
+        ]
+      },
+      {
+        "name": "Power Calibrated",
+        "type": "DOUBLE",
+        "description": "Calibrated power value for the brand in 2024 Q4.",
+        "sample_values": [
+          "4.46",
+          "27.85",
+          "21.89",
+          "0.47",
+          "29.09"
+        ]
+      },
+      {
+        "name": "Power Calibrated vs LY",
+        "type": "DOUBLE",
+        "description": "Comparison of the calibrated power value against last year for 2024 Q4.",
+        "sample_values": [
+          "6.4",
+          "2.4",
+          "-3.8",
+          "1.3",
+          "-5.7"
+        ]
+      },
+      {
+        "name": "Power Calibrated vs LP",
+        "type": "DOUBLE",
+        "description": "Comparison of the calibrated power value against last period for 2024 Q4.",
+        "sample_values": [
+          "-0.2",
+          "-2.0",
+          "-0.8",
+          "-0.3",
+          "-0.5"
+        ]
+      },
+      {
+        "name": "Premium_1",
+        "type": "DOUBLE",
+        "description": null,
+        "sample_values": [
+          "11.9",
+          "52.94",
+          "89.18",
+          "46.89",
+          "51.42"
+        ]
+      },
+      {
+        "name": "Premium vs LY_1",
+        "type": "BIGINT",
+        "description": null,
+        "sample_values": [
+          "0",
+          "3",
+          "1",
+          "2"
+        ]
+      },
+      {
+        "name": "Premium vs LP_1",
+        "type": "BIGINT",
+        "description": null,
+        "sample_values": [
+          "-2",
+          "0",
+          "3",
+          "-1",
+          "2"
+        ]
+      },
+      {
+        "name": "Power_1",
+        "type": "DOUBLE",
+        "description": null,
+        "sample_values": [
+          "20.91",
+          "79.2",
+          "67.26",
+          "87.84",
+          "7.02"
+        ]
+      },
+      {
+        "name": "Power vs LY_1",
+        "type": "DOUBLE",
+        "description": null,
+        "sample_values": [
+          "-4.9",
+          "-4.1",
+          "-8.4",
+          "-6.8",
+          "8.0"
+        ]
+      },
+      {
+        "name": "Power vs LP_1",
+        "type": "BIGINT",
+        "description": null,
+        "sample_values": [
+          "-1",
+          "1",
+          "2",
+          "0"
+        ]
+      },
+      {
+        "name": "Meaningful_1",
+        "type": "DOUBLE",
+        "description": null,
+        "sample_values": [
+          "54.32",
+          "43.16",
+          "10.65",
+          "65.93",
+          "74.33"
+        ]
+      },
+      {
+        "name": "Meaningful vs LY_1",
+        "type": "DOUBLE",
+        "description": null,
+        "sample_values": [
+          "7.4",
+          "-7.7",
+          "2.1",
+          "-3.8",
+          "-2.3"
+        ]
+      },
+      {
+        "name": "Meaningful vs LP_1",
+        "type": "DOUBLE",
+        "description": null,
+        "sample_values": [
+          "2.4",
+          "3.3",
+          "-2.5",
+          "-2.6",
+          "1.8"
+        ]
+      },
+      {
+        "name": "Difference_1",
+        "type": "DOUBLE",
+        "description": null,
+        "sample_values": [
+          "57.96",
+          "16.69",
+          "90.07",
+          "72.65",
+          "34.14"
+        ]
+      },
+      {
+        "name": "Difference vs LY_1",
+        "type": "DOUBLE",
+        "description": null,
+        "sample_values": [
+          "5.0",
+          "4.2",
+          "-0.4",
+          "1.4",
+          "-3.0"
+        ]
+      },
+      {
+        "name": "Difference vs LP_1",
+        "type": "DOUBLE",
+        "description": null,
+        "sample_values": [
+          "2.6",
+          "-2.4",
+          "-0.7",
+          "1.2",
+          "-2.5"
+        ]
+      },
+      {
+        "name": "Salience_1",
+        "type": "DOUBLE",
+        "description": null,
+        "sample_values": [
+          "51.45",
+          "59.35",
+          "75.07",
+          "82.03",
+          "17.03"
+        ]
+      },
+      {
+        "name": "Salience vs LY_1",
+        "type": "DOUBLE",
+        "description": null,
+        "sample_values": [
+          "-4.2",
+          "7.6",
+          "-4.3",
+          "3.2",
+          "5.7"
+        ]
+      },
+      {
+        "name": "Salience vs LP_1",
+        "type": "DOUBLE",
+        "description": null,
+        "sample_values": [
+          "-0.5",
+          "2.4",
+          "-1.9",
+          "-2.6",
+          "0.0"
+        ]
+      },
+      {
+        "name": "Power Calibrated_1",
+        "type": "DOUBLE",
+        "description": null,
+        "sample_values": [
+          "64.24",
+          "97.89",
+          "30.69",
+          "47.99",
+          "56.58"
+        ]
+      },
+      {
+        "name": "Power Calibrated vs LY_1",
+        "type": "DOUBLE",
+        "description": null,
+        "sample_values": [
+          "5.1",
+          "7.9",
+          "4.7",
+          "-5.0",
+          "3.6"
+        ]
+      },
+      {
+        "name": "Power Calibrated vs LP_1",
+        "type": "DOUBLE",
+        "description": null,
+        "sample_values": [
+          "-0.2",
+          "-1.1",
+          "-2.4",
+          "2.9",
+          "-1.0"
+        ]
+      }
+    ]
+  },
+  "MKT_occasions": {
+    "name": "MKT_occasions",
+    "description": "How often a specific soft drink brand is selected or consumed within a week over a four-week period, over different quarters from 2023 to 2024. It's a metric used to track brand popularity or consumption habits. P7D/P4W means 'Per 7 Days / Per 4 Weeks,' indicating the timeframe over which these occasions are measured.",
+    "columns": [
+      {
+        "name": "Label",
+        "type": "VARCHAR",
+        "description": "Soft drink brand or label being analyzed.",
+        "sample_values": [
+          "PopMax",
+          "BubbleWave",
+          "SparkleUp",
+          "CrispSoda",
+          "RefreshPlus"
+        ]
+      },
+      {
+        "name": "Occasions P7D/P4W 2023 Q2",
+        "type": "DOUBLE",
+        "description": "Number of occasions in the past 7 days over 4 weeks for 2023 Q2.",
+        "sample_values": [
+          "5.43",
+          "2.53",
+          "2.54",
+          "1.66",
+          "5.74"
+        ]
+      },
+      {
+        "name": "Occasions P7D/P4W 2023 Q3",
+        "type": "DOUBLE",
+        "description": "Number of occasions in the past 7 days over 4 weeks for 2023 Q3.",
+        "sample_values": [
+          "2.71",
+          "3.01",
+          "1.0",
+          "3.55",
+          "2.29"
+        ]
+      },
+      {
+        "name": "Occasions P7D/P4W 2023 Q4",
+        "type": "DOUBLE",
+        "description": "Number of occasions in the past 7 days over 4 weeks for 2023 Q4.",
+        "sample_values": [
+          "6.7",
+          "3.95",
+          "4.86",
+          "5.51",
+          "4.04"
+        ]
+      },
+      {
+        "name": "Occasions P7D/P4W 2024 Q1",
+        "type": "DOUBLE",
+        "description": "Number of occasions in the past 7 days over 4 weeks for 2024 Q1.",
+        "sample_values": [
+          "4.58",
+          "1.38",
+          "4.24",
+          "7.02",
+          "4.43"
+        ]
+      },
+      {
+        "name": "Occasions P7D/P4W 2024 Q2",
+        "type": "DOUBLE",
+        "description": "Number of occasions in the past 7 days over 4 weeks for 2024 Q2.",
+        "sample_values": [
+          "1.44",
+          "4.08",
+          "6.87",
+          "7.45",
+          "7.6"
+        ]
+      },
+      {
+        "name": "Occasions P7D/P4W 2024 Q3",
+        "type": "DOUBLE",
+        "description": "Number of occasions in the past 7 days over 4 weeks for 2024 Q3.",
+        "sample_values": [
+          "1.38",
+          "6.53",
+          "2.03",
+          "6.26",
+          "6.98"
+        ]
+      },
+      {
+        "name": "Occasions P7D/P4W 2024 Q4",
+        "type": "DOUBLE",
+        "description": "Number of occasions in the past 7 days over 4 weeks for 2024 Q4.",
+        "sample_values": [
+          "2.82",
+          "6.64",
+          "1.74",
+          "3.1",
+          "5.77"
+        ]
+      }
+    ]
+  },
+  "MKT_participation": {
+    "name": "MKT_participation",
+    "description": "This sheet contains participation data for various soft drink brands over different quarters from 2023 to 2024. The data represents the participation percentage of legal drinking age (LDA+) individuals in the last 4 weeks (P4W) for each brand.",
+    "columns": [
+      {
+        "name": "Brand",
+        "type": "VARCHAR",
+        "description": "Name of the soft drink brand.",
+        "sample_values": [
+          "PopMax",
+          "RefreshPlus",
+          "ZestDrink",
+          "SparkleUp",
+          "CrispSoda"
+        ]
+      },
+      {
+        "name": "2023 Q2 Participation",
+        "type": "DOUBLE",
+        "description": "Participation percentage of LDA+ individuals in the last 4 weeks for 2023 Q2.",
+        "sample_values": [
+          "12.09",
+          "43.17",
+          "13.82",
+          "20.06",
+          "18.79"
+        ]
+      },
+      {
+        "name": "2023 Q3 Participation",
+        "type": "DOUBLE",
+        "description": "Participation percentage of LDA+ individuals in the last 4 weeks for 2023 Q3.",
+        "sample_values": [
+          "9.5",
+          "17.89",
+          "26.09",
+          "25.61",
+          "12.78"
+        ]
+      },
+      {
+        "name": "2023 Q4 Participation",
+        "type": "DOUBLE",
+        "description": "Participation percentage of LDA+ individuals in the last 4 weeks for 2023 Q4.",
+        "sample_values": [
+          "10.35",
+          "27.11",
+          "42.88",
+          "8.58",
+          "42.71"
+        ]
+      },
+      {
+        "name": "2024 Q1 Participation",
+        "type": "DOUBLE",
+        "description": "Participation percentage of LDA+ individuals in the last 4 weeks for 2024 Q1.",
+        "sample_values": [
+          "38.5",
+          "7.94",
+          "30.58",
+          "7.95",
+          "5.09"
+        ]
+      },
+      {
+        "name": "2024 Q2 Participation",
+        "type": "DOUBLE",
+        "description": "Participation percentage of LDA+ individuals in the last 4 weeks for 2024 Q2.",
+        "sample_values": [
+          "41.19",
+          "36.26",
+          "26.21",
+          "20.88",
+          "5.89"
+        ]
+      },
+      {
+        "name": "2024 Q3 Participation",
+        "type": "DOUBLE",
+        "description": "Participation percentage of LDA+ individuals in the last 4 weeks for 2024 Q3.",
+        "sample_values": [
+          "29.17",
+          "8.69",
+          "19.7",
+          "31.89",
+          "14.53"
+        ]
+      },
+      {
+        "name": "2024 Q4 Participation",
+        "type": "DOUBLE",
+        "description": "Participation percentage of LDA+ individuals in the last 4 weeks for 2024 Q4.",
+        "sample_values": [
+          "44.99",
+          "19.22",
+          "39.62",
+          "37.59",
+          "36.25"
+        ]
+      }
+    ]
+  },
+  "MKT_servings": {
+    "name": "MKT_servings",
+    "description": "This sheet contains servings data for various soft drink brands over different quarters from 2023 to 2024. The data is used for marketing insights by BevCo Industries to track the performance of their soft drink brands.",
+    "columns": [
+      {
+        "name": "Brand",
+        "type": "VARCHAR",
+        "description": "Name of the soft drink brand.",
+        "sample_values": [
+          "PopMax",
+          "RefreshPlus",
+          "ZestDrink",
+          "BubbleWave",
+          "SparkleUp"
+        ]
+      },
+      {
+        "name": "Q2 2023 Servings",
+        "type": "DOUBLE",
+        "description": "Servings of the soft drink brand in the second quarter of 2023",
+        "sample_values": [
+          "40.0",
+          "40.1",
+          "78.0",
+          "54.1",
+          "23.0"
+        ]
+      },
+      {
+        "name": "Q3 2023 Servings",
+        "type": "DOUBLE",
+        "description": "Servings of the soft drink brand in the third quarter of 2023",
+        "sample_values": [
+          "89.3",
+          "50.8",
+          "65.9",
+          "56.8",
+          "42.4"
+        ]
+      },
+      {
+        "name": "Q4 2023 Servings",
+        "type": "DOUBLE",
+        "description": "Servings of the soft drink brand in the fourth quarter of 2023",
+        "sample_values": [
+          "20.6",
+          "24.8",
+          "74.2",
+          "45.5",
+          "64.9"
+        ]
+      },
+      {
+        "name": "Q1 2024 Servings",
+        "type": "DOUBLE",
+        "description": "Servings of the soft drink brand in the first quarter of 2024",
+        "sample_values": [
+          "63.8",
+          "72.9",
+          "31.9",
+          "85.4",
+          "60.2"
+        ]
+      },
+      {
+        "name": "Q2 2024 Servings",
+        "type": "DOUBLE",
+        "description": "Servings of the soft drink brand in the second quarter of 2024",
+        "sample_values": [
+          "73.1",
+          "66.0",
+          "57.3",
+          "70.0",
+          "57.4"
+        ]
+      },
+      {
+        "name": "Q3 2024 Servings",
+        "type": "DOUBLE",
+        "description": "Servings of the soft drink brand in the third quarter of 2024",
+        "sample_values": [
+          "94.0",
+          "66.8",
+          "65.2",
+          "61.3",
+          "29.6"
+        ]
+      },
+      {
+        "name": "Q4 2024 Servings",
+        "type": "DOUBLE",
+        "description": "Servings of the soft drink brand in the fourth quarter of 2024",
+        "sample_values": [
+          "25.5",
+          "58.1",
+          "88.8",
+          "51.2",
+          "93.3"
+        ]
+      }
+    ]
+  }
+}

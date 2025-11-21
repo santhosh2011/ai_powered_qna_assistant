@@ -1,0 +1,16 @@
+[project]
+name = "test"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "duckdb>=1.4.2",
+    "fastapi>=0.121.3",
+    "openai>=2.8.1",
+    "pandas>=2.3.3",
+    "python-dotenv>=1.2.1",
+    "rich>=14.2.0",
+    "typer>=0.20.0",
+    "uvicorn>=0.38.0",
+]
